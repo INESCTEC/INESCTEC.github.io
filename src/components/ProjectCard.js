@@ -122,8 +122,8 @@ const ProjectCard = ({ project, onTagClick }) => {
                     <div key={repo.name} className="flex justify-between text-start">
                       <div className="flex items-start">
                         <img src={GitHubIcon} alt="GitHub" className="h-6 w-6 mr-2 mb-1" />
-                        <a href={'https://github.com/INESCTEC/tsg-client'} className="text-def-grey" target="_blank" rel="noopener noreferrer">
-                          {truncateText(repo.name, 30)}
+                        <a href={`https://github.com/INESCTEC/${repo.name}`} className="text-def-grey" target="_blank" rel="noopener noreferrer">
+                          {truncateText(repo.name, 30)} 
                         </a>
                       </div>
                       <div className="flex items-center">
