@@ -3,6 +3,7 @@ import logo from '../assets/INESCTEC_teste.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faArrowUp, faArrowDown, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faStar as faStarRegular, faCalendarAlt as faCalendarRegular } from '@fortawesome/free-regular-svg-icons';
+import { RepoIcon } from '@primer/octicons-react'; 
 import { Link } from 'react-router-dom';
 
 const Header = ({ searchTerm, onSearchChange, onCategoryChange, onSortByStars, onSortByRepos, activeFilters, onRemoveTag }) => {
@@ -60,7 +61,7 @@ const Header = ({ searchTerm, onSearchChange, onCategoryChange, onSortByStars, o
             </button>
           </div>
           <div className='ml-2'>
-            <FontAwesomeIcon icon={faCalendarRegular} className="text-dark-blue-2 text-md ml-2" />
+            <RepoIcon size={18} className="text-dark-blue-2 text-md ml-2" />
             <button onClick={toggleCalendarArrow} className="focus:outline-none">
               <FontAwesomeIcon icon={calendarArrowUp ? faArrowUp : faArrowDown} className="text-dark-blue-2 text-md ml-1" />
             </button>
