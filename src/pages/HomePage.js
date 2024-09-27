@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'; 
 import logo from '../assets/INESCTEC_teste2.png';
 import Footer from '../components/Footer'; 
-import image from '../assets/testimage.png';
+import image from '../assets/INESCTEC_circuito_Set2024-03-cropped.svg';
 
 const HomePage = () => {
   return (
@@ -36,8 +36,8 @@ const HomePage = () => {
           </div>
         </main>
       </Element>
-      <Element name='vision' className="min-h-screen bg-white font-mono flex">
-        <div className="flex-[12] p-8 text-left mx-4 md:mx-20">  
+      <Element name="vision" className="min-h-screen bg-white font-mono flex">
+        <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">  
           <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
             <span>Open Source</span>
             <ScrollLink to="top" smooth={true} duration={500} className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
@@ -66,7 +66,7 @@ const HomePage = () => {
             </section>
           </div>
         </div>
-        <div className="hidden md:block flex-[1] relative">  
+        <div className="hidden md:block w-1/6 relative">  
           <img src={image} alt="Description" className="absolute inset-0 w-full h-full object-cover" />
         </div>
       </Element>

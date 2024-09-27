@@ -35,20 +35,24 @@ const ProjectsPage = () => {
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
 
   const filteredProjects = projects
-    .filter(project =>
-      project.total_repositories > 0 &&
-      (searchTerm === '' || project.project_name.toLowerCase().includes(searchTerm.toLowerCase())) &&
-      (activeFilters.length === 0 || activeFilters.every(filter => project.project_tags.includes(filter)))
-    )
-    .sort((a, b) => {
-      if (sortByStars) {
-        return sortByStars === 'asc' ? a.total_stars - b.total_stars : b.total_stars - a.total_stars;
-      }
-      if (sortByRepos) {
-        return sortByRepos === 'asc' ? a.total_repositories - b.total_repositories : b.total_repositories - a.total_repositories;
-      }
-      return 0;
-    });
+  .filter(project =>
+    project.total_repositories > 0 &&
+    (searchTerm === '' || 
+      project.project_name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+      project.project_tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
+    ) &&
+    (activeFilters.length === 0 || activeFilters.every(filter => project.project_tags.includes(filter)))
+  )
+  .sort((a, b) => {
+    if (sortByStars) {
+      return sortByStars === 'asc' ? a.total_stars - b.total_stars : b.total_stars - a.total_stars;
+    }
+    if (sortByRepos) {
+      return sortByRepos === 'asc' ? a.total_repositories - b.total_repositories : b.total_repositories - a.total_repositories;
+    }
+    return 0;
+  });
+
 
   const currentProjects = filteredProjects.slice(indexOfFirstProject, indexOfLastProject);
 
