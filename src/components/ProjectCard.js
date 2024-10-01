@@ -60,7 +60,7 @@ const ProjectCard = ({ project, onTagClick }) => {
               <span className="block h-6"></span>
             )}
           </div>
-          <div className="text-gray-700 mb-4 text-start" style={{ maxWidth: '800px' }}>
+          <div className="text-gray-700 mb-4 text-start max-w-full md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-6xl">
             <p>
               {project.project_description
                 ? project.project_description
@@ -127,8 +127,8 @@ const ProjectCard = ({ project, onTagClick }) => {
                         </a>
                       </div>
                       <div className="flex items-center">
+                        <span className="mr-1">{repo.stars}</span>
                         <FontAwesomeIcon icon={faStarRegular} />
-                        <span className="ml-1">{repo.stars}</span>
                       </div>
                     </div>
                   ))
