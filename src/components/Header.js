@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/INESCTEC_teste.png';
+import logo from '../assets/INESCTEC_logotipo_color_rgb.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faArrowUp, faArrowDown, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faStar as faStarRegular, faCalendarAlt as faCalendarRegular } from '@fortawesome/free-regular-svg-icons';

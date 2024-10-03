@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer';
-import image from '../assets/testimage.png';
+import image from '../assets/circuit.png';
 
 const ProjectsPage = () => {
   const [projects, setProjects] = useState([]);
@@ -12,8 +12,6 @@ const ProjectsPage = () => {
   const [activeFilters, setActiveFilters] = useState([]); 
   const [sortByStars, setSortByStars] = useState(null); 
   const [sortByRepos, setSortByRepos] = useState(null); 
-
-
 
   useEffect(() => {
     fetch('/projects.json')

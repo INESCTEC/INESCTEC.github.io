@@ -3,7 +3,7 @@ import { Link as ScrollLink, Element } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'; 
-import logo from '../assets/INESCTEC_teste2.png';
+import logo from '../assets/INESCTEC_logotipo_monocrom_white.png';
 import Footer from '../components/Footer'; 
 import image from '../assets/INESCTEC_circuito_Set2024-03-cropped.svg';
 
