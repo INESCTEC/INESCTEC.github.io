@@ -1,19 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Nav from './components/Nav';
-import HomePage from './HomePage';
-// import FeaturedProjects from './FeaturedProjects';
+import HomePage from './pages/HomePage';
+import ProjectsPage from './pages/ProjectsPage';
 
 function App() {
-  // const organization = 'INESCTEC'; 
-  // const areaName = 'energy'; 
-
   return (
-    <div className="App">
-      <Nav />
-      <HomePage />
-      {/* <FeaturedProjects org={organization} areaName={areaName} /> */}
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

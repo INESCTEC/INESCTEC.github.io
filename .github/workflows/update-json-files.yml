@@ -1,0 +1,40 @@
+name: Update JSON Files
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  
+  workflow_dispatch:  
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Update areas.json
+      run: python scripts/update_areas.py
+
+    - name: Update projects.json
+      run: python scripts/update_projects.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add public/areas.json public/projects.json
+        git commit -m 'Update JSON files with latest GitHub data'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
