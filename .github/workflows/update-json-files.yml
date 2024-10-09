@@ -36,5 +36,5 @@ jobs:
         git add public/areas.json public/projects.json
         git commit -m 'Update JSON files with latest GitHub data'
         git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
