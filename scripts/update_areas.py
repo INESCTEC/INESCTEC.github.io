@@ -3,7 +3,7 @@ import requests
 import os
 
 GITHUB_API_SEARCH_URL = "https://api.github.com/search/repositories"
-GITHUB_TOKEN = os.getenv('GH_TOKEN')
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 
 def get_project_data(org, topic):
     all_repos = []
