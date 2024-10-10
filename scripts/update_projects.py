@@ -26,7 +26,7 @@ def get_top_repositories(org, topic):
             if len(data['items']) < 100:  
                 break
             page += 1
-        else:
+        else: 
             print(f"Error fetching data for topic {topic}: {response.status_code}")
             break
     

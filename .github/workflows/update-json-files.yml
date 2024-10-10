@@ -27,6 +27,8 @@ jobs:
       run: python scripts/update_areas.py
 
     - name: Update projects.json
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: python scripts/update_projects.py
 
     - name: Commit and push changes
@@ -36,5 +38,3 @@ jobs:
         git add public/areas.json public/projects.json
         git commit -m 'Update JSON files with latest GitHub data'
         git push
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
