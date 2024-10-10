@@ -6,7 +6,11 @@
         "project_website": "https://google.com/",
         "project_description": "European commoN EneRgy dataSpace framework enabling data sHaring-driven Across- and beyond- eneRgy sErvices",
         "project_topic": "enershare",
-        "project_tags": ["data-sharing", "Energy", "data-spaces"],
+        "project_tags": [
+            "data-sharing",
+            "Energy",
+            "data-spaces"
+        ],
         "top_repositories": [
             {
                 "name": "tsg-client",
@@ -14,14 +18,14 @@
                 "stars": 16
             },
             {
-                "name": "data-sharing-barter-incentives-rest-api",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-rest-api",
-                "stars": 3
+                "name": "rec-operation",
+                "url": "https://github.com/INESCTEC/rec-operation",
+                "stars": 5
             },
             {
                 "name": "rec-operation-rest-api",
                 "url": "https://github.com/INESCTEC/rec-operation-rest-api",
-                "stars": 3
+                "stars": 4
             }
         ],
         "total_stars": 22,
@@ -34,12 +38,16 @@
         "project_website": "https://google.com/",
         "project_description": "Interoperable Solutions Connecting Smart Homes, Buildings and Grids",
         "project_topic": "interconnect",
-        "project_tags": ["data-sharing","Industry","data-spaces"],
+        "project_tags": [
+            "data-sharing",
+            "Industry",
+            "data-spaces"
+        ],
         "top_repositories": [
             {
                 "name": "interoperable-recommender-tso",
                 "url": "https://github.com/INESCTEC/interoperable-recommender-tso",
-                "stars": 4
+                "stars": 5
             }
         ],
         "total_stars": 4,
@@ -52,7 +60,11 @@
         "project_website": "https://google.com/",
         "project_description": "Attest is a project that aims to provide a decentralized platform for verifying the authenticity of energy resources.",
         "project_topic": "attest",
-        "project_tags": ["data-sharing", "Energy", "data-spaces"],
+        "project_tags": [
+            "data-sharing",
+            "Energy",
+            "data-spaces"
+        ],
         "top_repositories": [],
         "total_stars": 0,
         "total_repositories": 0
