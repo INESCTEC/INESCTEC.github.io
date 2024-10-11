@@ -36,3 +36,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git diff --exit-code || (git add public/areas.json public/projects.json && git commit -m 'Update JSON files with latest GitHub data' && git push)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
