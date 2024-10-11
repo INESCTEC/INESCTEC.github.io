@@ -30,10 +30,8 @@ def get_top_repositories(org, topic):
             print(f"Error fetching data for topic {topic}: {response.status_code}")
             break
     
-    # Sorting by stargazers count and selecting top 3 repositories
     top_repos = sorted(all_repos, key=lambda x: x['stargazers_count'], reverse=True)[:3]
     
-    # Compute total stars and total repositories
     total_stars = sum(repo['stargazers_count'] for repo in top_repos)
     total_repositories = len(top_repos)
     
@@ -52,16 +50,15 @@ def get_top_repositories(org, topic):
         "total_repositories": total_repositories
     }
 
-# File paths and reading the projects.json file
 script_dir = os.path.dirname(os.path.abspath(__file__))
-projects_json_path = os.path.join(script_dir, '../public/projects.json')
+input_json_path = os.path.join(script_dir, '../public/projects_input.json') 
+output_json_path = os.path.join(script_dir, '../public/projects.json')  
 
-with open(projects_json_path, 'r') as f:
+with open(input_json_path, 'r') as f:
     projects_data = json.load(f)
 
 org_name = 'INESCTEC'
 
-# Updating each project with top repositories, total stars, and total repositories
 for project in projects_data:
     project_topic = project['project_topic']
     repo_data = get_top_repositories(org_name, project_topic)
@@ -70,8 +67,7 @@ for project in projects_data:
     project['total_stars'] = repo_data['total_stars']
     project['total_repositories'] = repo_data['total_repositories']
 
-# Write the updated projects data back to the JSON file
-with open(projects_json_path, 'w') as f:
+with open(output_json_path, 'w') as f:
     json.dump(projects_data, f, indent=4)
 
 print("Updated projects.json with GitHub data.")
