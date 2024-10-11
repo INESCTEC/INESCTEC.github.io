@@ -37,7 +37,7 @@
         "project_logo": "greendatai.png",
         "project_website": "https://greendatai.eu/",
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
-        "project_topic": "enershare",
+        "project_topic": "greendatai",
         "project_tags": [
             "Energy",
             "data-spaces",
@@ -45,22 +45,22 @@
         ],
         "top_repositories": [
             {
-                "name": "tsg-client",
-                "url": "https://github.com/INESCTEC/tsg-client",
-                "stars": 16
+                "name": "data-sharing-barter-incentives-rest-api",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-rest-api",
+                "stars": 3
             },
             {
-                "name": "rec-operation",
-                "url": "https://github.com/INESCTEC/rec-operation",
-                "stars": 5
+                "name": "data-sharing-barter-incentives-forecast",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-forecast",
+                "stars": 2
             },
             {
-                "name": "rec-operation-rest-api",
-                "url": "https://github.com/INESCTEC/rec-operation-rest-api",
-                "stars": 4
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2
             }
         ],
-        "total_stars": 25,
+        "total_stars": 7,
         "total_repositories": 3
     },
     {
