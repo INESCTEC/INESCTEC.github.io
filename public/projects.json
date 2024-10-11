@@ -10,7 +10,26 @@
             "data-sharing",
             "Energy",
             "data-spaces"
-        ]
+        ],
+        "top_repositories": [
+            {
+                "name": "tsg-client",
+                "url": "https://github.com/INESCTEC/tsg-client",
+                "stars": 16
+            },
+            {
+                "name": "rec-operation",
+                "url": "https://github.com/INESCTEC/rec-operation",
+                "stars": 5
+            },
+            {
+                "name": "rec-operation-rest-api",
+                "url": "https://github.com/INESCTEC/rec-operation-rest-api",
+                "stars": 4
+            }
+        ],
+        "total_stars": 25,
+        "total_repositories": 3
     },
     {
         "project_area": "Energy",
@@ -23,7 +42,16 @@
             "data-sharing",
             "Industry",
             "data-spaces"
-        ]
+        ],
+        "top_repositories": [
+            {
+                "name": "interoperable-recommender-tso",
+                "url": "https://github.com/INESCTEC/interoperable-recommender-tso",
+                "stars": 5
+            }
+        ],
+        "total_stars": 5,
+        "total_repositories": 1
     },
     {
         "project_area": "Energy",
@@ -36,6 +64,9 @@
             "data-sharing",
             "Energy",
             "data-spaces"
-        ]
+        ],
+        "top_repositories": [],
+        "total_stars": 0,
+        "total_repositories": 0
     }
 ]
