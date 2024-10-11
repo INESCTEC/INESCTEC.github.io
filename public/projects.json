@@ -1,41 +1,56 @@
 [
     {
         "project_area": "Energy",
-        "project_name": "enershare",
+        "project_name": "Enershare",
         "project_logo": "enershare.png",
-        "project_website": "https://google.com/",
-        "project_description": "European commoN EneRgy dataSpace framework enabling data sHaring-driven Across- and beyond- eneRgy sErvices",
+        "project_website": "https://enershare.eu/",
+        "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data. It also enables a compensation system (even non-monetary) of assets and resources related to data (e.g., datasets, algorithms, models) with energy assets and services (e.g., maintenance of heating system, surplus transfer of locally self-produced energy).",
         "project_topic": "enershare",
-        "project_tags": [
-            "data-sharing",
-            "Energy",
-            "data-spaces"
-        ]
+        "project_tags": ["Energy", "data-spaces", "data-sharing"]
+    },
+	{
+        "project_area": "Energy",
+        "project_name": "Green.Dat.AI",
+        "project_logo": "greendatai.png",
+        "project_website": "https://greendatai.eu/",
+        "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
+        "project_topic": "enershare",
+        "project_tags": ["Energy", "data-spaces", "data-sharing"]
     },
     {
         "project_area": "Energy",
-        "project_name": "interconnect",
+        "project_name": "InterConnect",
         "project_logo": "interconnect.png",
-        "project_website": "https://google.com/",
-        "project_description": "Interoperable Solutions Connecting Smart Homes, Buildings and Grids",
+        "project_website": "https://interconnectproject.eu/",
+        "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
-        "project_tags": [
-            "data-sharing",
-            "Industry",
-            "data-spaces"
-        ]
+        "project_tags": ["Energy"]
     },
     {
         "project_area": "Energy",
-        "project_name": "attest",
+        "project_name": "ATTEST",
         "project_logo": "attest.png",
-        "project_website": "https://google.com/",
-        "project_description": "Attest is a project that aims to provide a decentralized platform for verifying the authenticity of energy resources.",
+        "project_website": "https://attest-project.eu/",
+        "project_description": "Our goal is to develop and operationalize a secure platform where TSO’s and DSO’s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
-        "project_tags": [
-            "data-sharing",
-            "Energy",
-            "data-spaces"
-        ]
+        "project_tags": ["Energy"]
+    },
+	{
+        "project_area": "Energy",
+        "project_name": "interSTORE",
+        "project_logo": "interstore.png",
+        "project_website": "https://interstore-project.eu/",
+        "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
+        "project_topic": "interstore",
+        "project_tags": ["Energy"]
+    },
+	{
+        "project_area": "Energy",
+        "project_name": "EMB3Rs",
+        "project_logo": "embers.png",
+        "project_website": "https://www.emb3rs.eu/",
+        "project_description": "EMB3Rs stands for “User-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
+        "project_topic": "embers",
+        "project_tags": ["Energy"]
     }
 ]
