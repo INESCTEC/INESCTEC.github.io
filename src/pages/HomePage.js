@@ -61,7 +61,14 @@ const HomePage = () => {
             <section>
               <h2 className="text-2xl font-bold text-black mb-4">Contacts</h2>
               <p className="text-lg md:text-xl 2xl:text-2xl mb-16 text-justify">
-                Whether you have questions, feedback, or partnership ideas, feel free to contact us at oss@inesctec.pt. We are open to collaboration and committed to fostering open science initiatives.
+                Whether you have questions, feedback, or partnership ideas, feel free to contact us at
+                <a
+                  href="mailto:oss@inesctec.pt"
+                  className="text-dark-blue hover:underline hover:text-light-blue"
+                >
+                  {' '}oss@inesctec.pt
+                </a>.
+                We are open to collaboration and committed to fostering open science initiatives.
               </p>
             </section>
           </div>

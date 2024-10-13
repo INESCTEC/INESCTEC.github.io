@@ -4,7 +4,7 @@
         "project_name": "Enershare",
         "project_logo": "enershare.png",
         "project_website": "https://enershare.eu/",
-        "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data. It also enables a compensation system (even non-monetary) of assets and resources related to data (e.g., datasets, algorithms, models) with energy assets and services (e.g., maintenance of heating system, surplus transfer of locally self-produced energy).",
+        "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
             "Energy",
@@ -15,17 +15,20 @@
             {
                 "name": "tsg-client",
                 "url": "https://github.com/INESCTEC/tsg-client",
-                "stars": 16
+                "stars": 16,
+                "is_fork": false
             },
             {
                 "name": "rec-operation",
                 "url": "https://github.com/INESCTEC/rec-operation",
-                "stars": 5
+                "stars": 5,
+                "is_fork": false
             },
             {
                 "name": "rec-operation-rest-api",
                 "url": "https://github.com/INESCTEC/rec-operation-rest-api",
-                "stars": 4
+                "stars": 4,
+                "is_fork": false
             }
         ],
         "total_stars": 25,
@@ -47,17 +50,20 @@
             {
                 "name": "data-sharing-barter-incentives-rest-api",
                 "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-rest-api",
-                "stars": 3
+                "stars": 3,
+                "is_fork": false
             },
             {
                 "name": "data-sharing-barter-incentives-forecast",
                 "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-forecast",
-                "stars": 2
+                "stars": 2,
+                "is_fork": false
             },
             {
                 "name": "data-sharing-barter-incentives-client",
                 "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2
+                "stars": 2,
+                "is_fork": false
             }
         ],
         "total_stars": 7,
@@ -71,13 +77,16 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "Energy"
+            "Energy",
+            "data-spaces",
+            "data-sharing"
         ],
         "top_repositories": [
             {
                 "name": "interoperable-recommender-tso",
                 "url": "https://github.com/INESCTEC/interoperable-recommender-tso",
-                "stars": 5
+                "stars": 5,
+                "is_fork": false
             }
         ],
         "total_stars": 5,
@@ -91,11 +100,32 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "Energy"
+            "Energy",
+            "data-spaces",
+            "data-sharing"
         ],
-        "top_repositories": [],
+        "top_repositories": [
+            {
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "stars": 0,
+                "is_fork": true
+            },
+            {
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "stars": 0,
+                "is_fork": true
+            },
+            {
+                "name": "ATTEST-WP4-T4.6-Online-Dynamic-Security-Assessment",
+                "url": "https://github.com/INESCTEC/ATTEST-WP4-T4.6-Online-Dynamic-Security-Assessment",
+                "stars": 0,
+                "is_fork": true
+            }
+        ],
         "total_stars": 0,
-        "total_repositories": 0
+        "total_repositories": 3
     },
     {
         "project_area": "Energy",
@@ -105,11 +135,32 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "Energy"
+            "Energy",
+            "data-spaces",
+            "data-sharing"
         ],
-        "top_repositories": [],
+        "top_repositories": [
+            {
+                "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
+                "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
+                "stars": 0,
+                "is_fork": true
+            },
+            {
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "stars": 0,
+                "is_fork": true
+            },
+            {
+                "name": "InterSTORE---interoperability-common",
+                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "stars": 0,
+                "is_fork": true
+            }
+        ],
         "total_stars": 0,
-        "total_repositories": 0
+        "total_repositories": 3
     },
     {
         "project_area": "Energy",
@@ -119,7 +170,9 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "embers",
         "project_tags": [
-            "Energy"
+            "Energy",
+            "data-spaces",
+            "data-sharing"
         ],
         "top_repositories": [],
         "total_stars": 0,
