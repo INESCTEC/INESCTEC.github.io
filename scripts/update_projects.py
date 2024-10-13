@@ -10,7 +10,7 @@ def get_top_repositories(org, topic):
     page = 1
     while True:
         params = {
-            'q': f'org:{org} topic:{topic}',
+            'q': f'org:{org} topic:{topic} fork:true',  
             'per_page': 100,
             'page': page
         }
@@ -39,7 +39,8 @@ def get_top_repositories(org, topic):
         {
             "name": repo['name'],
             "url": repo['html_url'],
-            "stars": repo['stargazers_count']
+            "stars": repo['stargazers_count'],
+            "is_fork": repo['fork']  
         }
         for repo in top_repos
     ]

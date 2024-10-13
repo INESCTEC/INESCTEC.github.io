@@ -38,6 +38,19 @@ const Header = ({ searchTerm, onSearchChange, onCategoryChange, onSortByStars, o
           <img src={logo} alt="INESC TEC" className="h-12 md:h-16" />
         </Link>
         <span className="reverse-gradient-text mt-4 mb-4 text-2xl md:text-4xl">Open Source Software</span>
+        <div className="flex space-x-4">
+          {categories.map(category => (
+            <button
+              key={category}
+              onClick={() => setActiveCategory(category)}
+              className={`px-4 py-1 text-xs font-semibold rounded-full transition-colors duration-300 ${
+                activeCategory === category ? 'bg-light-blue-2 text-white' : 'text-dark-blue-2 bg-white border border-dark-blue-2'
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
       </div>
       <div className="flex items-center w-full px-6 md:px-8">
         <div className="flex-grow flex border border-dark-blue-2 rounded-full overflow-hidden">
