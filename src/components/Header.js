@@ -10,7 +10,7 @@ const Header = ({ searchTerm, onSearchChange, onCategoryChange, onSortByStars, o
   const [activeCategory, setActiveCategory] = useState('All');
   const [isArrowUp, setIsArrowUp] = useState(true);
   const [calendarArrowUp, setCalendarArrowUp] = useState(true);
-  const categories = ['All', 'Energy', 'Industry', 'Ocean', 'Health'];
+  const categories = ['All', 'Energy'];
 
   const handleSearchInputChange = (event) => {
     onSearchChange(event.target.value);
