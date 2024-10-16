@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import logo from '../assets/INESCTEC_logotipo_color_rgb.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faArrowUp, faArrowDown, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { faStar as faStarRegular, faCalendarAlt as faCalendarRegular } from '@fortawesome/free-regular-svg-icons';
+import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
 import { RepoIcon } from '@primer/octicons-react'; 
 import { Link } from 'react-router-dom';
+import { Tooltip } from 'react-tooltip';
 
 const Header = ({ searchTerm, onSearchChange, onCategoryChange, onSortByStars, onSortByRepos, activeFilters, onRemoveTag }) => {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -67,13 +68,13 @@ const Header = ({ searchTerm, onSearchChange, onCategoryChange, onSortByStars, o
         </div>
         <div className="hidden md:flex items-center ml-4">
           <span className='text-dark-blue-2'>Sort: </span>
-          <div>
+          <div id="stars" data-tooltip-content="Total Stars">
             <FontAwesomeIcon icon={faStarRegular} className="text-dark-blue-2 text-md ml-2" />
             <button onClick={toggleArrow} className="focus:outline-none">
               <FontAwesomeIcon icon={isArrowUp ? faArrowUp : faArrowDown} className="text-dark-blue-2 text-md ml-1" />
             </button>
           </div>
-          <div className='ml-2'>
+          <div id="repos" className='ml-2' data-tooltip-content="Repositories">
             <RepoIcon size={18} className="text-dark-blue-2 text-md ml-2" />
             <button onClick={toggleCalendarArrow} className="focus:outline-none">
               <FontAwesomeIcon icon={calendarArrowUp ? faArrowUp : faArrowDown} className="text-dark-blue-2 text-md ml-1" />
@@ -94,6 +95,8 @@ const Header = ({ searchTerm, onSearchChange, onCategoryChange, onSortByStars, o
           </div>
         ))}
       </div>
+      <Tooltip anchorId="stars" place="top" />
+      <Tooltip anchorId="repos" place="top" />
     </header>
   );
 };
