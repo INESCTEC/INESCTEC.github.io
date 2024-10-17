@@ -3,10 +3,32 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import GitHubIcon from '../assets/github-icon.png';
 import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
 import { faCodeBranch as faCodeBranchSolid } from '@fortawesome/free-solid-svg-icons';
+import { Popover, Button } from 'antd'; 
 
-const ProjectCard = ({ project, onTagClick }) => { 
-  const [showAllTags, setShowAllTags] = useState(false); 
+const ProjectCard = ({ project, onTagClick }) => {
   const [imageSrc, setImageSrc] = useState(null);
+  const [truncationLimit, setTruncationLimit] = useState(30);
+
+  useEffect(() => {
+    const updateTruncationLimit = () => {
+      const screenWidth = window.innerWidth;
+
+      if (screenWidth >= 1280) {
+        setTruncationLimit(50);
+      } else if (screenWidth >= 1024) {
+        setTruncationLimit(40);
+      } else if (screenWidth >= 768) {
+        setTruncationLimit(30);
+      } else {
+        setTruncationLimit(20);
+      }
+    };
+
+    updateTruncationLimit();
+    window.addEventListener('resize', updateTruncationLimit);
+
+    return () => window.removeEventListener('resize', updateTruncationLimit);
+  }, []);
 
   useEffect(() => {
     if (project.project_logo) {
@@ -15,11 +37,11 @@ const ProjectCard = ({ project, onTagClick }) => {
           setImageSrc(module.default);
         })
         .catch((err) => {
-          console.error("Error loading project logo:", err);
-          setImageSrc(null); 
+          console.error('Error loading project logo:', err);
+          setImageSrc(null);
         });
     } else {
-      setImageSrc(null); 
+      setImageSrc(null);
     }
   }, [project.project_logo]);
 
@@ -36,9 +58,23 @@ const ProjectCard = ({ project, onTagClick }) => {
     ? project.project_tags.filter(tag => tag !== project.project_area)
     : [];
 
-  const maxTagsToShow = 3; 
+  const maxTagsToShow = 3;
   const extraTags = filteredTags.length > maxTagsToShow ? filteredTags.slice(maxTagsToShow) : [];
-  const visibleTags = showAllTags ? filteredTags : filteredTags.slice(0, maxTagsToShow);
+  const visibleTags = filteredTags.slice(0, maxTagsToShow);
+
+  const popoverContent = (
+    <div className="flex flex-wrap">
+      {extraTags.map((tag, index) => (
+        <span
+          key={tag + index}
+          className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer m-1"
+          onClick={() => onTagClick(tag)}
+        >
+          {tag}
+        </span>
+      ))}
+    </div>
+  );
 
   return (
     <>
@@ -46,11 +82,7 @@ const ProjectCard = ({ project, onTagClick }) => {
         <div className="flex-auto pl-4" style={{ width: '65%' }}>
           <div className="flex flex-col items-start space-y-2 mb-2">
             <a href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`} target="_blank" rel="noopener noreferrer">
-              <img
-                src={imageSrc || defaultLogo}
-                alt={project.project_name}
-                className="h-12 w-auto"
-              />
+              <img src={imageSrc || defaultLogo} alt={project.project_name} className="h-12 w-auto" />
             </a>
             {project.project_website ? (
               <a href={project.project_website} target="_blank" className="text-dark-blue-2 text-md" rel="noreferrer">
@@ -75,40 +107,19 @@ const ProjectCard = ({ project, onTagClick }) => {
             {visibleTags.map((tag, index) => (
               <span
                 key={tag + index}
-                className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer" 
-                onClick={() => onTagClick(tag)} 
+                className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer"
+                onClick={() => onTagClick(tag)}
               >
                 {tag}
               </span>
             ))}
 
-            {extraTags.length > 0 && !showAllTags && (
-              <span
-                className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer"
-                onClick={() => setShowAllTags(true)} 
-              >
-                ...
-              </span>
-            )}
-
-            {showAllTags && (
-              <div className="absolute z-10 mt-1 p-2 bg-white border border-gray-200 shadow-lg rounded-md">
-                {extraTags.map((tag, index) => (
-                  <span
-                    key={tag + index}
-                    className="block px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer mb-1"
-                    onClick={() => onTagClick(tag)}
-                  >
-                    {tag}
-                  </span>
-                ))}
-                <button
-                  className="mt-1 text-xs text-dark-blue-2"
-                  onClick={() => setShowAllTags(false)} 
-                >
-                  Show less
-                </button>
-              </div>
+            {extraTags.length > 0 && (
+              <Popover content={popoverContent} title="Extra Tags" trigger="click">
+                <Button className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer">
+                  ...
+                </Button>
+              </Popover>
             )}
           </div>
         </div>
@@ -120,13 +131,13 @@ const ProjectCard = ({ project, onTagClick }) => {
                 {project.top_repositories && project.top_repositories.length > 0 ? (
                   project.top_repositories.map(repo => (
                     <div key={repo.name} className="flex justify-between text-start">
-                      <div className="flex items-start">
+                      <div className="flex items-start flex-grow overflow-hidden">
                         <img src={GitHubIcon} alt="GitHub" className="h-6 w-6 mr-2 mb-1" />
-                        <a href={`https://github.com/INESCTEC/${repo.name}`} className="text-def-grey" target="_blank" rel="noopener noreferrer">
-                          {truncateText(repo.name, 30)} 
+                        <a href={`https://github.com/INESCTEC/${repo.name}`} className="text-def-grey truncate" target="_blank" rel="noopener noreferrer">
+                          {truncateText(repo.name, truncationLimit)}
                         </a>
                       </div>
-                      <div className="flex items-center">
+                      <div className="flex items-center ml-4">
                         <span className="mr-1">{repo.stars}</span>
                         <FontAwesomeIcon icon={faStarRegular} />
                       </div>
@@ -145,15 +156,10 @@ const ProjectCard = ({ project, onTagClick }) => {
           </div>
         </div>
       </div>
-
       <div className="block md:hidden bg-white text-black font-mono relative z-10 mb-8 mx-4 sm:mx-8">
         <div className="flex flex-col p-4 border border-gray-200 rounded-lg shadow-md">
           <div className="flex flex-col items-center mb-4">
-            <img
-              src={imageSrc || defaultLogo}
-              alt={project.project_name}
-              className="h-12 w-auto"
-            />
+            <img src={imageSrc || defaultLogo} alt={project.project_name} className="h-12 w-auto" />
             <div className="flex items-center space-x-2 mt-2 mb-2 text-sm">
               <div className="items-center">
                 <img src={GitHubIcon} alt="GitHub" className="h-4 w-4" />
