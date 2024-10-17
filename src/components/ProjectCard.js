@@ -3,29 +3,28 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import GitHubIcon from '../assets/github-icon.png';
 import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
 import { faCodeBranch as faCodeBranchSolid } from '@fortawesome/free-solid-svg-icons';
+import { Popover, Button } from 'antd'; 
 
 const ProjectCard = ({ project, onTagClick }) => {
-  const [showAllTags, setShowAllTags] = useState(false);
   const [imageSrc, setImageSrc] = useState(null);
-  const [truncationLimit, setTruncationLimit] = useState(30); 
+  const [truncationLimit, setTruncationLimit] = useState(30);
 
   useEffect(() => {
     const updateTruncationLimit = () => {
       const screenWidth = window.innerWidth;
 
-      if (screenWidth >= 1280) { 
+      if (screenWidth >= 1280) {
         setTruncationLimit(50);
-      } else if (screenWidth >= 1024) { 
+      } else if (screenWidth >= 1024) {
         setTruncationLimit(40);
-      } else if (screenWidth >= 768) { 
+      } else if (screenWidth >= 768) {
         setTruncationLimit(30);
-      } else { 
+      } else {
         setTruncationLimit(20);
       }
     };
 
     updateTruncationLimit();
-
     window.addEventListener('resize', updateTruncationLimit);
 
     return () => window.removeEventListener('resize', updateTruncationLimit);
@@ -61,7 +60,21 @@ const ProjectCard = ({ project, onTagClick }) => {
 
   const maxTagsToShow = 3;
   const extraTags = filteredTags.length > maxTagsToShow ? filteredTags.slice(maxTagsToShow) : [];
-  const visibleTags = showAllTags ? filteredTags : filteredTags.slice(0, maxTagsToShow);
+  const visibleTags = filteredTags.slice(0, maxTagsToShow);
+
+  const popoverContent = (
+    <div className="flex flex-wrap">
+      {extraTags.map((tag, index) => (
+        <span
+          key={tag + index}
+          className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer m-1"
+          onClick={() => onTagClick(tag)}
+        >
+          {tag}
+        </span>
+      ))}
+    </div>
+  );
 
   return (
     <>
@@ -101,23 +114,12 @@ const ProjectCard = ({ project, onTagClick }) => {
               </span>
             ))}
 
-            {extraTags.length > 0 && !showAllTags && (
-              <span className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer" onClick={() => setShowAllTags(true)}>
-                ...
-              </span>
-            )}
-
-            {showAllTags && (
-              <div className="absolute z-10 mt-1 p-2 bg-white border border-gray-200 shadow-lg rounded-md">
-                {extraTags.map((tag, index) => (
-                  <span key={tag + index} className="block px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer mb-1" onClick={() => onTagClick(tag)}>
-                    {tag}
-                  </span>
-                ))}
-                <button className="mt-1 text-xs text-dark-blue-2" onClick={() => setShowAllTags(false)}>
-                  Show less
-                </button>
-              </div>
+            {extraTags.length > 0 && (
+              <Popover content={popoverContent} title="Extra Tags" trigger="click">
+                <Button className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer">
+                  ...
+                </Button>
+              </Popover>
             )}
           </div>
         </div>
@@ -154,7 +156,6 @@ const ProjectCard = ({ project, onTagClick }) => {
           </div>
         </div>
       </div>
-
       <div className="block md:hidden bg-white text-black font-mono relative z-10 mb-8 mx-4 sm:mx-8">
         <div className="flex flex-col p-4 border border-gray-200 rounded-lg shadow-md">
           <div className="flex flex-col items-center mb-4">

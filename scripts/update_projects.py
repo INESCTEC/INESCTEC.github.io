@@ -3,7 +3,22 @@ import requests
 import os
 
 GITHUB_API_SEARCH_URL = "https://api.github.com/search/repositories"
+GITHUB_API_REPO_TOPICS_URL = "https://api.github.com/repos/{owner}/{repo}/topics"
 GITHUB_TOKEN = os.getenv('GH_TOKEN')
+
+def get_repo_topics(owner, repo_name):
+    url = GITHUB_API_REPO_TOPICS_URL.format(owner=owner, repo=repo_name)
+    headers = {
+        'Accept': 'application/vnd.github.mercy-preview+json',  
+        'Authorization': f'token {GITHUB_TOKEN}'
+    }
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        data = response.json()
+        return data.get('names', [])  
+    else:
+        print(f"Error fetching topics for {repo_name}: {response.status_code}")
+        return []
 
 def get_top_repositories(org, topic):
     all_repos = []
@@ -35,20 +50,25 @@ def get_top_repositories(org, topic):
     total_stars = sum(repo['stargazers_count'] for repo in top_repos)
     total_repositories = len(top_repos)
     
-    formatted_repos = [
-        {
-            "name": repo['name'],
+    all_topics = set()  
+    formatted_repos = []
+    for repo in top_repos:
+        repo_name = repo['name']
+        topics = get_repo_topics(org, repo_name)  
+        all_topics.update(topics)  
+        formatted_repos.append({
+            "name": repo_name,
             "url": repo['html_url'],
             "stars": repo['stargazers_count'],
-            "is_fork": repo['fork']  
-        }
-        for repo in top_repos
-    ]
+            "is_fork": repo['fork'],
+            "topics": topics  
+        })
     
     return {
         "top_repositories": formatted_repos,
         "total_stars": total_stars,
-        "total_repositories": total_repositories
+        "total_repositories": total_repositories,
+        "project_tags": list(all_topics) 
     }
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -67,8 +87,9 @@ for project in projects_data:
     project['top_repositories'] = repo_data['top_repositories']
     project['total_stars'] = repo_data['total_stars']
     project['total_repositories'] = repo_data['total_repositories']
+    project['project_tags'] = repo_data['project_tags']  
 
 with open(output_json_path, 'w') as f:
     json.dump(projects_data, f, indent=4)
 
-print("Updated projects.json with GitHub data.")
+print("Updated projects.json with GitHub data including project tags.")
