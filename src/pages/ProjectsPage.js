@@ -42,7 +42,9 @@ const ProjectsPage = () => {
             tag.toLowerCase().includes(searchTerm.toLowerCase())
           )) &&
         (activeFilters.length === 0 ||
-          activeFilters.every((filter) => project.project_tags.includes(filter)))
+          activeFilters.every((filter) =>
+            project.project_tags.includes(filter)
+          ))
     )
     .sort((a, b) => {
       if (sortByStars) {
@@ -70,8 +72,10 @@ const ProjectsPage = () => {
   const handleTagClick = (tag) => {
     if (!activeFilters.includes(tag)) {
       setActiveFilters([...activeFilters, tag]);
+      setCurrentPage(1); 
     }
   };
+  
 
   const handleRemoveTag = (tagToRemove) => {
     setActiveFilters(activeFilters.filter((tag) => tag !== tagToRemove));
@@ -79,19 +83,19 @@ const ProjectsPage = () => {
 
   const handleSortByStars = () => {
     if (sortByStars) {
-      setSortByStars(null); // Reset sorter if already set
+      setSortByStars(null); 
     } else {
       setSortByStars('asc');
-      setSortByRepos(null); // Disable repos sorter when sorting by stars
+      setSortByRepos(null); 
     }
   };
 
   const handleSortByRepos = () => {
     if (sortByRepos) {
-      setSortByRepos(null); // Reset sorter if already set
+      setSortByRepos(null); 
     } else {
       setSortByRepos('asc');
-      setSortByStars(null); // Disable stars sorter when sorting by repos
+      setSortByStars(null); 
     }
   };
 

@@ -7,7 +7,17 @@ import { RepoIcon } from '@primer/octicons-react';
 import { Link } from 'react-router-dom';
 import { Tooltip } from 'react-tooltip';
 
-const Header = ({ searchTerm, onSearchChange, onSortByStars, onSortByRepos, onCategoryChange, activeFilters, onRemoveTag, sortByStars, sortByRepos }) => {
+const Header = ({
+  searchTerm,
+  onSearchChange,
+  onSortByStars,
+  onSortByRepos,
+  onCategoryChange,
+  activeFilters,
+  onRemoveTag,
+  sortByStars,
+  sortByRepos
+}) => {
   const [activeCategory, setActiveCategory] = useState('All');
   const [isArrowUp, setIsArrowUp] = useState(true);
   const [calendarArrowUp, setCalendarArrowUp] = useState(true);
@@ -40,12 +50,14 @@ const Header = ({ searchTerm, onSearchChange, onSortByStars, onSortByRepos, onCa
         </Link>
         <span className="reverse-gradient-text mt-4 mb-4 text-2xl md:text-4xl">Open Source Software</span>
         <div className="flex space-x-4">
-          {categories.map(category => (
+          {categories.map((category) => (
             <button
               key={category}
-              onClick={() => setActiveCategory(category)}
+              onClick={() => handleCategoryChange(category)}
               className={`px-4 py-1 text-xs font-semibold rounded-full transition-colors duration-300 ${
-                activeCategory === category ? 'bg-light-blue-2 text-white' : 'text-dark-blue-2 bg-white border border-dark-blue-2'
+                activeCategory === category
+                  ? 'bg-light-blue-2 text-white'
+                  : 'text-dark-blue-2 bg-white border border-dark-blue-2'
               }`}
             >
               {category}
@@ -70,12 +82,12 @@ const Header = ({ searchTerm, onSearchChange, onSortByStars, onSortByRepos, onCa
           <span className="text-dark-blue-2">Sort: </span>
           <div id="stars" data-tooltip-content="Total Stars">
             <FontAwesomeIcon icon={faStarRegular} className="text-dark-blue-2 text-md ml-2" />
-            <button 
-              onClick={toggleArrow} 
+            <button
+              onClick={toggleArrow}
               className={`focus:outline-none ${
                 sortByRepos ? 'opacity-50 cursor-not-allowed' : ''
               }`}
-              disabled={!!sortByRepos} 
+              disabled={!!sortByRepos}
             >
               <FontAwesomeIcon
                 icon={isArrowUp ? faArrowUp : faArrowDown}
@@ -85,12 +97,12 @@ const Header = ({ searchTerm, onSearchChange, onSortByStars, onSortByRepos, onCa
           </div>
           <div id="repos" className="ml-2" data-tooltip-content="Repositories">
             <RepoIcon size={18} className="text-dark-blue-2 text-md ml-2" />
-            <button 
-              onClick={toggleCalendarArrow} 
+            <button
+              onClick={toggleCalendarArrow}
               className={`focus:outline-none ${
                 sortByStars ? 'opacity-50 cursor-not-allowed' : ''
               }`}
-              disabled={!!sortByStars} 
+              disabled={!!sortByStars}
             >
               <FontAwesomeIcon
                 icon={calendarArrowUp ? faArrowUp : faArrowDown}
@@ -99,6 +111,21 @@ const Header = ({ searchTerm, onSearchChange, onSortByStars, onSortByRepos, onCa
             </button>
           </div>
         </div>
+      </div>
+      <div className="flex items-center flex-wrap mt-4 ml-6 md:ml-8">
+        {activeFilters.map((filter, index) => (
+          <div
+            key={index}
+            className="flex items-center bg-light-blue-2 text-white px-3 py-1 rounded-full mr-2 mb-2"
+          >
+            <span>{filter}</span>
+            <FontAwesomeIcon
+              icon={faTimes}
+              className="ml-2 cursor-pointer"
+              onClick={() => onRemoveTag(filter)}
+            />
+          </div>
+        ))}
       </div>
       <Tooltip anchorId="stars" place="top" />
       <Tooltip anchorId="repos" place="top" />
