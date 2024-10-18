@@ -52,12 +52,20 @@ const ProjectCard = ({ project, onTagClick }) => {
     return text;
   };
 
+  const normalizeTags = (tags) => {
+    const uniqueTags = new Set();
+    tags.forEach(tag => {
+      uniqueTags.add(tag.toLowerCase());
+    });
+    return Array.from(uniqueTags);
+  };
+  
   const defaultLogo = 'data:image/png;base64,<base64-encoded-image>';
 
   const filteredTags = project.project_tags
-    ? project.project_tags.filter(tag => tag !== project.project_area)
+    ? normalizeTags(project.project_tags).filter(tag => tag !== project.project_area.toLowerCase())
     : [];
-
+    
   const maxTagsToShow = 3;
   const extraTags = filteredTags.length > maxTagsToShow ? filteredTags.slice(maxTagsToShow) : [];
   const visibleTags = filteredTags.slice(0, maxTagsToShow);
