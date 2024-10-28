@@ -7,15 +7,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "enershare",
-            "price-optimization",
-            "renewable-energy-communities",
-            "client-library",
-            "energy",
-            "dataspaces",
-            "tno-security-gateway",
             "energy-communities",
-            "python"
+            "dataspaces",
+            "python",
+            "client-library",
+            "price-optimization",
+            "energy",
+            "enershare",
+            "renewable-energy-communities",
+            "tno-security-gateway"
         ],
         "top_repositories": [
             {
@@ -70,15 +70,15 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "enershare",
-            "energy",
-            "client-library",
-            "machine-learning-algorithms",
-            "data-sharing",
             "data-sharing-incentives",
-            "data-marketplace",
             "collaborative-forecasting",
+            "data-sharing",
+            "data-marketplace",
+            "client-library",
             "python",
+            "energy",
+            "enershare",
+            "machine-learning-algorithms",
             "greendatai"
         ],
         "top_repositories": [
@@ -139,9 +139,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "recommender",
-            "energy",
             "python",
-            "interconnect"
+            "interconnect",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -168,8 +168,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
@@ -229,8 +229,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
