@@ -7,15 +7,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy-communities",
-            "dataspaces",
-            "python",
-            "client-library",
-            "price-optimization",
-            "energy",
             "enershare",
+            "energy-communities",
+            "client-library",
+            "dataspaces",
             "renewable-energy-communities",
-            "tno-security-gateway"
+            "energy",
+            "python",
+            "tno-security-gateway",
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -70,16 +70,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing-incentives",
-            "collaborative-forecasting",
-            "data-sharing",
-            "data-marketplace",
-            "client-library",
-            "python",
-            "energy",
             "enershare",
+            "data-sharing-incentives",
+            "greendatai",
+            "client-library",
+            "data-marketplace",
+            "data-sharing",
+            "energy",
             "machine-learning-algorithms",
-            "greendatai"
+            "python",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -139,9 +139,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "recommender",
-            "python",
+            "energy",
             "interconnect",
-            "energy"
+            "python"
         ],
         "top_repositories": [
             {
@@ -219,6 +219,16 @@
         ],
         "top_repositories": [
             {
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "interstore",
+                    "energy"
+                ]
+            },
+            {
                 "name": "InterSTORE---Data-Space-Connector-UI",
                 "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
                 "stars": 0,
@@ -231,16 +241,6 @@
             {
                 "name": "InterSTORE---Client-Server",
                 "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "interstore",
-                    "energy"
-                ]
-            },
-            {
-                "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
-                "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
