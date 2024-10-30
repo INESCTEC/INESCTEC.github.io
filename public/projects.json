@@ -8,14 +8,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "enershare",
+            "price-optimization",
             "energy-communities",
+            "renewable-energy-communities",
+            "python",
+            "energy",
             "client-library",
             "dataspaces",
-            "renewable-energy-communities",
-            "energy",
-            "python",
-            "tno-security-gateway",
-            "price-optimization"
+            "tno-security-gateway"
         ],
         "top_repositories": [
             {
@@ -71,14 +71,14 @@
         "project_topic": "greendatai",
         "project_tags": [
             "enershare",
-            "data-sharing-incentives",
             "greendatai",
-            "client-library",
             "data-marketplace",
-            "data-sharing",
-            "energy",
             "machine-learning-algorithms",
+            "data-sharing",
             "python",
+            "energy",
+            "client-library",
+            "data-sharing-incentives",
             "collaborative-forecasting"
         ],
         "top_repositories": [
@@ -98,6 +98,20 @@
                 ]
             },
             {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
                 "name": "data-sharing-barter-incentives-forecast",
                 "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-forecast",
                 "stars": 2,
@@ -107,20 +121,6 @@
                     "data-sharing-incentives",
                     "enershare",
                     "machine-learning-algorithms",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -139,9 +139,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "recommender",
-            "energy",
+            "python",
             "interconnect",
-            "python"
+            "energy"
         ],
         "top_repositories": [
             {
@@ -168,8 +168,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -214,20 +214,10 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
-            {
-                "name": "InterSTORE---Data-Space-Connector",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "interstore",
-                    "energy"
-                ]
-            },
             {
                 "name": "InterSTORE---Data-Space-Connector-UI",
                 "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
@@ -239,8 +229,18 @@
                 ]
             },
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "interstore",
+                    "energy"
+                ]
+            },
+            {
+                "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
+                "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
