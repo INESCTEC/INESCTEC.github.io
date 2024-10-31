@@ -8,13 +8,13 @@
         "project_topic": "enershare",
         "project_tags": [
             "enershare",
+            "energy",
+            "python",
+            "renewable-energy-communities",
+            "dataspaces",
+            "client-library",
             "price-optimization",
             "energy-communities",
-            "renewable-energy-communities",
-            "python",
-            "energy",
-            "client-library",
-            "dataspaces",
             "tno-security-gateway"
         ],
         "top_repositories": [
@@ -71,15 +71,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "enershare",
-            "greendatai",
             "data-marketplace",
-            "machine-learning-algorithms",
-            "data-sharing",
             "python",
-            "energy",
-            "client-library",
             "data-sharing-incentives",
-            "collaborative-forecasting"
+            "collaborative-forecasting",
+            "client-library",
+            "data-sharing",
+            "greendatai",
+            "machine-learning-algorithms",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -92,20 +92,6 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -125,6 +111,20 @@
                     "data-marketplace",
                     "energy"
                 ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
             }
         ],
         "total_stars": 7,
@@ -138,9 +138,9 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "recommender",
             "python",
             "interconnect",
+            "recommender",
             "energy"
         ],
         "top_repositories": [
@@ -229,8 +229,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
+                "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
+                "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -239,8 +239,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
-                "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
