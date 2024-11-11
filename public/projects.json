@@ -8,14 +8,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "client-library",
-            "python",
-            "tno-security-gateway",
-            "price-optimization",
-            "energy-communities",
-            "renewable-energy-communities",
             "energy",
-            "dataspaces",
-            "enershare"
+            "python",
+            "enershare",
+            "tno-security-gateway",
+            "renewable-energy-communities",
+            "energy-communities",
+            "price-optimization",
+            "dataspaces"
         ],
         "top_repositories": [
             {
@@ -70,16 +70,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "client-library",
-            "greendatai",
-            "python",
-            "collaborative-forecasting",
-            "data-marketplace",
             "machine-learning-algorithms",
-            "energy",
-            "enershare",
             "data-sharing-incentives",
-            "data-sharing"
+            "data-sharing",
+            "client-library",
+            "energy",
+            "python",
+            "data-marketplace",
+            "enershare",
+            "collaborative-forecasting",
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -138,10 +138,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
-            "energy",
+            "recommender",
             "python",
-            "recommender"
+            "energy",
+            "interconnect"
         ],
         "top_repositories": [
             {
