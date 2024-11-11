@@ -12,6 +12,14 @@
   @apply bg-gradient-to-r from-light-blue to-dark-blue bg-clip-text text-transparent;
 }
 
+.card-gradient {
+  @apply bg-gradient-to-r from-[#E7F1F4] to-[#FFFFFF];
+}
+
+.navbar-gradient {
+  @apply bg-gradient-to-r from-dark-blue to-light-blue;
+}
+
 body {
   margin: 0;
   font-family: 'JetBrains Mono', monospace;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -6,8 +6,27 @@ import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/INESCTEC_logotipo_monocrom_white.png';
 import Footer from '../components/Footer'; 
 import image from '../assets/INESCTEC_circuito_Set2024-03-cropped.svg';
+import AreaCard from '../components/AreaCard';
 
 const HomePage = () => {
+  const [areas, setAreas] = useState([]);
+
+  useEffect(() => {
+    fetch('/areas.json')
+      .then(response => response.json())
+      .then(data => {
+        if (Array.isArray(data)) {
+          setAreas(data);
+        } else {
+          console.error('Data is not an array:', data);
+        }
+      })
+      .catch(error => {
+        console.error('Error loading the data:', error);
+        setAreas([]);
+      });
+  }, []);
+
   return (
     <div className="font-mono">
       <Element name="top" className="min-h-screen">
@@ -22,13 +41,21 @@ const HomePage = () => {
                 to="vision"
                 smooth={true}
                 duration={500}
-                className="text-xl mb-4 md:text-2xl hover:underline md:mb-6 cursor-pointer 2xl:text-3xl"
+                className="text-xl mb-4 md:text-2xl hover:underline md:mb-6 cursor-pointer 2xl:text-2xl"
               >
                 {'>'} Our Vision
               </ScrollLink>
+              <ScrollLink
+                to="innovation-areas"
+                smooth={true}
+                duration={500}
+                className="text-xl mb-4 md:text-2xl hover:underline md:mb-6 cursor-pointer 2xl:text-2xl"
+              >
+                {'>'} Innovation Areas
+              </ScrollLink>
               <RouterLink
                 to="/projects"
-                className="text-xl md:text-2xl hover:underline cursor-pointer 2xl:text-3xl"
+                className="text-xl md:text-2xl hover:underline cursor-pointer 2xl:text-2xl"
               >
                 {'>'} Our Projects
               </RouterLink>
@@ -36,6 +63,7 @@ const HomePage = () => {
           </div>
         </main>
       </Element>
+
       <Element name="vision" className="min-h-screen bg-white font-mono flex">
         <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
           <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
@@ -44,7 +72,7 @@ const HomePage = () => {
               <FontAwesomeIcon icon={faChevronUp} width={30} />
             </ScrollLink>
           </h1>
-          <hr className="border-0 h-1 bg-gradient-to-r from-dark-blue to-light-blue mb-8" />
+          <div className="h-[1px] bg-gradient-to-r from-dark-blue-2 to-light-blue mb-8"></div>
           <div className="space-y-12 text-black mt-20">
             <section>
               <h2 className="text-2xl font-bold text-black mb-4">Our Vision</h2>
@@ -71,6 +99,35 @@ const HomePage = () => {
                 We are open to collaboration and committed to fostering open science initiatives.
               </p>
             </section>
+          </div>
+        </div>
+        <div className="hidden md:block w-1/6 relative">
+          <img src={image} alt="Description" className="absolute inset-0 w-full h-full object-cover" />
+        </div>
+      </Element>
+
+      <div className="w-full h-[1px] bg-gradient-to-r from-dark-blue-2 to-light-blue py-0.5"></div>
+
+      <Element name="innovation-areas" className="min-h-screen bg-white font-mono flex">
+        <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
+          <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
+            <span>Innovation Areas</span>
+            <ScrollLink to="top" smooth={true} duration={500} className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
+              <FontAwesomeIcon icon={faChevronUp} width={30} />
+            </ScrollLink>
+          </h1>
+          <div className="h-[1px] bg-gradient-to-r from-dark-blue to-light-blue"></div>
+          <div className="space-y-12 text-black mt-6">
+            <section>
+              <p className="text-lg md:text-xl 2xl:text-2xl mb-16 text-justify">
+                Explore our key areas of innovation where we strive to make a difference through open-source solutions and collaborative research. Stay tuned as we continue to expand and showcase our projects in these domains.
+              </p>
+            </section>
+
+            {areas.map((area, index) => (
+              <AreaCard key={index} area={area} />
+            ))}
+            
           </div>
         </div>
         <div className="hidden md:block w-1/6 relative">

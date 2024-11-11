@@ -23,7 +23,7 @@ def get_project_data(org, topic):
             data = response.json()
             public_repos = [repo for repo in data['items'] if not repo['private']]
             all_repos.extend(public_repos)
-            if len(data['items']) < 100:  
+            if len(data['items']) < 100:
                 break
             page += 1
         else:
@@ -45,13 +45,16 @@ for area in areas_data:
         project_repos = get_project_data(org_name, project_topic)
         
         if project_repos:
+            # Calculate total stars and repositories count
             total_stars = sum(repo['stargazers_count'] for repo in project_repos)
             total_repos = len(project_repos)
             
+            # Update the project with total stars and repo count
             project['total_stars'] = total_stars
             project['total_repos'] = total_repos
 
+# Write the updated data back to areas.json
 with open(areas_json_path, 'w') as f:
     json.dump(areas_data, f, indent=4)
 
-print("Updated areas.json with GitHub data.")
+print("Updated areas.json with total stars and repository count for each featured project.")
