@@ -189,14 +189,23 @@ const ProjectCard = ({ project, onTagClick }) => {
               <span className="block h-6"></span>
             )}
             <div className="flex flex-wrap justify-center mb-4">
-              {(filteredTags.length > 0
-                ? filteredTags
-                : ['Energy Communities', 'RES Forecasting', 'Load Forecasting']
-              ).map(tag => (
-                <span key={tag} className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-xs mr-1 mb-1 cursor-pointer" onClick={() => onTagClick(tag)}>
+              {visibleTags.map((tag, index) => (
+                <span
+                  key={tag + index}
+                  className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-xs mr-1 mb-1 cursor-pointer"
+                  onClick={() => onTagClick(tag)}
+                >
                   {tag}
                 </span>
               ))}
+
+              {extraTags.length > 0 && (
+                <Popover content={popoverContent} title="Extra Tags" trigger="click">
+                  <Button className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-xs cursor-pointer">
+                    ...
+                  </Button>
+                </Popover>
+              )}
             </div>
             <div className="mt-auto text-center">
               <a href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`} className="text-dark-blue-2 text-sm" target="_blank" rel="noopener noreferrer">
@@ -206,6 +215,7 @@ const ProjectCard = ({ project, onTagClick }) => {
           </div>
         </div>
       </div>
+
     </>
   );
 };

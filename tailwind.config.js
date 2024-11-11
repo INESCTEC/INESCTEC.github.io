@@ -10,6 +10,8 @@ module.exports = {
         'light-blue-2': '#64C8EC',
         'dark-blue-2': '#008EB3',
         'def-grey': '#2F2F2F',
+        'energy-yellow': '#FECD0D',
+        'industry-red': '#F73544',
       }
     },
     fontFamily: {

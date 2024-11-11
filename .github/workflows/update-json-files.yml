@@ -24,6 +24,8 @@ jobs:
         pip install requests
 
     - name: Update areas.json
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: python scripts/update_areas.py
 
     - name: Update projects.json

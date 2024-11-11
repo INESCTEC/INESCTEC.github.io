@@ -1,25 +1,27 @@
 [
     {
-        "area": "energy",
+        "area": "Energy",
         "area_description": "This area focuses on projects related to energy efficiency, renewable energy sources, and innovative energy solutions.",
         "featured_projects": [
             {
                 "project_name": "enershare",
                 "project_topic": "enershare",
                 "project_logo": "enershare.png",
-                "total_stars": 32,
-                "total_repos": 8
+                "total_stars": 40,
+                "total_repos": 12
             },
             {
-                "project_name": "attest",
-                "project_topic": "attest",
-                "project_logo": "attest.png"
+                "project_name": "greendatai",
+                "project_topic": "greendatai",
+                "project_logo": "greendatai.png",
+                "total_stars": 7,
+                "total_repos": 3
             },
             {
                 "project_name": "interconnect",
                 "project_topic": "interconnect",
                 "project_logo": "interconnect.png",
-                "total_stars": 4,
+                "total_stars": 5,
                 "total_repos": 1
             }
         ]

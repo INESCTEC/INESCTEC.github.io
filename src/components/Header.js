@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../assets/INESCTEC_logotipo_color_rgb.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faArrowUp, faArrowDown, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -16,9 +16,10 @@ const Header = ({
   activeFilters,
   onRemoveTag,
   sortByStars,
-  sortByRepos
+  sortByRepos,
+  defaultCategory
 }) => {
-  const [activeCategory, setActiveCategory] = useState('All');
+  const [activeCategory, setActiveCategory] = useState(defaultCategory || 'All');
   const [isArrowUp, setIsArrowUp] = useState(true);
   const [calendarArrowUp, setCalendarArrowUp] = useState(true);
   const categories = ['All', 'Energy'];
@@ -36,6 +37,10 @@ const Header = ({
     setCalendarArrowUp(!calendarArrowUp);
     onSortByRepos();
   };
+
+  useEffect(() => {
+    setActiveCategory(defaultCategory || 'All');
+  }, [defaultCategory]);
 
   const handleCategoryChange = (category) => {
     setActiveCategory(category);

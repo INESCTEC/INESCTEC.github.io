@@ -3,15 +3,23 @@ import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer';
 import image from '../assets/circuit.png';
+import { useLocation } from 'react-router-dom';
+import ScrollNavbar from '../components/ScrollNavbar';
 
 const ProjectsPage = () => {
   const [projects, setProjects] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [projectsPerPage] = useState(5);
   const [searchTerm, setSearchTerm] = useState('');
+  const [categoryFilter, setCategoryFilter] = useState('All');
   const [activeFilters, setActiveFilters] = useState([]);
   const [sortByStars, setSortByStars] = useState(null);
   const [sortByRepos, setSortByRepos] = useState(null);
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const defaultCategory = queryParams.get('category') || 'All';
 
   useEffect(() => {
     fetch('/projects.json')
@@ -29,39 +37,71 @@ const ProjectsPage = () => {
       });
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setShowNavbar(true);
+      } else {
+        setShowNavbar(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const category = queryParams.get('category');
+    if (category) setCategoryFilter(category);
+  }, [location.search]);
+
+  const handleCategoryChange = (category) => {
+    console.log('Category:', category);
+    setCategoryFilter(category);
+    setActiveFilters([]); 
+  };
+
+  const handleTagClick = (tag) => {
+    if (!activeFilters.includes(tag)) {
+      setActiveFilters([...activeFilters, tag]);
+      setCategoryFilter('All'); 
+      setCurrentPage(1);
+    }
+  };
+
+  const handleRemoveTag = (tagToRemove) => {
+    setActiveFilters(activeFilters.filter((tag) => tag !== tagToRemove));
+  };
+
   const indexOfLastProject = currentPage * projectsPerPage;
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
 
+  console.log(projects);
   const filteredProjects = projects
-    .filter(
-      (project) =>
-        project.total_repositories > 0 &&
-        (searchTerm === '' ||
-          project.project_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          project.project_tags.some((tag) =>
-            tag.toLowerCase().includes(searchTerm.toLowerCase())
-          )) &&
-        (activeFilters.length === 0 ||
-          activeFilters.every((filter) =>
-            project.project_tags.includes(filter)
-          ))
-    )
+    .filter((project) => {
+      const categoryMatch = categoryFilter === 'All' || project.project_area.toLowerCase() === categoryFilter.toLowerCase();
+      const tagMatch = activeFilters.length === 0 || activeFilters.every((filter) =>
+        project.project_tags.map(tag => tag.toLowerCase()).includes(filter.toLowerCase())
+      );
+      return categoryMatch && tagMatch;
+    })
+    .filter((project) => {
+      return searchTerm === '' || 
+        project.project_name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+        project.project_tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
+    })
     .sort((a, b) => {
       if (sortByStars) {
-        return sortByStars === 'asc'
-          ? a.total_stars - b.total_stars
-          : b.total_stars - a.total_stars;
+        return sortByStars === 'asc' ? a.total_stars - b.total_stars : b.total_stars - a.total_stars;
       }
       if (sortByRepos) {
-        return sortByRepos === 'asc'
-          ? a.total_repositories - b.total_repositories
-          : b.total_repositories - a.total_repositories;
+        return sortByRepos === 'asc' ? a.total_repositories - b.total_repositories : b.total_repositories - a.total_repositories;
       }
       return 0;
-    });
+  });
+
 
   const currentProjects = filteredProjects.slice(indexOfFirstProject, indexOfLastProject);
-
   const totalPages = Math.ceil(filteredProjects.length / projectsPerPage);
 
   const handleSearchChange = (newSearchTerm) => {
@@ -69,34 +109,14 @@ const ProjectsPage = () => {
     setCurrentPage(1);
   };
 
-  const handleTagClick = (tag) => {
-    if (!activeFilters.includes(tag)) {
-      setActiveFilters([...activeFilters, tag]);
-      setCurrentPage(1); 
-    }
-  };
-  
-
-  const handleRemoveTag = (tagToRemove) => {
-    setActiveFilters(activeFilters.filter((tag) => tag !== tagToRemove));
-  };
-
   const handleSortByStars = () => {
-    if (sortByStars) {
-      setSortByStars(null); 
-    } else {
-      setSortByStars('asc');
-      setSortByRepos(null); 
-    }
+    setSortByStars(sortByStars ? null : 'asc');
+    setSortByRepos(null);
   };
 
   const handleSortByRepos = () => {
-    if (sortByRepos) {
-      setSortByRepos(null); 
-    } else {
-      setSortByRepos('asc');
-      setSortByStars(null); 
-    }
+    setSortByRepos(sortByRepos ? null : 'asc');
+    setSortByStars(null);
   };
 
   const handlePageChange = (pageNumber) => {
@@ -105,10 +125,15 @@ const ProjectsPage = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-white font-mono">
+      <div className="min-h-screen flex flex-col bg-white font-mono relative">
         <img src={image} alt="INESC TEC" className="absolute top-0 left-0 w-full h-auto z-0" />
-        <div className="relative mt-16">
-          <div className="mt-6 mb-12 min-h-screen bg-white z-10">
+  
+        {/* Fade-in Navbar */}
+        <ScrollNavbar />
+
+        {/* Main content */}
+        <div className="flex-grow mt-16 relative z-10">
+          <div className="mt-6 mb-12 bg-white">
             <Header
               searchTerm={searchTerm}
               onSearchChange={handleSearchChange}
@@ -118,6 +143,8 @@ const ProjectsPage = () => {
               onSortByRepos={handleSortByRepos}
               sortByStars={sortByStars}
               sortByRepos={sortByRepos}
+              defaultCategory={defaultCategory} 
+              onCategoryChange={handleCategoryChange}
             />
             <div className="mt-4 mb-4 pb-2 pt-2">
               {currentProjects.length > 0 ? (
@@ -130,13 +157,11 @@ const ProjectsPage = () => {
                 <p>No projects found.</p>
               )}
             </div>
-
+  
             <div className="flex justify-center md:flex md:justify-end mt-2 md:mr-14 text-sm">
               <button
                 className={`px-3 py-1 border border-gray-300 rounded-l-lg ${
-                  currentPage === 1
-                    ? 'bg-gray-100 text-gray-500 cursor-not-allowed'
-                    : 'bg-white text-black'
+                  currentPage === 1 ? 'bg-gray-100 text-gray-500 cursor-not-allowed' : 'bg-white text-black'
                 }`}
                 onClick={() => handlePageChange(currentPage - 1)}
                 disabled={currentPage === 1}
@@ -156,9 +181,7 @@ const ProjectsPage = () => {
               ))}
               <button
                 className={`px-3 py-1 border border-gray-300 rounded-r-lg ${
-                  currentPage === totalPages
-                    ? 'bg-gray-100 text-gray-500 cursor-not-allowed'
-                    : 'bg-white text-black'
+                  currentPage === totalPages ? 'bg-gray-100 text-gray-500 cursor-not-allowed' : 'bg-white text-black'
                 }`}
                 onClick={() => handlePageChange(currentPage + 1)}
                 disabled={currentPage === totalPages}
@@ -167,11 +190,13 @@ const ProjectsPage = () => {
               </button>
             </div>
           </div>
-          <Footer />
         </div>
+  
+        {/* Footer */}
+        <Footer />
       </div>
     </>
-  );
+  );  
 };
 
 export default ProjectsPage;
