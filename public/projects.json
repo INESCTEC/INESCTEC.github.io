@@ -7,15 +7,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
+            "tno-security-gateway",
+            "dataspaces",
             "energy",
+            "client-library",
             "price-optimization",
             "enershare",
-            "dataspaces",
-            "renewable-energy-communities",
-            "client-library",
             "python",
             "energy-communities",
-            "tno-security-gateway"
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -70,16 +70,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "collaborative-forecasting",
-            "enershare",
-            "client-library",
-            "python",
             "greendatai",
-            "data-sharing",
+            "energy",
+            "client-library",
+            "enershare",
+            "python",
             "machine-learning-algorithms",
             "data-sharing-incentives",
-            "energy",
-            "data-marketplace"
+            "data-marketplace",
+            "data-sharing",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -139,8 +139,8 @@
         "project_topic": "interconnect",
         "project_tags": [
             "interconnect",
-            "recommender",
             "python",
+            "recommender",
             "energy"
         ],
         "top_repositories": [
@@ -173,8 +173,8 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -183,8 +183,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -214,13 +214,13 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
-                "name": "InterSTORE---Data-Space-Connector",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
+                "name": "InterSTORE---Data-Space-Connector-UI",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -229,8 +229,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-UI",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
