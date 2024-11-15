@@ -8,14 +8,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "tno-security-gateway",
+            "price-optimization",
             "dataspaces",
+            "renewable-energy-communities",
+            "python",
             "energy",
             "client-library",
-            "price-optimization",
-            "enershare",
-            "python",
             "energy-communities",
-            "renewable-energy-communities"
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -70,16 +70,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
-            "energy",
-            "client-library",
-            "enershare",
-            "python",
-            "machine-learning-algorithms",
-            "data-sharing-incentives",
-            "data-marketplace",
             "data-sharing",
-            "collaborative-forecasting"
+            "machine-learning-algorithms",
+            "greendatai",
+            "collaborative-forecasting",
+            "data-marketplace",
+            "energy",
+            "python",
+            "client-library",
+            "data-sharing-incentives",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -92,6 +92,20 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -111,20 +125,6 @@
                     "data-marketplace",
                     "energy"
                 ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 7,
@@ -138,10 +138,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "energy",
             "interconnect",
-            "python",
             "recommender",
-            "energy"
+            "python"
         ],
         "top_repositories": [
             {
@@ -173,8 +173,8 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -183,8 +183,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -219,6 +219,16 @@
         ],
         "top_repositories": [
             {
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "interstore",
+                    "energy"
+                ]
+            },
+            {
                 "name": "InterSTORE---Data-Space-Connector-UI",
                 "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
                 "stars": 0,
@@ -231,16 +241,6 @@
             {
                 "name": "InterSTORE---Client-Server",
                 "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "interstore",
-                    "energy"
-                ]
-            },
-            {
-                "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
-                "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
