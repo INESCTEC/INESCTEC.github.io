@@ -9,13 +9,13 @@
         "project_tags": [
             "renewable-energy-communities",
             "energy-communities",
-            "dataspaces",
             "tno-security-gateway",
+            "energy",
+            "client-library",
             "python",
             "price-optimization",
-            "enershare",
-            "energy",
-            "client-library"
+            "dataspaces",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -71,15 +71,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "energy",
-            "data-sharing",
-            "machine-learning-algorithms",
             "greendatai",
-            "collaborative-forecasting",
+            "client-library",
             "python",
-            "enershare",
-            "data-sharing-incentives",
             "data-marketplace",
-            "client-library"
+            "collaborative-forecasting",
+            "machine-learning-algorithms",
+            "data-sharing",
+            "data-sharing-incentives",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -138,10 +138,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "python",
             "interconnect",
             "recommender",
-            "energy"
+            "energy",
+            "python"
         ],
         "top_repositories": [
             {
