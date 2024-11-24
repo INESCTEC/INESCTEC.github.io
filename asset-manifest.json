@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e1d7462.css",
-    "main.js": "/static/js/main.b3409e15.js",
+    "main.css": "/static/css/main.83471381.css",
+    "main.js": "/static/js/main.e534e252.js",
+    "static/js/320.b2298d80.chunk.js": "/static/js/320.b2298d80.chunk.js",
+    "static/js/59.6e992d79.chunk.js": "/static/js/59.6e992d79.chunk.js",
+    "static/js/390.7c711313.chunk.js": "/static/js/390.7c711313.chunk.js",
+    "static/js/7.2b9b7a72.chunk.js": "/static/js/7.2b9b7a72.chunk.js",
+    "static/js/26.6b16692d.chunk.js": "/static/js/26.6b16692d.chunk.js",
+    "static/js/216.2b68d49c.chunk.js": "/static/js/216.2b68d49c.chunk.js",
+    "static/js/265.4f55319e.chunk.js": "/static/js/265.4f55319e.chunk.js",
     "static/js/453.ff2cd7f0.chunk.js": "/static/js/453.ff2cd7f0.chunk.js",
-    "static/media/random-image.png": "/static/media/random-image.f2f869dda4b9c0cfd6e1.png",
+    "static/media/circuit.png": "/static/media/circuit.38c9c48472f5c5a37f24.png",
+    "static/media/INESCTEC_circuito_Set2024-03-cropped.svg": "/static/media/INESCTEC_circuito_Set2024-03-cropped.b499a3b2f7dd7713175175b0120ad73a.svg",
+    "static/media/interconnect.png": "/static/media/interconnect.554d1a8626e2c6082e6b.png",
+    "static/media/interstore.png": "/static/media/interstore.f912019a044139528487.png",
+    "static/media/INESCTEC_logotipo_color_rgb.png": "/static/media/INESCTEC_logotipo_color_rgb.21e99582a7dd11537ff1.png",
+    "static/media/enershare.png": "/static/media/enershare.6d8e790418d5b584e9b9.png",
+    "static/media/emb3rs.png": "/static/media/emb3rs.63fc478c5e20d6e9e195.png",
+    "static/media/INESCTEC_logotipo_monocrom_white.png": "/static/media/INESCTEC_logotipo_monocrom_white.3af487317e4053de867e.png",
+    "static/media/greendatai.png": "/static/media/greendatai.48676af4115d7d2fd421.png",
+    "static/media/attest.png": "/static/media/attest.0dc6f57ae77da58021dd.png",
     "index.html": "/index.html",
-    "main.4e1d7462.css.map": "/static/css/main.4e1d7462.css.map",
-    "main.b3409e15.js.map": "/static/js/main.b3409e15.js.map",
+    "main.83471381.css.map": "/static/css/main.83471381.css.map",
+    "main.e534e252.js.map": "/static/js/main.e534e252.js.map",
     "453.ff2cd7f0.chunk.js.map": "/static/js/453.ff2cd7f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e1d7462.css",
-    "static/js/main.b3409e15.js"
+    "static/css/main.83471381.css",
+    "static/js/main.e534e252.js"
   ]
 }
