@@ -1,19 +1,29 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom'; 
 import logo from '../assets/INESCTEC_logotipo_color_rgb.png';
 
 const ScrollNavbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     const handleScroll = () => {
-      setShowNavbar(window.scrollY > 50);
+      setShowNavbar(window.scrollY > 50); 
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    window.scrollTo(0, 0); 
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [location]); 
+
+  const handleLinkClick = (targetPath) => {
+    navigate(targetPath);
+    window.scrollTo(0, 0);
+  };
 
   return (
     <div
@@ -31,25 +41,25 @@ const ScrollNavbar = () => {
         
         <ul className="flex items-center space-x-4 text-dark-blue-2 font-semibold text-lg">
           <li>
-            <Link
-              to="/"
+            <button
+              onClick={() => handleLinkClick('/')} 
               className={`pb-2 ${
                 location.pathname === '/' ? 'border-b-2 border-light-blue-2' : ''
               }`}
             >
               Home
-            </Link>
+            </button>
           </li>
           <span className="text-dark-blue-2">|</span>
           <li>
-            <Link
-              to="/projects"
-              className={` ${
+            <button
+              onClick={() => handleLinkClick('/projects')} 
+              className={`pb-2 ${
                 location.pathname === '/projects' ? 'border-b-2 border-dark-blue-2' : ''
               }`}
             >
               Projects
-            </Link>
+            </button>
           </li>
         </ul>
       </nav>
