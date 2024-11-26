@@ -7,15 +7,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy",
-            "tno-security-gateway",
-            "client-library",
             "energy-communities",
-            "renewable-energy-communities",
-            "price-optimization",
-            "dataspaces",
+            "energy",
             "enershare",
-            "python"
+            "dataspaces",
+            "python",
+            "tno-security-gateway",
+            "price-optimization",
+            "client-library",
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -70,16 +70,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "machine-learning-algorithms",
+            "collaborative-forecasting",
+            "greendatai",
             "energy",
+            "enershare",
+            "machine-learning-algorithms",
             "python",
+            "data-sharing-incentives",
             "client-library",
             "data-sharing",
-            "greendatai",
-            "data-marketplace",
-            "collaborative-forecasting",
-            "enershare",
-            "data-sharing-incentives"
+            "data-marketplace"
         ],
         "top_repositories": [
             {
@@ -139,9 +139,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "interconnect",
-            "recommender",
             "energy",
-            "python"
+            "python",
+            "recommender"
         ],
         "top_repositories": [
             {
