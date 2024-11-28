@@ -15,7 +15,6 @@ const ProjectsPage = () => {
   const [activeFilters, setActiveFilters] = useState([]);
   const [sortByStars, setSortByStars] = useState(null);
   const [sortByRepos, setSortByRepos] = useState(null);
-  const [showNavbar, setShowNavbar] = useState(false);
 
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
@@ -38,25 +37,11 @@ const ProjectsPage = () => {
   }, []);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setShowNavbar(true);
-      } else {
-        setShowNavbar(false);
-      }
-    };
-    window.addEventListener('scroll', handleScroll);
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  useEffect(() => {
     const category = queryParams.get('category');
     if (category) setCategoryFilter(category);
-  }, [location.search]);
+  }, [location.search, queryParams]);
 
   const handleCategoryChange = (category) => {
-    console.log('Category:', category);
     setCategoryFilter(category);
     setActiveFilters([]); 
   };
@@ -76,7 +61,6 @@ const ProjectsPage = () => {
   const indexOfLastProject = currentPage * projectsPerPage;
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
 
-  console.log(projects);
   const filteredProjects = projects
     .filter((project) => {
       const categoryMatch = categoryFilter === 'All' || project.project_area.toLowerCase() === categoryFilter.toLowerCase();

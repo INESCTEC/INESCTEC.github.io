@@ -42,7 +42,6 @@ const HomePage = () => {
       const scrollDirection = event.deltaY > 0 ? 'down' : 'up'; 
       const sections = document.querySelectorAll('.snap-section');
       let currentSectionIndex = 0;
-      let closestSection = null;
 
       sections.forEach((section, index) => {
         const sectionTop = section.offsetTop;
