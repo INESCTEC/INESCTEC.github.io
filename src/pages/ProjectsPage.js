@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer';
@@ -17,7 +17,7 @@ const ProjectsPage = () => {
   const [sortByRepos, setSortByRepos] = useState(null);
 
   const location = useLocation();
-  const queryParams = new URLSearchParams(location.search);
+  const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
   const defaultCategory = queryParams.get('category') || 'All';
 
   useEffect(() => {
@@ -39,7 +39,7 @@ const ProjectsPage = () => {
   useEffect(() => {
     const category = queryParams.get('category');
     if (category) setCategoryFilter(category);
-  }, [location.search, queryParams]);
+  }, [queryParams]);
 
   const handleCategoryChange = (category) => {
     setCategoryFilter(category);
