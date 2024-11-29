@@ -8,14 +8,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "dataspaces",
-            "enershare",
-            "python",
-            "tno-security-gateway",
-            "client-library",
-            "energy",
+            "price-optimization",
             "renewable-energy-communities",
             "energy-communities",
-            "price-optimization"
+            "client-library",
+            "enershare",
+            "tno-security-gateway",
+            "python",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -70,15 +70,15 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
+            "data-marketplace",
+            "greendatai",
+            "client-library",
             "data-sharing-incentives",
             "data-sharing",
-            "greendatai",
             "enershare",
-            "python",
-            "data-marketplace",
-            "client-library",
             "collaborative-forecasting",
             "machine-learning-algorithms",
+            "python",
             "energy"
         ],
         "top_repositories": [
@@ -138,8 +138,8 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "energy",
             "interconnect",
+            "energy",
             "recommender",
             "python"
         ],
@@ -214,8 +214,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
