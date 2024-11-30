@@ -7,15 +7,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
+            "tno-security-gateway",
             "dataspaces",
-            "price-optimization",
             "renewable-energy-communities",
             "energy-communities",
             "client-library",
-            "enershare",
-            "tno-security-gateway",
             "python",
-            "energy"
+            "price-optimization",
+            "energy",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -70,16 +70,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-marketplace",
             "greendatai",
-            "client-library",
-            "data-sharing-incentives",
-            "data-sharing",
-            "enershare",
-            "collaborative-forecasting",
             "machine-learning-algorithms",
+            "client-library",
             "python",
-            "energy"
+            "data-sharing",
+            "data-sharing-incentives",
+            "data-marketplace",
+            "energy",
+            "collaborative-forecasting",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -139,9 +139,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "interconnect",
+            "python",
             "energy",
-            "recommender",
-            "python"
+            "recommender"
         ],
         "top_repositories": [
             {
