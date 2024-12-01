@@ -8,14 +8,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "tno-security-gateway",
-            "dataspaces",
-            "renewable-energy-communities",
-            "energy-communities",
-            "client-library",
             "python",
             "price-optimization",
+            "dataspaces",
+            "client-library",
             "energy",
-            "enershare"
+            "renewable-energy-communities",
+            "enershare",
+            "energy-communities"
         ],
         "top_repositories": [
             {
@@ -70,16 +70,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
-            "machine-learning-algorithms",
-            "client-library",
-            "python",
-            "data-sharing",
-            "data-sharing-incentives",
             "data-marketplace",
+            "python",
+            "data-sharing-incentives",
             "energy",
+            "client-library",
             "collaborative-forecasting",
-            "enershare"
+            "enershare",
+            "data-sharing",
+            "greendatai",
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -138,10 +138,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
-            "python",
+            "recommender",
             "energy",
-            "recommender"
+            "interconnect",
+            "python"
         ],
         "top_repositories": [
             {
@@ -168,8 +168,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
@@ -214,8 +214,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
