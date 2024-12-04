@@ -11,11 +11,11 @@
             "enershare",
             "energy",
             "price-optimization",
-            "renewable-energy-communities",
+            "python",
             "client-library",
-            "energy-communities",
             "tno-security-gateway",
-            "python"
+            "energy-communities",
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -70,16 +70,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
-            "data-marketplace",
             "enershare",
-            "machine-learning-algorithms",
             "energy",
-            "data-sharing-incentives",
+            "greendatai",
+            "python",
+            "data-marketplace",
+            "machine-learning-algorithms",
             "client-library",
             "collaborative-forecasting",
-            "data-sharing",
-            "python"
+            "data-sharing-incentives",
+            "data-sharing"
         ],
         "top_repositories": [
             {
@@ -139,9 +139,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "recommender",
+            "python",
             "energy",
-            "interconnect",
-            "python"
+            "interconnect"
         ],
         "top_repositories": [
             {
@@ -173,8 +173,8 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -183,8 +183,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
