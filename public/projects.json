@@ -1,6 +1,18 @@
 [
     {
         "project_area": "Energy",
+        "project_name": "Predico",
+        "project_logo": "predico.png",
+        "project_website": "https://www.inesctec.pt/en/news/the-platform-that-seeks-to-revolutionise-the-forecasting-of-energy-production-is-collaborative-and-features-inesc-tec#about",
+        "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
+        "project_topic": "predico",
+        "project_tags": [],
+        "top_repositories": [],
+        "total_stars": 0,
+        "total_repositories": 0
+    },
+    {
+        "project_area": "Energy",
         "project_name": "Enershare",
         "project_logo": "enershare.png",
         "project_website": "https://enershare.eu/",
