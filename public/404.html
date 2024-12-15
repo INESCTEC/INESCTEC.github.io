@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=/" />
     <script>
         const pathname = window.location.pathname;
         const search = window.location.search;
-        window.location.replace("/?" + pathname.slice(1) + search);
+        const hash = window.location.hash;
+
+        window.location.replace(`/${pathname}${search}${hash}`);
     </script>
 </head>
 <body>
