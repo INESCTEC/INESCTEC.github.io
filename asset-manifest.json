@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.83471381.css",
-    "main.js": "/static/js/main.02ce096b.js",
+    "main.css": "/static/css/main.4c8d44de.css",
+    "main.js": "/static/js/main.cc4c3b45.js",
     "static/js/320.b2298d80.chunk.js": "/static/js/320.b2298d80.chunk.js",
     "static/js/59.6e992d79.chunk.js": "/static/js/59.6e992d79.chunk.js",
     "static/js/390.7c711313.chunk.js": "/static/js/390.7c711313.chunk.js",
@@ -10,7 +10,6 @@
     "static/js/216.2b68d49c.chunk.js": "/static/js/216.2b68d49c.chunk.js",
     "static/js/265.4f55319e.chunk.js": "/static/js/265.4f55319e.chunk.js",
     "static/js/490.4777361d.chunk.js": "/static/js/490.4777361d.chunk.js",
-    "static/js/453.ff2cd7f0.chunk.js": "/static/js/453.ff2cd7f0.chunk.js",
     "static/media/circuit.png": "/static/media/circuit.38c9c48472f5c5a37f24.png",
     "static/media/INESCTEC_circuito_Set2024-03-cropped.svg": "/static/media/INESCTEC_circuito_Set2024-03-cropped.b499a3b2f7dd7713175175b0120ad73a.svg",
     "static/media/interconnect.png": "/static/media/interconnect.554d1a8626e2c6082e6b.png",
@@ -22,12 +21,11 @@
     "static/media/greendatai.png": "/static/media/greendatai.48676af4115d7d2fd421.png",
     "static/media/attest.png": "/static/media/attest.0dc6f57ae77da58021dd.png",
     "index.html": "/index.html",
-    "main.83471381.css.map": "/static/css/main.83471381.css.map",
-    "main.02ce096b.js.map": "/static/js/main.02ce096b.js.map",
-    "453.ff2cd7f0.chunk.js.map": "/static/js/453.ff2cd7f0.chunk.js.map"
+    "main.4c8d44de.css.map": "/static/css/main.4c8d44de.css.map",
+    "main.cc4c3b45.js.map": "/static/js/main.cc4c3b45.js.map"
   },
   "entrypoints": [
-    "static/css/main.83471381.css",
-    "static/js/main.02ce096b.js"
+    "static/css/main.4c8d44de.css",
+    "static/js/main.cc4c3b45.js"
   ]
 }
