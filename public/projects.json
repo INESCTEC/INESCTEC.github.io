@@ -1,36 +1,6 @@
 [
     {
         "project_area": "Energy",
-        "project_name": "Predico",
-        "project_logo": "predico.png",
-        "project_website": "https://www.inesctec.pt/en/news/the-platform-that-seeks-to-revolutionise-the-forecasting-of-energy-production-is-collaborative-and-features-inesc-tec#about",
-        "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
-        "project_topic": "predico",
-        "project_tags": [
-            "collaborative-analytics",
-            "predico",
-            "collaborative-forecasting",
-            "data-market"
-        ],
-        "top_repositories": [
-            {
-                "name": "predico-collabforecast",
-                "url": "https://github.com/INESCTEC/predico-collabforecast",
-                "stars": 3,
-                "is_fork": false,
-                "topics": [
-                    "collaborative-analytics",
-                    "collaborative-forecasting",
-                    "data-market",
-                    "predico"
-                ]
-            }
-        ],
-        "total_stars": 3,
-        "total_repositories": 1
-    },
-    {
-        "project_area": "Energy",
         "project_name": "Enershare",
         "project_logo": "enershare.png",
         "project_website": "https://enershare.eu/",
@@ -38,14 +8,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "price-optimization",
-            "enershare",
-            "dataspaces",
             "energy-communities",
             "tno-security-gateway",
-            "python",
+            "dataspaces",
             "client-library",
-            "renewable-energy-communities",
-            "energy"
+            "python",
+            "enershare",
+            "energy",
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -100,16 +70,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing-incentives",
-            "enershare",
             "data-sharing",
-            "machine-learning-algorithms",
-            "python",
             "client-library",
-            "collaborative-forecasting",
-            "data-marketplace",
+            "enershare",
+            "python",
+            "machine-learning-algorithms",
+            "data-sharing-incentives",
+            "greendatai",
             "energy",
-            "greendatai"
+            "collaborative-forecasting",
+            "data-marketplace"
         ],
         "top_repositories": [
             {
@@ -122,20 +92,6 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -155,6 +111,20 @@
                     "data-marketplace",
                     "energy"
                 ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
             }
         ],
         "total_stars": 7,
@@ -168,10 +138,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "recommender",
             "energy",
-            "interconnect",
-            "python"
+            "recommender",
+            "python",
+            "interconnect"
         ],
         "top_repositories": [
             {
@@ -198,8 +168,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
