@@ -1,9 +1,10 @@
 name: Redeploy Site
 
 on:
-  push:
-    branches:
-      - master
+  workflow_run:
+    workflows: ["Update JSON Files"]
+    types:
+      - completed
 
 jobs:
   deploy:
