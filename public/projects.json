@@ -1,21 +1,51 @@
 [
     {
         "project_area": "Energy",
+        "project_name": "Predico",
+        "project_logo": "predico.png",
+        "project_website": "https://www.inesctec.pt/en/news/the-platform-that-seeks-to-revolutionise-the-forecasting-of-energy-production-is-collaborative-and-features-inesc-tec#about",
+        "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
+        "project_topic": "predico",
+        "project_tags": [
+            "predico",
+            "collaborative-analytics",
+            "data-market",
+            "collaborative-forecasting"
+        ],
+        "top_repositories": [
+            {
+                "name": "predico-collabforecast",
+                "url": "https://github.com/INESCTEC/predico-collabforecast",
+                "stars": 3,
+                "is_fork": false,
+                "topics": [
+                    "collaborative-analytics",
+                    "collaborative-forecasting",
+                    "data-market",
+                    "predico"
+                ]
+            }
+        ],
+        "total_stars": 3,
+        "total_repositories": 1
+    },
+    {
+        "project_area": "Energy",
         "project_name": "Enershare",
         "project_logo": "enershare.png",
         "project_website": "https://enershare.eu/",
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "price-optimization",
             "energy-communities",
-            "tno-security-gateway",
             "dataspaces",
-            "client-library",
-            "python",
             "enershare",
             "energy",
-            "renewable-energy-communities"
+            "price-optimization",
+            "client-library",
+            "renewable-energy-communities",
+            "python",
+            "tno-security-gateway"
         ],
         "top_repositories": [
             {
@@ -70,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing",
-            "client-library",
             "enershare",
-            "python",
-            "machine-learning-algorithms",
-            "data-sharing-incentives",
-            "greendatai",
+            "data-marketplace",
+            "data-sharing",
             "energy",
-            "collaborative-forecasting",
-            "data-marketplace"
+            "client-library",
+            "machine-learning-algorithms",
+            "greendatai",
+            "python",
+            "data-sharing-incentives",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -138,10 +168,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "energy",
             "recommender",
-            "python",
-            "interconnect"
+            "energy",
+            "interconnect",
+            "python"
         ],
         "top_repositories": [
             {
