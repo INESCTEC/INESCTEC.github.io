@@ -2,11 +2,11 @@
 <html>
 <head>
     <script>
+        const baseUrl = window.location.origin + "/";
         const pathname = window.location.pathname;
         const search = window.location.search;
         const hash = window.location.hash;
-
-        window.location.replace(`/${pathname}${search}${hash}`);
+        window.location.replace(baseUrl + pathname.slice(1) + search + hash);
     </script>
 </head>
 <body>
