@@ -56,10 +56,10 @@
 	{
         "project_area": "Energy",
         "project_name": "EMB3Rs",
-        "project_logo": "embers.png",
+        "project_logo": "emb3rs.png",
         "project_website": "https://www.emb3rs.eu/",
         "project_description": "EMB3Rs stands for “User-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
-        "project_topic": "embers",
+        "project_topic": "emb3rs",
         "project_tags": ["Energy", "data-spaces", "data-sharing"]
     }
 ]
