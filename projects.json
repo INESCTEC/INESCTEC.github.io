@@ -7,9 +7,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "predico",
-            "collaborative-forecasting",
             "data-market",
+            "collaborative-forecasting",
+            "predico",
             "collaborative-analytics"
         ],
         "top_repositories": [
@@ -38,13 +38,13 @@
         "project_topic": "enershare",
         "project_tags": [
             "client-library",
-            "python",
             "dataspaces",
-            "tno-security-gateway",
             "renewable-energy-communities",
-            "energy-communities",
+            "tno-security-gateway",
+            "python",
             "price-optimization",
             "energy",
+            "energy-communities",
             "enershare"
         ],
         "top_repositories": [
@@ -100,15 +100,15 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-marketplace",
             "client-library",
-            "data-sharing-incentives",
+            "data-marketplace",
             "python",
-            "collaborative-forecasting",
             "data-sharing",
             "greendatai",
             "machine-learning-algorithms",
             "energy",
+            "data-sharing-incentives",
+            "collaborative-forecasting",
             "enershare"
         ],
         "top_repositories": [
@@ -168,10 +168,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
             "recommender",
-            "python",
-            "energy"
+            "energy",
+            "interconnect",
+            "python"
         ],
         "top_repositories": [
             {
@@ -198,13 +198,13 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -213,8 +213,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
