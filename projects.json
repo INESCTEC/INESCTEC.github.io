@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-forecasting",
-            "predico",
             "collaborative-analytics",
-            "data-market"
+            "data-market",
+            "collaborative-forecasting",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "tno-security-gateway",
-            "dataspaces",
+            "client-library",
+            "renewable-energy-communities",
             "energy",
             "enershare",
-            "python",
-            "renewable-energy-communities",
-            "energy-communities",
+            "tno-security-gateway",
             "price-optimization",
-            "client-library"
+            "dataspaces",
+            "python",
+            "energy-communities"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "data-sharing-incentives",
-            "greendatai",
+            "client-library",
             "collaborative-forecasting",
             "data-sharing",
             "energy",
             "enershare",
-            "data-marketplace",
             "python",
-            "machine-learning-algorithms",
-            "client-library"
+            "greendatai",
+            "data-marketplace",
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -168,10 +168,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "python",
-            "energy",
             "interconnect",
-            "recommender"
+            "recommender",
+            "python",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -244,8 +244,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
