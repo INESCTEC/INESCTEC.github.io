@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
-            "predico",
             "collaborative-forecasting",
-            "collaborative-analytics"
+            "collaborative-analytics",
+            "data-market",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -38,14 +38,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "client-library",
-            "tno-security-gateway",
-            "python",
-            "energy-communities",
-            "dataspaces",
-            "energy",
-            "price-optimization",
             "enershare",
-            "renewable-energy-communities"
+            "energy-communities",
+            "renewable-energy-communities",
+            "price-optimization",
+            "energy",
+            "dataspaces",
+            "tno-security-gateway",
+            "python"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "client-library",
-            "python",
-            "collaborative-forecasting",
-            "greendatai",
-            "machine-learning-algorithms",
-            "data-sharing-incentives",
-            "data-sharing",
-            "energy",
+            "enershare",
             "data-marketplace",
-            "enershare"
+            "machine-learning-algorithms",
+            "collaborative-forecasting",
+            "energy",
+            "data-sharing",
+            "data-sharing-incentives",
+            "greendatai",
+            "python"
         ],
         "top_repositories": [
             {
@@ -122,6 +122,20 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -141,20 +155,6 @@
                     "data-marketplace",
                     "energy"
                 ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 7,
@@ -169,9 +169,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "interconnect",
-            "recommender",
+            "energy",
             "python",
-            "energy"
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -198,8 +198,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
