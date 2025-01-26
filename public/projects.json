@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "predico",
+            "collaborative-analytics",
             "data-market",
             "collaborative-forecasting",
-            "collaborative-analytics"
+            "predico"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
+            "client-library",
             "renewable-energy-communities",
+            "energy-communities",
+            "dataspaces",
+            "energy",
             "enershare",
             "python",
-            "client-library",
-            "energy",
-            "price-optimization",
-            "dataspaces",
-            "energy-communities",
-            "tno-security-gateway"
+            "tno-security-gateway",
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "data-sharing-incentives",
-            "enershare",
-            "collaborative-forecasting",
-            "data-sharing",
-            "energy",
-            "client-library",
-            "python",
             "machine-learning-algorithms",
+            "data-marketplace",
+            "client-library",
             "greendatai",
-            "data-marketplace"
+            "data-sharing",
+            "collaborative-forecasting",
+            "energy",
+            "enershare",
+            "python"
         ],
         "top_repositories": [
             {
@@ -168,9 +168,9 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
-            "python",
             "recommender",
+            "python",
+            "interconnect",
             "energy"
         ],
         "top_repositories": [
@@ -290,8 +290,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
