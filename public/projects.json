@@ -8,9 +8,9 @@
         "project_topic": "predico",
         "project_tags": [
             "collaborative-forecasting",
-            "collaborative-analytics",
+            "predico",
             "data-market",
-            "predico"
+            "collaborative-analytics"
         ],
         "top_repositories": [
             {
@@ -38,14 +38,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "tno-security-gateway",
-            "price-optimization",
-            "client-library",
-            "dataspaces",
-            "renewable-energy-communities",
-            "enershare",
             "python",
-            "energy-communities",
-            "energy"
+            "price-optimization",
+            "renewable-energy-communities",
+            "dataspaces",
+            "energy",
+            "enershare",
+            "client-library",
+            "energy-communities"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "machine-learning-algorithms",
-            "data-sharing",
-            "data-sharing-incentives",
-            "client-library",
+            "collaborative-forecasting",
+            "python",
+            "energy",
             "data-marketplace",
             "enershare",
-            "python",
-            "collaborative-forecasting",
-            "energy",
-            "greendatai"
+            "greendatai",
+            "client-library",
+            "data-sharing",
+            "data-sharing-incentives"
         ],
         "top_repositories": [
             {
@@ -168,10 +168,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "recommender",
-            "python",
             "energy",
-            "interconnect"
+            "python",
+            "interconnect",
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -249,18 +249,8 @@
         ],
         "top_repositories": [
             {
-                "name": "InterSTORE---Data-Space-Connector-UI",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "interstore",
-                    "energy"
-                ]
-            },
-            {
-                "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
-                "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -271,6 +261,16 @@
             {
                 "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
                 "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "interstore",
+                    "energy"
+                ]
+            },
+            {
+                "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
+                "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
