@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "predico",
+            "collaborative-forecasting",
             "collaborative-analytics",
             "data-market",
-            "collaborative-forecasting"
+            "predico"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "enershare",
-            "client-library",
-            "energy",
-            "python",
             "tno-security-gateway",
-            "energy-communities",
             "price-optimization",
             "renewable-energy-communities",
-            "dataspaces"
+            "python",
+            "enershare",
+            "dataspaces",
+            "energy",
+            "client-library",
+            "energy-communities"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "enershare",
+            "data-marketplace",
+            "python",
+            "collaborative-forecasting",
             "energy",
             "client-library",
-            "greendatai",
-            "data-sharing-incentives",
-            "data-sharing",
-            "python",
             "machine-learning-algorithms",
-            "data-marketplace",
-            "collaborative-forecasting"
+            "data-sharing",
+            "data-sharing-incentives",
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -169,9 +169,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "energy",
+            "recommender",
             "python",
-            "interconnect",
-            "recommender"
+            "interconnect"
         ],
         "top_repositories": [
             {
@@ -203,8 +203,8 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -213,8 +213,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -249,6 +249,16 @@
         ],
         "top_repositories": [
             {
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "interstore",
+                    "energy"
+                ]
+            },
+            {
                 "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
                 "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
                 "stars": 0,
@@ -261,16 +271,6 @@
             {
                 "name": "InterSTORE---interoperability-common",
                 "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "interstore",
-                    "energy"
-                ]
-            },
-            {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -290,8 +290,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
