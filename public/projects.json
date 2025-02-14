@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
+            "collaborative-analytics",
             "collaborative-forecasting",
             "data-market",
-            "predico",
-            "collaborative-analytics"
+            "predico"
         ],
         "top_repositories": [
             {
@@ -38,14 +38,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "energy",
-            "energy-communities",
-            "enershare",
             "python",
-            "price-optimization",
             "renewable-energy-communities",
+            "enershare",
+            "dataspaces",
+            "energy-communities",
+            "price-optimization",
             "client-library",
-            "tno-security-gateway",
-            "dataspaces"
+            "tno-security-gateway"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing",
-            "greendatai",
-            "energy",
-            "enershare",
-            "python",
-            "data-sharing-incentives",
-            "collaborative-forecasting",
             "data-marketplace",
+            "energy",
+            "python",
+            "enershare",
+            "data-sharing-incentives",
+            "data-sharing",
+            "client-library",
             "machine-learning-algorithms",
-            "client-library"
+            "collaborative-forecasting",
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -168,10 +168,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "recommender",
+            "interconnect",
             "energy",
             "python",
-            "interconnect"
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -244,20 +244,10 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
-            {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "interstore",
-                    "energy"
-                ]
-            },
             {
                 "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
                 "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
@@ -271,6 +261,16 @@
             {
                 "name": "InterSTORE---Data-Space-Connector-UI",
                 "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "interstore",
+                    "energy"
+                ]
+            },
+            {
+                "name": "InterSTORE---interoperability-common",
+                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
