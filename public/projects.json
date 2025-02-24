@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-analytics",
+            "predico",
             "collaborative-forecasting",
             "data-market",
-            "predico"
+            "collaborative-analytics"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "client-library",
             "price-optimization",
+            "energy-communities",
+            "tno-security-gateway",
+            "client-library",
+            "python",
             "enershare",
             "dataspaces",
-            "python",
             "renewable-energy-communities",
-            "energy",
-            "tno-security-gateway",
-            "energy-communities"
+            "energy"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "collaborative-forecasting",
-            "enershare",
-            "data-marketplace",
-            "python",
-            "data-sharing-incentives",
-            "data-sharing",
-            "machine-learning-algorithms",
             "energy",
             "client-library",
-            "greendatai"
+            "data-sharing",
+            "machine-learning-algorithms",
+            "greendatai",
+            "python",
+            "enershare",
+            "data-sharing-incentives",
+            "data-marketplace"
         ],
         "top_repositories": [
             {
@@ -168,9 +168,9 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "energy",
-            "python",
             "interconnect",
+            "python",
+            "energy",
             "recommender"
         ],
         "top_repositories": [
@@ -249,28 +249,28 @@
         ],
         "top_repositories": [
             {
-                "name": "InterSTORE---Data-Space-Connector-UI",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "interstore",
-                    "energy"
-                ]
-            },
-            {
-                "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
-                "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "interstore",
-                    "energy"
-                ]
-            },
-            {
                 "name": "InterSTORE---Client-Server",
                 "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "interstore",
+                    "energy"
+                ]
+            },
+            {
+                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "interstore",
+                    "energy"
+                ]
+            },
+            {
+                "name": "InterSTORE---Data-Space-Connector-UI",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
