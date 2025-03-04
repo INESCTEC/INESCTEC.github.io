@@ -7,9 +7,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "predico",
-            "data-market",
             "collaborative-forecasting",
+            "data-market",
+            "predico",
             "collaborative-analytics"
         ],
         "top_repositories": [
@@ -38,13 +38,13 @@
         "project_topic": "enershare",
         "project_tags": [
             "price-optimization",
-            "client-library",
-            "tno-security-gateway",
-            "renewable-energy-communities",
             "python",
             "energy-communities",
-            "dataspaces",
             "enershare",
+            "tno-security-gateway",
+            "client-library",
+            "renewable-energy-communities",
+            "dataspaces",
             "energy"
         ],
         "top_repositories": [
@@ -100,15 +100,15 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "client-library",
             "data-sharing-incentives",
-            "data-sharing",
-            "greendatai",
-            "collaborative-forecasting",
             "python",
-            "machine-learning-algorithms",
-            "enershare",
+            "data-sharing",
             "data-marketplace",
+            "enershare",
+            "collaborative-forecasting",
+            "client-library",
+            "greendatai",
+            "machine-learning-algorithms",
             "energy"
         ],
         "top_repositories": [
@@ -169,9 +169,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "interconnect",
+            "energy",
             "python",
-            "recommender",
-            "energy"
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -223,8 +223,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP4-T4.6-Online-Dynamic-Security-Assessment",
-                "url": "https://github.com/INESCTEC/ATTEST-WP4-T4.6-Online-Dynamic-Security-Assessment",
+                "name": "ATTEST-shared-resource-planning",
+                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -249,16 +249,6 @@
         ],
         "top_repositories": [
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "interstore",
-                    "energy"
-                ]
-            },
-            {
                 "name": "InterSTORE---Hybrid-Storage-Sizing-Model",
                 "url": "https://github.com/INESCTEC/InterSTORE---Hybrid-Storage-Sizing-Model",
                 "stars": 0,
@@ -271,6 +261,16 @@
             {
                 "name": "InterSTORE---interoperability-common",
                 "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "interstore",
+                    "energy"
+                ]
+            },
+            {
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -290,8 +290,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
