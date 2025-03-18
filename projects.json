@@ -8,9 +8,9 @@
         "project_topic": "predico",
         "project_tags": [
             "collaborative-analytics",
-            "predico",
+            "data-market",
             "collaborative-forecasting",
-            "data-market"
+            "predico"
         ],
         "top_repositories": [
             {
@@ -38,14 +38,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "dataspaces",
-            "energy",
-            "renewable-energy-communities",
             "tno-security-gateway",
-            "enershare",
-            "python",
+            "energy-communities",
             "price-optimization",
             "client-library",
-            "energy-communities"
+            "python",
+            "enershare",
+            "renewable-energy-communities",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "energy",
-            "collaborative-forecasting",
             "data-sharing",
-            "enershare",
-            "python",
+            "collaborative-forecasting",
+            "machine-learning-algorithms",
             "client-library",
             "data-marketplace",
+            "python",
+            "enershare",
             "greendatai",
-            "data-sharing-incentives",
-            "machine-learning-algorithms"
+            "data-sharing-incentives"
         ],
         "top_repositories": [
             {
@@ -169,9 +169,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "energy",
-            "python",
             "interconnect",
-            "recommender"
+            "recommender",
+            "python"
         ],
         "top_repositories": [
             {
@@ -244,8 +244,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
