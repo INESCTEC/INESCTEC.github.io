@@ -7,9 +7,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
+            "collaborative-forecasting",
             "collaborative-analytics",
             "data-market",
-            "collaborative-forecasting",
             "predico"
         ],
         "top_repositories": [
@@ -38,14 +38,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "dataspaces",
+            "price-optimization",
+            "renewable-energy-communities",
             "tno-security-gateway",
             "energy-communities",
-            "price-optimization",
-            "client-library",
             "python",
-            "enershare",
-            "renewable-energy-communities",
-            "energy"
+            "energy",
+            "client-library",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "energy",
             "data-sharing",
-            "collaborative-forecasting",
             "machine-learning-algorithms",
+            "data-sharing-incentives",
+            "python",
+            "greendatai",
+            "energy",
+            "collaborative-forecasting",
             "client-library",
             "data-marketplace",
-            "python",
-            "enershare",
-            "greendatai",
-            "data-sharing-incentives"
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -168,10 +168,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "energy",
-            "interconnect",
             "recommender",
-            "python"
+            "python",
+            "interconnect",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -244,8 +244,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
