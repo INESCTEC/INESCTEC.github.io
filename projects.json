@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
-            "predico",
+            "collaborative-analytics",
             "collaborative-forecasting",
-            "collaborative-analytics"
+            "data-market",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy",
-            "tno-security-gateway",
-            "dataspaces",
-            "energy-communities",
             "client-library",
-            "renewable-energy-communities",
             "price-optimization",
             "enershare",
-            "python"
+            "tno-security-gateway",
+            "python",
+            "energy-communities",
+            "energy",
+            "dataspaces",
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "energy",
-            "data-marketplace",
             "data-sharing-incentives",
-            "client-library",
             "greendatai",
-            "collaborative-forecasting",
-            "machine-learning-algorithms",
+            "data-marketplace",
+            "client-library",
+            "data-sharing",
             "enershare",
+            "collaborative-forecasting",
             "python",
-            "data-sharing"
+            "energy",
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -168,10 +168,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "recommender",
-            "energy",
             "interconnect",
-            "python"
+            "python",
+            "energy",
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -203,8 +203,8 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -213,8 +213,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -244,8 +244,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
@@ -290,8 +290,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
