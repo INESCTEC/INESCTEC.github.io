@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
-            "predico",
             "collaborative-analytics",
-            "collaborative-forecasting"
+            "data-market",
+            "collaborative-forecasting",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "price-optimization",
-            "renewable-energy-communities",
-            "enershare",
             "energy-communities",
-            "dataspaces",
-            "python",
-            "tno-security-gateway",
+            "client-library",
             "energy",
-            "client-library"
+            "enershare",
+            "price-optimization",
+            "python",
+            "renewable-energy-communities",
+            "dataspaces",
+            "tno-security-gateway"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "data-marketplace",
-            "data-sharing",
-            "collaborative-forecasting",
-            "enershare",
-            "greendatai",
-            "python",
+            "client-library",
             "energy",
-            "data-sharing-incentives",
+            "enershare",
             "machine-learning-algorithms",
-            "client-library"
+            "greendatai",
+            "data-sharing-incentives",
+            "python",
+            "collaborative-forecasting",
+            "data-sharing"
         ],
         "top_repositories": [
             {
@@ -169,9 +169,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "energy",
+            "python",
             "interconnect",
-            "recommender",
-            "python"
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -198,8 +198,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
@@ -269,8 +269,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---interoperability-common",
-                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
