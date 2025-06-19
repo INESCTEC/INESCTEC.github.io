@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "predico",
-            "data-market",
+            "collaborative-analytics",
             "collaborative-forecasting",
-            "collaborative-analytics"
+            "data-market",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "price-optimization",
+            "tno-security-gateway",
             "python",
             "energy",
             "renewable-energy-communities",
             "enershare",
-            "tno-security-gateway",
-            "dataspaces",
+            "client-library",
+            "price-optimization",
             "energy-communities",
-            "client-library"
+            "dataspaces"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "python",
-            "data-marketplace",
             "energy",
-            "machine-learning-algorithms",
-            "greendatai",
-            "enershare",
             "data-sharing-incentives",
-            "client-library",
             "data-sharing",
-            "collaborative-forecasting"
+            "enershare",
+            "greendatai",
+            "collaborative-forecasting",
+            "client-library",
+            "data-marketplace",
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -122,6 +122,20 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -141,20 +155,6 @@
                     "data-marketplace",
                     "energy"
                 ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 7,
@@ -169,9 +169,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "python",
-            "energy",
             "recommender",
-            "interconnect"
+            "interconnect",
+            "energy"
         ],
         "top_repositories": [
             {
