@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
-            "collaborative-analytics",
+            "predico",
             "collaborative-forecasting",
-            "predico"
+            "data-market",
+            "collaborative-analytics"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "tno-security-gateway",
-            "dataspaces",
-            "price-optimization",
-            "energy-communities",
             "energy",
-            "enershare",
             "python",
+            "price-optimization",
+            "client-library",
+            "enershare",
+            "energy-communities",
             "renewable-energy-communities",
-            "client-library"
+            "dataspaces",
+            "tno-security-gateway"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
-            "data-sharing-incentives",
             "data-sharing",
+            "data-sharing-incentives",
+            "greendatai",
             "energy",
-            "data-marketplace",
-            "enershare",
-            "collaborative-forecasting",
             "python",
-            "machine-learning-algorithms",
-            "client-library"
+            "client-library",
+            "enershare",
+            "data-marketplace",
+            "collaborative-forecasting",
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -122,6 +122,20 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -141,20 +155,6 @@
                     "data-marketplace",
                     "energy"
                 ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 7,
@@ -169,9 +169,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "energy",
+            "interconnect",
             "recommender",
-            "python",
-            "interconnect"
+            "python"
         ],
         "top_repositories": [
             {
@@ -203,16 +203,6 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "attest",
-                    "energy"
-                ]
-            },
-            {
                 "name": "ATTEST-shared-resource-planning",
                 "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
@@ -225,6 +215,16 @@
             {
                 "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "attest",
+                    "energy"
+                ]
+            },
+            {
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -244,8 +244,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -259,8 +259,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -269,8 +269,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
