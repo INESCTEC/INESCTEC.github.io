@@ -8,9 +8,9 @@
         "project_topic": "predico",
         "project_tags": [
             "collaborative-analytics",
-            "collaborative-forecasting",
             "predico",
-            "data-market"
+            "data-market",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -38,14 +38,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "tno-security-gateway",
-            "renewable-energy-communities",
-            "enershare",
-            "price-optimization",
             "python",
+            "dataspaces",
+            "client-library",
             "energy-communities",
             "energy",
-            "client-library",
-            "dataspaces"
+            "price-optimization",
+            "renewable-energy-communities",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -102,16 +102,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "enershare",
             "collaborative-forecasting",
             "python",
-            "energy",
-            "data-sharing-incentives",
-            "data-sharing",
-            "greendatai",
-            "machine-learning-algorithms",
             "client-library",
-            "data-marketplace"
+            "greendatai",
+            "data-marketplace",
+            "energy",
+            "machine-learning-algorithms",
+            "data-sharing",
+            "data-sharing-incentives",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -171,9 +171,9 @@
         "project_topic": "interconnect",
         "project_tags": [
             "energy",
-            "recommender",
+            "python",
             "interconnect",
-            "python"
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -271,8 +271,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "name": "InterSTORE---interoperability-common",
+                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -292,8 +292,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
