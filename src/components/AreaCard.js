@@ -27,8 +27,8 @@ const AreaCard = ({ area }) => {
   }, [area.featured_projects]);
 
   const handleSeeProjectsClick = () => {
-    navigate(`/projects?category=Energy`);
-    window.scrollTo(0, 0); 
+    navigate(`/projects?category=${encodeURIComponent(area.area)}`);
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -40,7 +40,7 @@ const AreaCard = ({ area }) => {
       >
         {/* Left Section */}
         <div className="w-2/3 pr-6 flex flex-col items-start">
-          <h2 className={`text-4xl font-black mb-6 ${area.area === 'Energy' ? 'reverse-gradient-text' : 'text-industry-red'}`}>
+          <h2 className="text-4xl font-black mb-6 reverse-gradient-text">
             {area.area}
           </h2>
           <p className="text-gray-700 text-lg mb-6 leading-relaxed overflow-hidden" style={{ maxWidth: '90%' }}>
@@ -53,7 +53,7 @@ const AreaCard = ({ area }) => {
 
         {/* Right Section */}
         <div className="w-1/3 mr-6">
-          <h3 className={`${area.area === 'Energy' ? 'text-dark-blue-2' : 'text-industry-red'} font-black text-xl mb-4`}>
+          <h3 className="text-dark-blue-2 font-black text-xl mb-4">
             Featured Projects
           </h3>
           <div className="space-y-4">
@@ -86,7 +86,7 @@ const AreaCard = ({ area }) => {
 
       {/* Mobile Layout */}
       <div className="md:hidden flex flex-col items-center text-center p-4 bg-white border border-gray-300 rounded-lg shadow-lg">
-        <h2 className={`text-4xl font-black mb-2 ${area.area === 'Energy' ? 'text-energy-yellow' : 'text-industry-red'}`}>
+        <h2 className="text-4xl font-black mb-2 text-energy-yellow">
           {area.area}
         </h2>
 

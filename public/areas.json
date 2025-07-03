@@ -25,5 +25,23 @@
                 "total_repos": 1
             }
         ]
+    },
+    {
+        "area": "Robotics",
+        "area_description": "The Robotics area focuses on projects related to the development of robotic systems and technologies that enhance autonomy, safety, and efficiency",
+        "featured_projects": [
+            {
+                "project_name": "TRIBE",
+                "project_topic": "tribe",
+                "project_logo": "tribe.png",
+                "total_stars": 3,
+                "total_repos": 3
+            },
+            {
+                "project_name": "iiLab",
+                "project_topic": "iilab",
+                "project_logo": "iilab.png"
+            }
+        ]
     }
 ]

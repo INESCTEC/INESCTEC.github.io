@@ -22,7 +22,7 @@ const Header = ({
   const [activeCategory, setActiveCategory] = useState(defaultCategory || 'All');
   const [isArrowUp, setIsArrowUp] = useState(true);
   const [calendarArrowUp, setCalendarArrowUp] = useState(true);
-  const categories = ['All', 'Energy'];
+  const categories = ['All', 'Energy', 'Robotics'];
 
   const handleSearchInputChange = (event) => {
     onSearchChange(event.target.value);
