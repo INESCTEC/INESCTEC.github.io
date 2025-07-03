@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[790],{790:(e,s,p)=>{e.exports=p.p+"static/media/tribe.105f7f86404657e63c63.png"}}]);

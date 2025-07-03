@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-analytics",
-            "data-market",
+            "predico",
             "collaborative-forecasting",
-            "predico"
+            "collaborative-analytics",
+            "data-market"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "client-library",
-            "energy",
-            "energy-communities",
             "renewable-energy-communities",
+            "python",
+            "energy",
+            "price-optimization",
+            "client-library",
             "enershare",
             "dataspaces",
             "tno-security-gateway",
-            "price-optimization",
-            "python"
+            "energy-communities"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "client-library",
             "data-sharing-incentives",
-            "energy",
-            "data-sharing",
             "machine-learning-algorithms",
-            "enershare",
-            "data-marketplace",
-            "collaborative-forecasting",
             "python",
-            "greendatai"
+            "data-sharing",
+            "collaborative-forecasting",
+            "greendatai",
+            "energy",
+            "client-library",
+            "enershare",
+            "data-marketplace"
         ],
         "top_repositories": [
             {
@@ -169,8 +169,8 @@
         "project_topic": "interconnect",
         "project_tags": [
             "energy",
-            "recommender",
             "python",
+            "recommender",
             "interconnect"
         ],
         "top_repositories": [
@@ -203,16 +203,6 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "attest",
-                    "energy"
-                ]
-            },
-            {
                 "name": "ATTEST-shared-resource-planning",
                 "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
@@ -225,6 +215,16 @@
             {
                 "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "attest",
+                    "energy"
+                ]
+            },
+            {
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -244,8 +244,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -259,8 +259,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
+                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -269,8 +269,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -307,5 +307,86 @@
         ],
         "total_stars": 0,
         "total_repositories": 1
+    },
+    {
+        "project_area": "Robotics",
+        "project_name": "TRIBE",
+        "project_logo": "tribe.png",
+        "project_website": "https://www.tribe.com",
+        "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
+        "project_topic": "tribe",
+        "project_tags": [
+            "slam",
+            "agro-food",
+            "tribe",
+            "robotics"
+        ],
+        "top_repositories": [
+            {
+                "name": "vineslam",
+                "url": "https://github.com/INESCTEC/vineslam",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "robotics",
+                    "slam",
+                    "agro-food",
+                    "tribe"
+                ]
+            },
+            {
+                "name": "AgRobPP",
+                "url": "https://github.com/INESCTEC/AgRobPP",
+                "stars": 1,
+                "is_fork": false,
+                "topics": [
+                    "tribe"
+                ]
+            },
+            {
+                "name": "tribe_nav_msgs",
+                "url": "https://github.com/INESCTEC/tribe_nav_msgs",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
+                    "tribe"
+                ]
+            }
+        ],
+        "total_stars": 3,
+        "total_repositories": 3
+    },
+    {
+        "project_area": "Robotics",
+        "project_name": "iiLab",
+        "project_logo": "iilab.png",
+        "project_website": "https://www.iilab.com",
+        "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
+        "project_topic": "iilab",
+        "project_tags": [
+            "iilab"
+        ],
+        "top_repositories": [
+            {
+                "name": "OptiOdom-Generic_Approach_for_Odometry_Calibration_of_Wheeled_Mobile_Robots",
+                "url": "https://github.com/INESCTEC/OptiOdom-Generic_Approach_for_Odometry_Calibration_of_Wheeled_Mobile_Robots",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
+                    "iilab"
+                ]
+            },
+            {
+                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
+                    "iilab"
+                ]
+            }
+        ],
+        "total_stars": 0,
+        "total_repositories": 2
     }
 ]

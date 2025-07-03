@@ -61,5 +61,23 @@
         "project_description": "EMB3Rs stands for “User-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": ["Energy"]
+    },
+    {
+        "project_area": "Robotics",
+        "project_name": "TRIBE",
+        "project_logo": "tribe.png",
+        "project_website": "https://www.tribe.com",
+        "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
+        "project_topic": "tribe",
+        "project_tags": ["Robotics"]
+    },
+    {
+        "project_area": "Robotics",
+        "project_name": "iiLab",
+        "project_logo": "iilab.png",
+        "project_website": "https://www.iilab.com",
+        "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
+        "project_topic": "iilab",
+        "project_tags": ["Robotics"]
     }
 ]
