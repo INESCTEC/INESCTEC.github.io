@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-forecasting",
             "data-market",
             "collaborative-analytics",
-            "predico"
+            "predico",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy",
+            "price-optimization",
+            "tno-security-gateway",
+            "enershare",
+            "client-library",
             "energy-communities",
             "dataspaces",
-            "price-optimization",
-            "client-library",
             "python",
-            "tno-security-gateway",
             "renewable-energy-communities",
-            "enershare"
+            "energy"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "machine-learning-algorithms",
-            "energy",
-            "data-sharing",
-            "data-sharing-incentives",
-            "greendatai",
-            "data-marketplace",
-            "collaborative-forecasting",
+            "enershare",
             "client-library",
+            "data-sharing",
+            "collaborative-forecasting",
             "python",
-            "enershare"
+            "data-marketplace",
+            "greendatai",
+            "energy",
+            "data-sharing-incentives"
         ],
         "top_repositories": [
             {
@@ -168,9 +168,9 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "python",
             "recommender",
             "energy",
-            "python",
             "interconnect"
         ],
         "top_repositories": [
@@ -198,8 +198,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -244,8 +244,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
@@ -259,8 +259,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -269,8 +269,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
+                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -290,8 +290,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -316,10 +316,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "slam",
-            "agro-food",
+            "robotics",
             "tribe",
-            "robotics"
+            "slam",
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -366,8 +366,8 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": [
-            "iilab",
-            "robotics"
+            "robotics",
+            "iilab"
         ],
         "top_repositories": [
             {
