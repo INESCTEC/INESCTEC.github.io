@@ -42,7 +42,14 @@
                 "project_topic": "iilab",
                 "project_logo": "iilab.png",
                 "total_stars": 0,
-                "total_repos": 3
+                "total_repos": 1
+            },
+            {
+                "project_name": "GreenAuto",
+                "project_topic": "greenauto",
+                "project_logo": "GreenAuto.png",
+                "total_stars": 0,
+                "total_repos": 2
             }
         ]
     }
