@@ -46,6 +46,14 @@
             "enershare",
             "renewable-energy-communities",
             "tno-security-gateway"
+            "enershare",
+            "dataspaces",
+            "energy",
+            "energy-communities",
+            "renewable-energy-communities",
+            "client-library",
+            "tno-security-gateway",
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -173,7 +181,7 @@
             "python",
             "interconnect",
             "recommender",
-            "energy"
+            "energy",
         ],
         "top_repositories": [
             {
@@ -200,8 +208,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -292,8 +300,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -420,6 +428,6 @@
             }
         ],
         "total_stars": 0,
-        "total_repositories": 2
+        "total_repositories": 3
     }
 ]
