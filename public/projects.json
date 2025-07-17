@@ -7,9 +7,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
             "collaborative-analytics",
             "collaborative-forecasting",
+            "data-market",
             "predico"
         ],
         "top_repositories": [
@@ -38,6 +38,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "python",
+            "energy",
+            "price-optimization",
+            "energy-communities",
+            "dataspaces",
+            "client-library",
+            "enershare",
+            "renewable-energy-communities",
+            "tno-security-gateway"
             "enershare",
             "dataspaces",
             "energy",
@@ -103,15 +111,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "python",
-            "enershare",
             "data-marketplace",
-            "data-sharing-incentives",
-            "machine-learning-algorithms",
             "energy",
+            "data-sharing",
             "greendatai",
             "client-library",
             "collaborative-forecasting",
-            "data-sharing"
+            "enershare",
+            "data-sharing-incentives",
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -170,10 +178,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "python",
             "interconnect",
             "recommender",
             "energy",
-            "python"
         ],
         "top_repositories": [
             {
@@ -261,8 +269,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-UI",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
+                "name": "InterSTORE---interoperability-common",
+                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -271,8 +279,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---interoperability-common",
-                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "name": "InterSTORE---Data-Space-Connector-UI",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -368,8 +376,8 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": [
-            "iilab",
-            "robotics"
+            "robotics",
+            "iilab"
         ],
         "top_repositories": [
             {
@@ -381,15 +389,31 @@
                     "iilab",
                     "robotics"
                 ]
-            },
+            }
+        ],
+        "total_stars": 0,
+        "total_repositories": 1
+    },
+    {
+        "project_area": "Robotics",
+        "project_name": "GreenAuto",
+        "project_logo": "GreenAuto.png",
+        "project_website": "https://www.inesctec.pt/en/laboratories/iilab-industry-and-innovation-lab",
+        "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
+        "project_topic": "greenauto",
+        "project_tags": [
+            "robotics",
+            "greenauto"
+        ],
+        "top_repositories": [
             {
                 "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
                 "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
-                    "iilab",
-                    "robotics"
+                    "robotics",
+                    "greenauto"
                 ]
             },
             {
@@ -398,8 +422,8 @@
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
-                    "iilab",
-                    "robotics"
+                    "robotics",
+                    "greenauto"
                 ]
             }
         ],
