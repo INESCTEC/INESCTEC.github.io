@@ -79,5 +79,14 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": ["Robotics"]
+    },
+    {
+        "project_area": "Robotics",
+        "project_name": "GreenAuto",
+        "project_logo": "GreenAuto.png",
+        "project_website": "https://www.inesctec.pt/en/laboratories/iilab-industry-and-innovation-lab",
+        "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
+        "project_topic": "greenauto",
+        "project_tags": ["Robotics"]
     }
 ]

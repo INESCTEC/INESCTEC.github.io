@@ -7,7 +7,7 @@
                 "project_name": "enershare",
                 "project_topic": "enershare",
                 "project_logo": "enershare.png",
-                "total_stars": 46,
+                "total_stars": 47,
                 "total_repos": 13
             },
             {
@@ -40,7 +40,16 @@
             {
                 "project_name": "iiLab",
                 "project_topic": "iilab",
-                "project_logo": "iilab.png"
+                "project_logo": "iilab.png",
+                "total_stars": 0,
+                "total_repos": 1
+            },
+            {
+                "project_name": "GreenAuto",
+                "project_topic": "greenauto",
+                "project_logo": "GreenAuto.png",
+                "total_stars": 0,
+                "total_repos": 2
             }
         ]
     }

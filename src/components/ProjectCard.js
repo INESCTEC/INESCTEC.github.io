@@ -90,7 +90,7 @@ const ProjectCard = ({ project, onTagClick }) => {
         <div className="flex-auto pl-4" style={{ width: '65%' }}>
           <div className="flex flex-col items-start space-y-2 mb-2">
             <a href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`} target="_blank" rel="noopener noreferrer">
-              <img src={imageSrc || defaultLogo} alt={project.project_name} className="h-12 w-auto" />
+              <img src={imageSrc || defaultLogo} alt={project.project_name} className="h-10 w-auto" />
             </a>
             {project.project_website ? (
               <a href={project.project_website} target="_blank" className="text-dark-blue-2 text-md" rel="noreferrer">
