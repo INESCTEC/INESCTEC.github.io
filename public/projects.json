@@ -8,8 +8,8 @@
         "project_topic": "predico",
         "project_tags": [
             "collaborative-analytics",
-            "predico",
             "data-market",
+            "predico",
             "collaborative-forecasting"
         ],
         "top_repositories": [
@@ -37,14 +37,14 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "python",
-            "client-library",
-            "energy-communities",
+            "tno-security-gateway",
             "dataspaces",
+            "energy-communities",
             "renewable-energy-communities",
+            "client-library",
+            "python",
             "enershare",
             "energy",
-            "tno-security-gateway",
             "price-optimization"
         ],
         "top_repositories": [
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "python",
-            "client-library",
-            "greendatai",
-            "data-marketplace",
-            "collaborative-forecasting",
             "machine-learning-algorithms",
+            "greendatai",
+            "client-library",
+            "data-sharing",
             "enershare",
-            "energy",
+            "python",
             "data-sharing-incentives",
-            "data-sharing"
+            "collaborative-forecasting",
+            "energy",
+            "data-marketplace"
         ],
         "top_repositories": [
             {
@@ -168,9 +168,9 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "energy",
             "interconnect",
             "python",
-            "energy",
             "recommender"
         ],
         "top_repositories": [
@@ -259,8 +259,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -269,8 +269,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "name": "InterSTORE---Data-Space-Connector-UI",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -290,8 +290,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -316,10 +316,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "slam",
             "robotics",
+            "agro-food",
             "tribe",
-            "agro-food"
+            "slam"
         ],
         "top_repositories": [
             {
@@ -392,8 +392,8 @@
         "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
         "project_topic": "greenauto",
         "project_tags": [
-            "greenauto",
-            "robotics"
+            "robotics",
+            "greenauto"
         ],
         "top_repositories": [
             {
