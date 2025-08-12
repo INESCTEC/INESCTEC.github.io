@@ -7,9 +7,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
             "collaborative-forecasting",
             "predico",
+            "data-market",
             "collaborative-analytics"
         ],
         "top_repositories": [
@@ -39,13 +39,13 @@
         "project_tags": [
             "energy",
             "python",
-            "tno-security-gateway",
-            "enershare",
-            "renewable-energy-communities",
-            "dataspaces",
-            "energy-communities",
             "price-optimization",
-            "client-library"
+            "tno-security-gateway",
+            "energy-communities",
+            "dataspaces",
+            "enershare",
+            "client-library",
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -102,16 +102,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
+            "collaborative-forecasting",
             "energy",
-            "data-sharing-incentives",
             "python",
-            "data-sharing",
-            "enershare",
             "machine-learning-algorithms",
             "data-marketplace",
+            "greendatai",
+            "data-sharing",
+            "enershare",
             "client-library",
-            "collaborative-forecasting",
-            "greendatai"
+            "data-sharing-incentives"
         ],
         "top_repositories": [
             {
@@ -170,10 +170,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "interconnect",
             "python",
-            "energy",
             "recommender",
-            "interconnect"
+            "energy"
         ],
         "top_repositories": [
             {
@@ -256,8 +256,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -328,9 +328,9 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "agro-food",
             "slam",
             "robotics",
+            "agro-food",
             "tribe"
         ],
         "top_repositories": [
@@ -378,8 +378,8 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": [
-            "robotics",
-            "iilab"
+            "iilab",
+            "robotics"
         ],
         "top_repositories": [
             {
