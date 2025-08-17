@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
+            "collaborative-forecasting",
             "collaborative-analytics",
             "predico",
-            "data-market",
-            "collaborative-forecasting"
+            "data-market"
         ],
         "top_repositories": [
             {
@@ -39,13 +39,13 @@
         "project_tags": [
             "tno-security-gateway",
             "renewable-energy-communities",
-            "energy-communities",
             "enershare",
+            "python",
             "dataspaces",
-            "energy",
-            "client-library",
             "price-optimization",
-            "python"
+            "energy",
+            "energy-communities",
+            "client-library"
         ],
         "top_repositories": [
             {
@@ -102,16 +102,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
             "data-sharing-incentives",
+            "greendatai",
             "enershare",
+            "python",
+            "collaborative-forecasting",
+            "data-marketplace",
             "energy",
             "client-library",
-            "machine-learning-algorithms",
-            "python",
-            "data-marketplace",
             "data-sharing",
-            "collaborative-forecasting"
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -170,10 +170,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "energy",
-            "recommender",
             "python",
-            "interconnect"
+            "energy",
+            "interconnect",
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -302,8 +302,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -329,9 +329,9 @@
         "project_topic": "tribe",
         "project_tags": [
             "robotics",
-            "tribe",
+            "slam",
             "agro-food",
-            "slam"
+            "tribe"
         ],
         "top_repositories": [
             {
