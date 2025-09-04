@@ -7,9 +7,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-forecasting",
             "data-market",
             "predico",
+            "collaborative-forecasting",
             "collaborative-analytics"
         ],
         "top_repositories": [
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "dataspaces",
-            "price-optimization",
             "python",
-            "renewable-energy-communities",
-            "energy-communities",
-            "enershare",
-            "tno-security-gateway",
+            "dataspaces",
             "energy",
-            "client-library"
+            "client-library",
+            "energy-communities",
+            "tno-security-gateway",
+            "enershare",
+            "renewable-energy-communities",
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -103,15 +103,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "python",
-            "machine-learning-algorithms",
-            "data-marketplace",
             "greendatai",
-            "data-sharing",
-            "enershare",
-            "data-sharing-incentives",
-            "collaborative-forecasting",
+            "machine-learning-algorithms",
             "energy",
-            "client-library"
+            "data-sharing-incentives",
+            "data-sharing",
+            "client-library",
+            "collaborative-forecasting",
+            "enershare",
+            "data-marketplace"
         ],
         "top_repositories": [
             {
@@ -170,10 +170,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
-            "energy",
+            "python",
             "recommender",
-            "python"
+            "causality",
+            "incentives",
+            "energy",
+            "interconnect",
+            "electric-vehicles"
         ],
         "top_repositories": [
             {
@@ -189,6 +192,20 @@
                 ]
             },
             {
+                "name": "ev-dml",
+                "url": "https://github.com/INESCTEC/ev-dml",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "energy",
+                    "interconnect",
+                    "python",
+                    "causality",
+                    "electric-vehicles",
+                    "incentives"
+                ]
+            },
+            {
                 "name": "generic-adapter",
                 "url": "https://github.com/INESCTEC/generic-adapter",
                 "stars": 0,
@@ -199,8 +216,8 @@
                 ]
             }
         ],
-        "total_stars": 6,
-        "total_repositories": 2
+        "total_stars": 8,
+        "total_repositories": 3
     },
     {
         "project_area": "Energy",
@@ -215,8 +232,8 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -235,8 +252,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -281,8 +298,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -302,8 +319,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -328,9 +345,9 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "agro-food",
-            "robotics",
             "tribe",
+            "robotics",
+            "agro-food",
             "slam"
         ],
         "top_repositories": [
@@ -378,8 +395,8 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": [
-            "robotics",
-            "iilab"
+            "iilab",
+            "robotics"
         ],
         "top_repositories": [
             {
