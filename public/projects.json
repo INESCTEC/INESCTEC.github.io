@@ -8,9 +8,9 @@
         "project_topic": "predico",
         "project_tags": [
             "data-market",
-            "predico",
             "collaborative-analytics",
-            "collaborative-forecasting"
+            "collaborative-forecasting",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "client-library",
             "enershare",
-            "energy-communities",
-            "python",
-            "energy",
-            "dataspaces",
             "renewable-energy-communities",
+            "python",
+            "dataspaces",
+            "price-optimization",
+            "energy-communities",
+            "client-library",
             "tno-security-gateway",
-            "price-optimization"
+            "energy"
         ],
         "top_repositories": [
             {
@@ -102,16 +102,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "client-library",
-            "collaborative-forecasting",
             "enershare",
-            "python",
-            "energy",
+            "data-sharing",
+            "collaborative-forecasting",
+            "greendatai",
             "machine-learning-algorithms",
             "data-marketplace",
-            "data-sharing",
-            "data-sharing-incentives",
-            "greendatai"
+            "python",
+            "client-library",
+            "energy",
+            "data-sharing-incentives"
         ],
         "top_repositories": [
             {
@@ -170,13 +170,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "python",
-            "energy",
             "causality",
+            "recommender",
             "incentives",
+            "python",
             "interconnect",
-            "electric-vehicles",
-            "recommender"
+            "energy",
+            "electric-vehicles"
         ],
         "top_repositories": [
             {
@@ -319,8 +319,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -345,10 +345,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "agro-food",
+            "tribe",
             "slam",
             "robotics",
-            "tribe"
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -421,13 +421,13 @@
         "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
         "project_topic": "greenauto",
         "project_tags": [
-            "greenauto",
-            "robotics"
+            "robotics",
+            "greenauto"
         ],
         "top_repositories": [
             {
-                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
-                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -436,8 +436,8 @@
                 ]
             },
             {
-                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
-                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
