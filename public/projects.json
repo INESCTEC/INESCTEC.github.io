@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
+            "predico",
             "collaborative-analytics",
-            "collaborative-forecasting",
-            "predico"
+            "data-market",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "enershare",
-            "renewable-energy-communities",
-            "python",
-            "dataspaces",
-            "price-optimization",
             "energy-communities",
-            "client-library",
+            "python",
+            "energy",
+            "enershare",
+            "dataspaces",
             "tno-security-gateway",
-            "energy"
+            "renewable-energy-communities",
+            "price-optimization",
+            "client-library"
         ],
         "top_repositories": [
             {
@@ -102,16 +102,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "enershare",
-            "data-sharing",
-            "collaborative-forecasting",
-            "greendatai",
-            "machine-learning-algorithms",
-            "data-marketplace",
             "python",
-            "client-library",
+            "machine-learning-algorithms",
             "energy",
-            "data-sharing-incentives"
+            "enershare",
+            "data-sharing-incentives",
+            "greendatai",
+            "collaborative-forecasting",
+            "data-sharing",
+            "data-marketplace",
+            "client-library"
         ],
         "top_repositories": [
             {
@@ -170,13 +170,10 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "causality",
             "recommender",
-            "incentives",
             "python",
             "interconnect",
-            "energy",
-            "electric-vehicles"
+            "energy"
         ],
         "top_repositories": [
             {
@@ -192,20 +189,6 @@
                 ]
             },
             {
-                "name": "ev-dml",
-                "url": "https://github.com/INESCTEC/ev-dml",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "energy",
-                    "interconnect",
-                    "python",
-                    "causality",
-                    "electric-vehicles",
-                    "incentives"
-                ]
-            },
-            {
                 "name": "generic-adapter",
                 "url": "https://github.com/INESCTEC/generic-adapter",
                 "stars": 0,
@@ -216,8 +199,8 @@
                 ]
             }
         ],
-        "total_stars": 8,
-        "total_repositories": 3
+        "total_stars": 6,
+        "total_repositories": 2
     },
     {
         "project_area": "Energy",
@@ -227,10 +210,20 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
+            {
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "attest",
+                    "energy"
+                ]
+            },
             {
                 "name": "ATTEST-shared-resource-planning",
                 "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
@@ -250,16 +243,6 @@
                     "attest",
                     "energy"
                 ]
-            },
-            {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "attest",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 0,
@@ -273,8 +256,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -288,8 +271,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-UI",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -319,8 +302,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -345,10 +328,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "tribe",
+            "agro-food",
             "slam",
-            "robotics",
-            "agro-food"
+            "tribe",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -372,20 +355,10 @@
                     "tribe",
                     "robotics"
                 ]
-            },
-            {
-                "name": "tribe_nav_msgs",
-                "url": "https://github.com/INESCTEC/tribe_nav_msgs",
-                "stars": 0,
-                "is_fork": false,
-                "topics": [
-                    "tribe",
-                    "robotics"
-                ]
             }
         ],
         "total_stars": 4,
-        "total_repositories": 3
+        "total_repositories": 2
     },
     {
         "project_area": "Robotics",
@@ -395,8 +368,8 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": [
-            "robotics",
-            "iilab"
+            "iilab",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -421,13 +394,13 @@
         "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
         "project_topic": "greenauto",
         "project_tags": [
-            "robotics",
-            "greenauto"
+            "greenauto",
+            "robotics"
         ],
         "top_repositories": [
             {
-                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
-                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -436,8 +409,8 @@
                 ]
             },
             {
-                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
-                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
