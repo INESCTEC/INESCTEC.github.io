@@ -8,9 +8,9 @@
         "project_topic": "predico",
         "project_tags": [
             "data-market",
+            "predico",
             "collaborative-analytics",
-            "collaborative-forecasting",
-            "predico"
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "client-library",
-            "dataspaces",
-            "renewable-energy-communities",
-            "python",
-            "energy",
-            "tno-security-gateway",
             "price-optimization",
             "energy-communities",
-            "enershare"
+            "client-library",
+            "enershare",
+            "dataspaces",
+            "renewable-energy-communities",
+            "energy",
+            "tno-security-gateway",
+            "python"
         ],
         "top_repositories": [
             {
@@ -77,16 +77,14 @@
                 ]
             },
             {
-                "name": "rec-sizing-rest-api",
-                "url": "https://github.com/INESCTEC/rec-sizing-rest-api",
+                "name": "rec-operation",
+                "url": "https://github.com/INESCTEC/rec-operation",
                 "stars": 5,
                 "is_fork": false,
                 "topics": [
-                    "energy-communities",
                     "enershare",
+                    "energy-communities",
                     "python",
-                    "renewable-energy-communities",
-                    "price-optimization",
                     "energy"
                 ]
             }
@@ -102,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "client-library",
-            "data-marketplace",
-            "greendatai",
-            "collaborative-forecasting",
             "machine-learning-algorithms",
-            "data-sharing",
+            "collaborative-forecasting",
+            "client-library",
+            "enershare",
             "python",
+            "data-marketplace",
+            "data-sharing",
             "energy",
             "data-sharing-incentives",
-            "enershare"
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -171,12 +169,12 @@
         "project_topic": "interconnect",
         "project_tags": [
             "causality",
-            "recommender",
             "electric-vehicles",
+            "recommender",
             "incentives",
-            "python",
             "energy",
-            "interconnect"
+            "interconnect",
+            "python"
         ],
         "top_repositories": [
             {
@@ -232,16 +230,6 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "attest",
-                    "energy"
-                ]
-            },
-            {
                 "name": "ATTEST-WP2.6-Market-Simulator",
                 "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
@@ -254,6 +242,16 @@
             {
                 "name": "ATTEST-shared-resource-planning",
                 "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "attest",
+                    "energy"
+                ]
+            },
+            {
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -273,8 +271,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -288,8 +286,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---interoperability-common",
-                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -319,8 +317,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -345,10 +343,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "slam",
-            "agro-food",
             "tribe",
-            "robotics"
+            "slam",
+            "robotics",
+            "agro-food"
         ],
         "top_repositories": [
             {
