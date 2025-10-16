@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
+            "data-market",
             "collaborative-forecasting",
             "collaborative-analytics",
-            "predico",
-            "data-market"
+            "predico"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy-communities",
-            "renewable-energy-communities",
+            "price-optimization",
             "tno-security-gateway",
             "dataspaces",
-            "python",
             "client-library",
+            "python",
+            "energy-communities",
             "enershare",
             "energy",
-            "price-optimization"
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "data-sharing",
-            "greendatai",
-            "machine-learning-algorithms",
-            "collaborative-forecasting",
             "data-marketplace",
-            "python",
-            "enershare",
-            "energy",
+            "collaborative-forecasting",
             "client-library",
-            "data-sharing-incentives"
+            "python",
+            "machine-learning-algorithms",
+            "greendatai",
+            "data-sharing-incentives",
+            "enershare",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -122,6 +122,20 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -141,20 +155,6 @@
                     "data-marketplace",
                     "energy"
                 ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 7,
@@ -168,12 +168,12 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "incentives",
             "recommender",
-            "electric-vehicles",
-            "causality",
-            "python",
             "interconnect",
+            "causality",
+            "electric-vehicles",
+            "python",
+            "incentives",
             "energy"
         ],
         "top_repositories": [
@@ -296,8 +296,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-UI",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
+                "name": "InterSTORE---interoperability-common",
+                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -345,8 +345,8 @@
         "project_tags": [
             "agro-food",
             "slam",
-            "robotics",
-            "tribe"
+            "tribe",
+            "robotics"
         ],
         "top_repositories": [
             {
