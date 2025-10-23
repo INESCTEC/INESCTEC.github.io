@@ -8,15 +8,15 @@
         "project_topic": "predico",
         "project_tags": [
             "predico",
-            "collaborative-analytics",
             "collaborative-forecasting",
+            "collaborative-analytics",
             "data-market"
         ],
         "top_repositories": [
             {
                 "name": "predico-collabforecast",
                 "url": "https://github.com/INESCTEC/predico-collabforecast",
-                "stars": 5,
+                "stars": 6,
                 "is_fork": false,
                 "topics": [
                     "collaborative-analytics",
@@ -26,7 +26,7 @@
                 ]
             }
         ],
-        "total_stars": 5,
+        "total_stars": 6,
         "total_repositories": 1
     },
     {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "price-optimization",
-            "python",
-            "dataspaces",
-            "energy-communities",
             "tno-security-gateway",
-            "renewable-energy-communities",
-            "energy",
+            "python",
+            "enershare",
             "client-library",
-            "enershare"
+            "energy",
+            "price-optimization",
+            "energy-communities",
+            "dataspaces",
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "python",
+            "data-sharing",
+            "machine-learning-algorithms",
+            "greendatai",
+            "enershare",
+            "client-library",
             "collaborative-forecasting",
             "energy",
-            "data-sharing",
             "data-sharing-incentives",
-            "greendatai",
-            "machine-learning-algorithms",
-            "data-marketplace",
-            "client-library",
-            "enershare"
+            "data-marketplace"
         ],
         "top_repositories": [
             {
@@ -168,13 +168,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "causality",
             "python",
-            "recommender",
-            "incentives",
             "interconnect",
+            "incentives",
+            "causality",
+            "electric-vehicles",
             "energy",
-            "electric-vehicles"
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -225,20 +225,10 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
-            {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "attest",
-                    "energy"
-                ]
-            },
             {
                 "name": "ATTEST-shared-resource-planning",
                 "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
@@ -252,6 +242,16 @@
             {
                 "name": "ATTEST-WP2.6-Market-Simulator",
                 "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "attest",
+                    "energy"
+                ]
+            },
+            {
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -286,8 +286,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "name": "InterSTORE---interoperability-common",
+                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -296,8 +296,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---interoperability-common",
-                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
