@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
-            "collaborative-forecasting",
             "predico",
-            "collaborative-analytics"
+            "collaborative-analytics",
+            "collaborative-forecasting",
+            "data-market"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy-communities",
-            "price-optimization",
+            "tno-security-gateway",
             "renewable-energy-communities",
+            "energy-communities",
             "client-library",
             "energy",
             "dataspaces",
-            "python",
-            "tno-security-gateway",
-            "enershare"
+            "price-optimization",
+            "enershare",
+            "python"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "client-library",
-            "energy",
-            "collaborative-forecasting",
-            "python",
-            "data-sharing-incentives",
-            "data-sharing",
             "greendatai",
-            "machine-learning-algorithms",
+            "data-sharing-incentives",
+            "client-library",
             "data-marketplace",
-            "enershare"
+            "energy",
+            "data-sharing",
+            "enershare",
+            "machine-learning-algorithms",
+            "python",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -168,13 +168,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "energy",
-            "python",
-            "electric-vehicles",
-            "incentives",
-            "recommender",
             "interconnect",
-            "causality"
+            "energy",
+            "causality",
+            "electric-vehicles",
+            "recommender",
+            "python",
+            "incentives"
         ],
         "top_repositories": [
             {
@@ -230,8 +230,8 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-shared-resource-planning",
-                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -250,8 +250,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-shared-resource-planning",
+                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -286,8 +286,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -296,8 +296,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---interoperability-common",
-                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -343,10 +343,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "tribe",
-            "robotics",
             "agro-food",
-            "slam"
+            "robotics",
+            "slam",
+            "tribe"
         ],
         "top_repositories": [
             {
