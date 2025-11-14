@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-analytics",
-            "collaborative-forecasting",
             "data-market",
-            "predico"
+            "predico",
+            "collaborative-forecasting",
+            "collaborative-analytics"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "renewable-energy-communities",
-            "tno-security-gateway",
-            "energy-communities",
             "energy",
+            "tno-security-gateway",
+            "client-library",
+            "renewable-energy-communities",
+            "energy-communities",
             "price-optimization",
-            "python",
             "dataspaces",
             "enershare",
-            "client-library"
+            "python"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "collaborative-forecasting",
-            "data-marketplace",
-            "machine-learning-algorithms",
-            "greendatai",
             "energy",
-            "python",
-            "data-sharing",
             "client-library",
+            "greendatai",
+            "collaborative-forecasting",
+            "machine-learning-algorithms",
+            "data-marketplace",
+            "python",
             "data-sharing-incentives",
-            "enershare"
+            "enershare",
+            "data-sharing"
         ],
         "top_repositories": [
             {
@@ -122,6 +122,20 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -141,20 +155,6 @@
                     "data-marketplace",
                     "energy"
                 ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 7,
@@ -168,13 +168,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "causality",
+            "energy",
+            "electric-vehicles",
+            "interconnect",
             "recommender",
             "incentives",
-            "interconnect",
-            "energy",
             "python",
-            "electric-vehicles"
+            "causality"
         ],
         "top_repositories": [
             {
@@ -271,8 +271,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
@@ -317,8 +317,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -343,10 +343,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "robotics",
+            "agro-food",
             "slam",
             "tribe",
-            "agro-food"
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -393,8 +393,8 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": [
-            "robotics",
-            "iilab"
+            "iilab",
+            "robotics"
         ],
         "top_repositories": [
             {
