@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
-            "collaborative-analytics",
             "predico",
-            "collaborative-forecasting"
+            "collaborative-analytics",
+            "collaborative-forecasting",
+            "data-market"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
+            "price-optimization",
+            "client-library",
+            "energy",
+            "energy-communities",
+            "renewable-energy-communities",
             "python",
-            "dataspaces",
             "enershare",
             "tno-security-gateway",
-            "renewable-energy-communities",
-            "price-optimization",
-            "energy",
-            "client-library",
-            "energy-communities"
+            "dataspaces"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing",
+            "collaborative-forecasting",
+            "data-marketplace",
+            "client-library",
+            "energy",
             "python",
             "enershare",
-            "greendatai",
-            "energy",
-            "data-marketplace",
             "machine-learning-algorithms",
-            "client-library",
-            "collaborative-forecasting",
-            "data-sharing-incentives"
+            "data-sharing-incentives",
+            "greendatai",
+            "data-sharing"
         ],
         "top_repositories": [
             {
@@ -168,13 +168,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "python",
-            "electric-vehicles",
+            "recommender",
+            "interconnect",
             "energy",
             "incentives",
+            "python",
             "causality",
-            "interconnect",
-            "recommender"
+            "electric-vehicles"
         ],
         "top_repositories": [
             {
@@ -240,8 +240,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-shared-resource-planning",
+                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -250,8 +250,8 @@
                 ]
             },
             {
-                "name": "ATTEST-shared-resource-planning",
-                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -344,9 +344,9 @@
         "project_topic": "tribe",
         "project_tags": [
             "robotics",
+            "tribe",
             "slam",
-            "agro-food",
-            "tribe"
+            "agro-food"
         ],
         "top_repositories": [
             {
