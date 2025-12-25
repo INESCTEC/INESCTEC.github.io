@@ -7,9 +7,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-analytics",
             "data-market",
             "collaborative-forecasting",
+            "collaborative-analytics",
             "predico"
         ],
         "top_repositories": [
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "tno-security-gateway",
-            "energy",
-            "price-optimization",
-            "python",
-            "enershare",
-            "energy-communities",
-            "client-library",
             "renewable-energy-communities",
-            "dataspaces"
+            "tno-security-gateway",
+            "price-optimization",
+            "client-library",
+            "energy",
+            "python",
+            "dataspaces",
+            "energy-communities",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "machine-learning-algorithms",
             "collaborative-forecasting",
-            "data-marketplace",
-            "greendatai",
-            "data-sharing",
             "data-sharing-incentives",
+            "machine-learning-algorithms",
+            "data-sharing",
+            "client-library",
             "energy",
             "python",
-            "enershare",
-            "client-library"
+            "greendatai",
+            "data-marketplace",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -168,11 +168,11 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "energy",
-            "causality",
-            "python",
             "incentives",
             "electric-vehicles",
+            "causality",
+            "energy",
+            "python",
             "interconnect",
             "recommender"
         ],
@@ -225,8 +225,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
@@ -343,10 +343,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "robotics",
-            "agro-food",
+            "slam",
             "tribe",
-            "slam"
+            "agro-food",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -393,8 +393,8 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": [
-            "robotics",
-            "iilab"
+            "iilab",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -419,8 +419,8 @@
         "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
         "project_topic": "greenauto",
         "project_tags": [
-            "robotics",
-            "greenauto"
+            "greenauto",
+            "robotics"
         ],
         "top_repositories": [
             {
