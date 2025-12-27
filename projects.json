@@ -8,8 +8,8 @@
         "project_topic": "predico",
         "project_tags": [
             "collaborative-analytics",
-            "predico",
             "collaborative-forecasting",
+            "predico",
             "data-market"
         ],
         "top_repositories": [
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy",
-            "energy-communities",
-            "price-optimization",
+            "dataspaces",
             "python",
-            "renewable-energy-communities",
             "tno-security-gateway",
+            "renewable-energy-communities",
+            "energy-communities",
+            "energy",
             "enershare",
             "client-library",
-            "dataspaces"
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -101,13 +101,13 @@
         "project_topic": "greendatai",
         "project_tags": [
             "energy",
-            "greendatai",
-            "data-sharing-incentives",
             "python",
-            "collaborative-forecasting",
-            "data-marketplace",
+            "greendatai",
             "data-sharing",
             "machine-learning-algorithms",
+            "data-sharing-incentives",
+            "collaborative-forecasting",
+            "data-marketplace",
             "enershare",
             "client-library"
         ],
@@ -128,20 +128,6 @@
                 ]
             },
             {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
-            },
-            {
                 "name": "data-sharing-barter-incentives-forecast",
                 "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-forecast",
                 "stars": 2,
@@ -151,6 +137,20 @@
                     "data-sharing-incentives",
                     "enershare",
                     "machine-learning-algorithms",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -168,12 +168,12 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "energy",
-            "interconnect",
-            "incentives",
             "python",
-            "recommender",
             "causality",
+            "recommender",
+            "incentives",
+            "interconnect",
+            "energy",
             "electric-vehicles"
         ],
         "top_repositories": [
@@ -240,8 +240,8 @@
                 ]
             },
             {
-                "name": "ATTEST-shared-resource-planning",
-                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -250,8 +250,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-shared-resource-planning",
+                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -271,8 +271,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -317,8 +317,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -343,10 +343,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "slam",
-            "agro-food",
+            "tribe",
             "robotics",
-            "tribe"
+            "slam",
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -393,8 +393,8 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": [
-            "iilab",
-            "robotics"
+            "robotics",
+            "iilab"
         ],
         "top_repositories": [
             {
