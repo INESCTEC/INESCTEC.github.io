@@ -8,9 +8,9 @@
         "project_topic": "predico",
         "project_tags": [
             "data-market",
-            "predico",
             "collaborative-forecasting",
-            "collaborative-analytics"
+            "collaborative-analytics",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "python",
             "tno-security-gateway",
-            "energy-communities",
+            "price-optimization",
+            "client-library",
+            "renewable-energy-communities",
             "dataspaces",
             "enershare",
-            "client-library",
+            "energy-communities",
             "energy",
-            "price-optimization",
-            "renewable-energy-communities"
+            "python"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
-            "python",
-            "data-sharing-incentives",
-            "enershare",
-            "client-library",
             "energy",
             "data-sharing",
+            "data-sharing-incentives",
+            "client-library",
             "machine-learning-algorithms",
+            "greendatai",
+            "data-marketplace",
+            "enershare",
             "collaborative-forecasting",
-            "data-marketplace"
+            "python"
         ],
         "top_repositories": [
             {
@@ -169,12 +169,12 @@
         "project_topic": "interconnect",
         "project_tags": [
             "incentives",
-            "electric-vehicles",
-            "python",
             "interconnect",
+            "recommender",
+            "electric-vehicles",
             "energy",
-            "causality",
-            "recommender"
+            "python",
+            "causality"
         ],
         "top_repositories": [
             {
@@ -240,8 +240,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-shared-resource-planning",
+                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -250,8 +250,8 @@
                 ]
             },
             {
-                "name": "ATTEST-shared-resource-planning",
-                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -271,8 +271,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
@@ -296,8 +296,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "name": "InterSTORE---Data-Space-Connector-UI",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -317,8 +317,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -343,10 +343,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "tribe",
-            "robotics",
             "slam",
-            "agro-food"
+            "agro-food",
+            "robotics",
+            "tribe"
         ],
         "top_repositories": [
             {
@@ -424,8 +424,8 @@
         ],
         "top_repositories": [
             {
-                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
-                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -434,8 +434,8 @@
                 ]
             },
             {
-                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
-                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
