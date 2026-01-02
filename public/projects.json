@@ -8,8 +8,8 @@
         "project_topic": "predico",
         "project_tags": [
             "predico",
-            "collaborative-analytics",
             "data-market",
+            "collaborative-analytics",
             "collaborative-forecasting"
         ],
         "top_repositories": [
@@ -38,14 +38,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "dataspaces",
-            "client-library",
-            "tno-security-gateway",
-            "enershare",
             "python",
             "energy",
+            "price-optimization",
+            "enershare",
             "renewable-energy-communities",
-            "energy-communities",
-            "price-optimization"
+            "client-library",
+            "tno-security-gateway",
+            "energy-communities"
         ],
         "top_repositories": [
             {
@@ -100,15 +100,15 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "client-library",
-            "enershare",
-            "python",
-            "greendatai",
-            "machine-learning-algorithms",
-            "energy",
-            "data-marketplace",
             "data-sharing-incentives",
+            "data-marketplace",
+            "energy",
+            "python",
             "data-sharing",
+            "machine-learning-algorithms",
+            "enershare",
+            "greendatai",
+            "client-library",
             "collaborative-forecasting"
         ],
         "top_repositories": [
@@ -168,13 +168,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "incentives",
             "electric-vehicles",
-            "recommender",
             "python",
             "energy",
             "causality",
             "interconnect",
-            "incentives"
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -230,16 +230,6 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-shared-resource-planning",
-                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "attest",
-                    "energy"
-                ]
-            },
-            {
                 "name": "ATTEST-WP2.6-Market-Simulator",
                 "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
@@ -252,6 +242,16 @@
             {
                 "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "attest",
+                    "energy"
+                ]
+            },
+            {
+                "name": "ATTEST-shared-resource-planning",
+                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -344,8 +344,8 @@
         "project_topic": "tribe",
         "project_tags": [
             "robotics",
-            "tribe",
             "agro-food",
+            "tribe",
             "slam"
         ],
         "top_repositories": [
@@ -424,8 +424,8 @@
         ],
         "top_repositories": [
             {
-                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
-                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -434,8 +434,8 @@
                 ]
             },
             {
-                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
-                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
