@@ -38,14 +38,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "dataspaces",
-            "energy",
             "tno-security-gateway",
+            "price-optimization",
             "energy-communities",
             "renewable-energy-communities",
+            "energy",
             "client-library",
-            "price-optimization",
-            "python",
-            "enershare"
+            "enershare",
+            "python"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "collaborative-forecasting",
-            "energy",
-            "greendatai",
-            "client-library",
             "machine-learning-algorithms",
             "data-sharing-incentives",
+            "greendatai",
             "data-marketplace",
-            "data-sharing",
+            "energy",
+            "client-library",
+            "enershare",
             "python",
-            "enershare"
+            "data-sharing"
         ],
         "top_repositories": [
             {
@@ -168,13 +168,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "recommender",
+            "causality",
             "energy",
+            "electric-vehicles",
             "incentives",
             "interconnect",
-            "python",
-            "electric-vehicles",
-            "recommender",
-            "causality"
+            "python"
         ],
         "top_repositories": [
             {
@@ -240,8 +240,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-shared-resource-planning",
+                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -250,8 +250,8 @@
                 ]
             },
             {
-                "name": "ATTEST-shared-resource-planning",
-                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -343,9 +343,9 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "tribe",
-            "slam",
             "robotics",
+            "slam",
+            "tribe",
             "agro-food"
         ],
         "top_repositories": [
@@ -419,8 +419,8 @@
         "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
         "project_topic": "greenauto",
         "project_tags": [
-            "greenauto",
-            "robotics"
+            "robotics",
+            "greenauto"
         ],
         "top_repositories": [
             {
