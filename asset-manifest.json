@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.217e74e2.css",
-    "main.js": "/static/js/main.221cbd1e.js",
-    "static/js/86.6f2a6262.chunk.js": "/static/js/86.6f2a6262.chunk.js",
-    "static/js/320.b2298d80.chunk.js": "/static/js/320.b2298d80.chunk.js",
-    "static/js/59.6e992d79.chunk.js": "/static/js/59.6e992d79.chunk.js",
-    "static/js/390.7c711313.chunk.js": "/static/js/390.7c711313.chunk.js",
-    "static/js/7.2b9b7a72.chunk.js": "/static/js/7.2b9b7a72.chunk.js",
-    "static/js/26.6b16692d.chunk.js": "/static/js/26.6b16692d.chunk.js",
-    "static/js/125.140d85bd.chunk.js": "/static/js/125.140d85bd.chunk.js",
-    "static/js/216.2b68d49c.chunk.js": "/static/js/216.2b68d49c.chunk.js",
-    "static/js/265.4f55319e.chunk.js": "/static/js/265.4f55319e.chunk.js",
-    "static/js/490.4777361d.chunk.js": "/static/js/490.4777361d.chunk.js",
-    "static/js/790.c2b9821b.chunk.js": "/static/js/790.c2b9821b.chunk.js",
+    "main.css": "/static/css/main.46c23733.css",
+    "main.js": "/static/js/main.b08afff5.js",
+    "static/js/86.22983c25.chunk.js": "/static/js/86.22983c25.chunk.js",
+    "static/js/320.c57782be.chunk.js": "/static/js/320.c57782be.chunk.js",
+    "static/js/59.d4275236.chunk.js": "/static/js/59.d4275236.chunk.js",
+    "static/js/390.2feed05a.chunk.js": "/static/js/390.2feed05a.chunk.js",
+    "static/js/7.95a65456.chunk.js": "/static/js/7.95a65456.chunk.js",
+    "static/js/26.5dc9e6aa.chunk.js": "/static/js/26.5dc9e6aa.chunk.js",
+    "static/js/125.7622d2cd.chunk.js": "/static/js/125.7622d2cd.chunk.js",
+    "static/js/216.525a8eb8.chunk.js": "/static/js/216.525a8eb8.chunk.js",
+    "static/js/265.b717f9c3.chunk.js": "/static/js/265.b717f9c3.chunk.js",
+    "static/js/490.e07108b4.chunk.js": "/static/js/490.e07108b4.chunk.js",
+    "static/js/790.09cc5d3c.chunk.js": "/static/js/790.09cc5d3c.chunk.js",
+    "static/js/678.c83b3c14.chunk.js": "/static/js/678.c83b3c14.chunk.js",
     "static/media/circuit.png": "/static/media/circuit.38c9c48472f5c5a37f24.png",
     "static/media/GreenAuto.png": "/static/media/GreenAuto.9ad674e975f5b760580a.png",
     "static/media/INESCTEC_circuito_Set2024-03-cropped.svg": "/static/media/INESCTEC_circuito_Set2024-03-cropped.b499a3b2f7dd7713175175b0120ad73a.svg",
@@ -27,11 +28,11 @@
     "static/media/greendatai.png": "/static/media/greendatai.48676af4115d7d2fd421.png",
     "static/media/attest.png": "/static/media/attest.0dc6f57ae77da58021dd.png",
     "index.html": "/index.html",
-    "main.217e74e2.css.map": "/static/css/main.217e74e2.css.map",
-    "main.221cbd1e.js.map": "/static/js/main.221cbd1e.js.map"
+    "main.46c23733.css.map": "/static/css/main.46c23733.css.map",
+    "main.b08afff5.js.map": "/static/js/main.b08afff5.js.map"
   },
   "entrypoints": [
-    "static/css/main.217e74e2.css",
-    "static/js/main.221cbd1e.js"
+    "static/css/main.46c23733.css",
+    "static/js/main.b08afff5.js"
   ]
 }

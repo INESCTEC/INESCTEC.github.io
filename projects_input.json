@@ -88,5 +88,14 @@
         "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
         "project_topic": "greenauto",
         "project_tags": ["Robotics"]
+    },
+    {
+        "project_area": "Artificial Intelligence",
+        "project_name": "YAKE!",
+        "project_logo": "yake.png",
+        "project_website": "https://inesctec.github.io/yake/docs/--home",
+        "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
+        "project_topic": "ai",
+        "project_tags": ["unsupervised-approach", "domain-and-language-independent"]
     }
 ]

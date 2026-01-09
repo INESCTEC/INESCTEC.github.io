@@ -52,5 +52,18 @@
                 "total_repos": 2
             }
         ]
+    },
+    {
+        "area": "Artificial Intelligence",
+        "area_description": "Projects in this area are related to the research and development of artificial intelligence models, methods, and tools for complex data-driven tasks and decision support.",
+        "featured_projects": [
+            {
+                "project_name": "YAKE!",
+                "project_topic": "ai",
+                "project_logo": "yake.png",
+                "total_stars": 1809,
+                "total_repos": 1
+            }
+        ]
     }
 ]
