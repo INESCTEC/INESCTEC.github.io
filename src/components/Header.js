@@ -1,11 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import logo from '../assets/INESCTEC_logotipo_color_rgb.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faArrowUp, faArrowDown, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
-import { RepoIcon } from '@primer/octicons-react'; 
-import { Link } from 'react-router-dom';
-import { Tooltip } from 'react-tooltip';
+import React, { useState, useEffect } from "react";
+import logo from "../assets/INESCTEC_logotipo_color_rgb.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faSearch,
+  faArrowUp,
+  faArrowDown,
+  faTimes,
+} from "@fortawesome/free-solid-svg-icons";
+import { faStar as faStarRegular } from "@fortawesome/free-regular-svg-icons";
+import { RepoIcon } from "@primer/octicons-react";
+import { Link } from "react-router-dom";
+import { Tooltip } from "react-tooltip";
 
 const Header = ({
   searchTerm,
@@ -17,12 +22,14 @@ const Header = ({
   onRemoveTag,
   sortByStars,
   sortByRepos,
-  defaultCategory
+  defaultCategory,
 }) => {
-  const [activeCategory, setActiveCategory] = useState(defaultCategory || 'All');
+  const [activeCategory, setActiveCategory] = useState(
+    defaultCategory || "All",
+  );
   const [isArrowUp, setIsArrowUp] = useState(true);
   const [calendarArrowUp, setCalendarArrowUp] = useState(true);
-  const categories = ['All', 'Energy', 'Robotics'];
+  const categories = ["All", "Energy", "Robotics", "Artificial Intelligence"];
 
   const handleSearchInputChange = (event) => {
     onSearchChange(event.target.value);
@@ -39,7 +46,7 @@ const Header = ({
   };
 
   useEffect(() => {
-    setActiveCategory(defaultCategory || 'All');
+    setActiveCategory(defaultCategory || "All");
   }, [defaultCategory]);
 
   const handleCategoryChange = (category) => {
@@ -53,7 +60,9 @@ const Header = ({
         <Link to="/">
           <img src={logo} alt="INESC TEC" className="h-12 md:h-16" />
         </Link>
-        <span className="reverse-gradient-text mt-4 mb-4 text-2xl md:text-4xl">Open Source Software</span>
+        <span className="reverse-gradient-text mt-4 mb-4 text-2xl md:text-4xl">
+          Open Source Software
+        </span>
         <div className="flex space-x-4">
           {categories.map((category) => (
             <button
@@ -61,8 +70,8 @@ const Header = ({
               onClick={() => handleCategoryChange(category)}
               className={`px-4 py-1 text-xs font-semibold rounded-full transition-colors duration-300 ${
                 activeCategory === category
-                  ? 'bg-light-blue-2 text-white'
-                  : 'text-dark-blue-2 bg-white border border-dark-blue-2'
+                  ? "bg-light-blue-2 text-white"
+                  : "text-dark-blue-2 bg-white border border-dark-blue-2"
               }`}
             >
               {category}
@@ -86,11 +95,14 @@ const Header = ({
         <div className="hidden md:flex items-center ml-4">
           <span className="text-dark-blue-2">Sort: </span>
           <div id="stars" data-tooltip-content="Total Stars">
-            <FontAwesomeIcon icon={faStarRegular} className="text-dark-blue-2 text-md ml-2" />
+            <FontAwesomeIcon
+              icon={faStarRegular}
+              className="text-dark-blue-2 text-md ml-2"
+            />
             <button
               onClick={toggleArrow}
               className={`focus:outline-none ${
-                sortByRepos ? 'opacity-50 cursor-not-allowed' : ''
+                sortByRepos ? "opacity-50 cursor-not-allowed" : ""
               }`}
               disabled={!!sortByRepos}
             >
@@ -105,7 +117,7 @@ const Header = ({
             <button
               onClick={toggleCalendarArrow}
               className={`focus:outline-none ${
-                sortByStars ? 'opacity-50 cursor-not-allowed' : ''
+                sortByStars ? "opacity-50 cursor-not-allowed" : ""
               }`}
               disabled={!!sortByStars}
             >
