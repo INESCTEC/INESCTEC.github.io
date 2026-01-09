@@ -455,12 +455,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "ai",
             "unsupervised-approach",
             "single-document",
             "domain-and-language-independent",
             "keyword-extraction",
-            "corpus-independent"
+            "corpus-independent",
+            "ai"
         ],
         "top_repositories": [
             {
