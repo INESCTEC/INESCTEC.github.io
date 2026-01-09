@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-analytics",
-            "collaborative-forecasting",
+            "predico",
             "data-market",
-            "predico"
+            "collaborative-analytics",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "client-library",
-            "dataspaces",
-            "energy",
             "energy-communities",
-            "renewable-energy-communities",
-            "price-optimization",
             "python",
-            "tno-security-gateway",
-            "enershare"
+            "energy",
+            "client-library",
+            "price-optimization",
+            "renewable-energy-communities",
+            "enershare",
+            "dataspaces",
+            "tno-security-gateway"
         ],
         "top_repositories": [
             {
@@ -100,16 +100,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing",
+            "energy",
+            "python",
             "client-library",
             "data-marketplace",
-            "energy",
-            "data-sharing-incentives",
+            "enershare",
             "machine-learning-algorithms",
+            "data-sharing-incentives",
             "collaborative-forecasting",
-            "python",
             "greendatai",
-            "enershare"
+            "data-sharing"
         ],
         "top_repositories": [
             {
@@ -168,13 +168,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "energy",
+            "python",
             "recommender",
             "causality",
-            "python",
-            "incentives",
-            "energy",
             "electric-vehicles",
-            "interconnect"
+            "interconnect",
+            "incentives"
         ],
         "top_repositories": [
             {
@@ -225,8 +225,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
@@ -317,8 +317,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -343,10 +343,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "robotics",
-            "tribe",
             "slam",
-            "agro-food"
+            "robotics",
+            "agro-food",
+            "tribe"
         ],
         "top_repositories": [
             {
@@ -455,11 +455,11 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "single-document",
-            "unsupervised-approach",
-            "keyword-extraction",
             "ai",
+            "unsupervised-approach",
+            "single-document",
             "domain-and-language-independent",
+            "keyword-extraction",
             "corpus-independent"
         ],
         "top_repositories": [
