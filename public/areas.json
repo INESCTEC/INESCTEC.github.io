@@ -1,69 +1,69 @@
 [
-  {
-    "area": "Energy",
-    "area_description": "This area focuses on projects related to energy efficiency, renewable energy sources, and innovative energy solutions.",
-    "featured_projects": [
-      {
-        "project_name": "enershare",
-        "project_topic": "enershare",
-        "project_logo": "enershare.png",
-        "total_stars": 52,
-        "total_repos": 15
-      },
-      {
-        "project_name": "greendatai",
-        "project_topic": "greendatai",
-        "project_logo": "greendatai.png",
-        "total_stars": 7,
-        "total_repos": 4
-      },
-      {
-        "project_name": "interconnect",
-        "project_topic": "interconnect",
-        "project_logo": "interconnect.png",
-        "total_stars": 8,
-        "total_repos": 3
-      }
-    ]
-  },
-  {
-    "area": "Robotics",
-    "area_description": "The Robotics area focuses on projects related to the development of robotic systems and technologies that enhance autonomy, safety, and efficiency",
-    "featured_projects": [
-      {
-        "project_name": "TRIBE",
-        "project_topic": "tribe",
-        "project_logo": "tribe.png",
-        "total_stars": 4,
-        "total_repos": 3
-      },
-      {
-        "project_name": "iiLab",
-        "project_topic": "iilab",
-        "project_logo": "iilab.png",
-        "total_stars": 1,
-        "total_repos": 1
-      },
-      {
-        "project_name": "GreenAuto",
-        "project_topic": "greenauto",
-        "project_logo": "GreenAuto.png",
-        "total_stars": 0,
-        "total_repos": 2
-      }
-    ]
-  },
-  {
-    "area": "Artificial Intelligence",
-    "area_description": "Projects in this area are related to the research and development of artificial intelligence models, methods, and tools for complex data-driven tasks and decision support.",
-    "featured_projects": [
-      {
-        "project_name": "YAKE!",
-        "project_topic": "ai",
-        "project_logo": "yake.png",
-        "total_stars": 0,
-        "total_repos": 0
-      }
-    ]
-  }
+    {
+        "area": "Energy",
+        "area_description": "This area focuses on projects related to energy efficiency, renewable energy sources, and innovative energy solutions.",
+        "featured_projects": [
+            {
+                "project_name": "enershare",
+                "project_topic": "enershare",
+                "project_logo": "enershare.png",
+                "total_stars": 52,
+                "total_repos": 15
+            },
+            {
+                "project_name": "greendatai",
+                "project_topic": "greendatai",
+                "project_logo": "greendatai.png",
+                "total_stars": 7,
+                "total_repos": 4
+            },
+            {
+                "project_name": "interconnect",
+                "project_topic": "interconnect",
+                "project_logo": "interconnect.png",
+                "total_stars": 8,
+                "total_repos": 3
+            }
+        ]
+    },
+    {
+        "area": "Robotics",
+        "area_description": "The Robotics area focuses on projects related to the development of robotic systems and technologies that enhance autonomy, safety, and efficiency",
+        "featured_projects": [
+            {
+                "project_name": "TRIBE",
+                "project_topic": "tribe",
+                "project_logo": "tribe.png",
+                "total_stars": 4,
+                "total_repos": 3
+            },
+            {
+                "project_name": "iiLab",
+                "project_topic": "iilab",
+                "project_logo": "iilab.png",
+                "total_stars": 1,
+                "total_repos": 1
+            },
+            {
+                "project_name": "GreenAuto",
+                "project_topic": "greenauto",
+                "project_logo": "GreenAuto.png",
+                "total_stars": 0,
+                "total_repos": 2
+            }
+        ]
+    },
+    {
+        "area": "Artificial Intelligence",
+        "area_description": "Projects in this area are related to the research and development of artificial intelligence models, methods, and tools for complex data-driven tasks and decision support.",
+        "featured_projects": [
+            {
+                "project_name": "YAKE!",
+                "project_topic": "ai",
+                "project_logo": "yake.png",
+                "total_stars": 1809,
+                "total_repos": 1
+            }
+        ]
+    }
 ]
