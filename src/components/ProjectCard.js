@@ -281,7 +281,7 @@ const ProjectCard = ({ project, onTagClick, viewMode = 'list' }) => {
       </div>
 
       {/* Mobile Layout */}
-      <div className="block md:hidden bg-white rounded-xl border border-gray-200 shadow-sm mb-4 p-4">
+      <div className="block md:hidden bg-white rounded-xl border border-gray-200 shadow-sm mb-4 p-4 text-left">
         {/* Header */}
         <div className="flex items-center justify-between mb-3">
           <a
@@ -309,7 +309,7 @@ const ProjectCard = ({ project, onTagClick, viewMode = 'list' }) => {
         </div>
 
         {/* Description */}
-        <p className="text-gray-600 text-sm leading-relaxed mb-3 line-clamp-3">
+        <p className="text-gray-600 text-sm leading-relaxed mb-3 line-clamp-3 text-left">
           {project.project_description || 'No description available.'}
         </p>
 

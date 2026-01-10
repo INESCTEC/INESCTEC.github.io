@@ -137,8 +137,8 @@ const ProjectsPage = () => {
         <ScrollNavbar />
 
         {/* Main content */}
-        <div className="flex-grow mt-16">
-          <div className="mt-6 mb-12 bg-white max-w-7xl mx-auto px-4 md:px-8">
+        <div className="flex-grow mt-12 md:mt-16">
+          <div className="mt-2 md:mt-6 mb-12 bg-white max-w-7xl mx-auto px-4 md:px-8">
             <Header
               searchTerm={searchTerm}
               onSearchChange={handleSearchChange}

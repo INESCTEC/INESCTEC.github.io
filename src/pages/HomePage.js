@@ -269,7 +269,7 @@ const HomePage = () => {
                 <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-dark-blue-2"></div>
               </div>
             ) : areas.length > 0 ? (
-              <div className="md:timeline-container">
+              <div className="timeline-container">
                 <div className="hidden md:block timeline-line"></div>
                 {areas.map((area, index) => (
                   <AreaCard key={index} area={area} index={index} darkMode={true} />

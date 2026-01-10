@@ -51,11 +51,11 @@ const Header = ({
     <header className="bg-white text-black font-mono pt-4 pb-6">
       {/* Top row: Logo + Title + Stats */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4 md:mb-6">
-        <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
+        <div className="flex flex-col items-start md:flex-row md:items-center gap-2 md:gap-4">
           <Link to="/">
             <img src={logo} alt="INESC TEC" className="h-10 md:h-12" />
           </Link>
-          <span className="reverse-gradient-text text-lg md:text-2xl font-semibold">
+          <span className="reverse-gradient-text text-lg md:text-2xl font-semibold text-left">
             Open Source Software
           </span>
         </div>
