@@ -2,8 +2,26 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import GitHubIcon from '../assets/github-icon.png';
 import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
-import { faCodeBranch as faCodeBranchSolid } from '@fortawesome/free-solid-svg-icons';
-import { Popover, Button } from 'antd'; 
+import { faCodeBranch as faCodeBranchSolid, faCode } from '@fortawesome/free-solid-svg-icons';
+import { Popover, Button } from 'antd';
+
+const ProjectFallbackLogo = ({ name }) => {
+  const initials = name
+    .split(/[\s-_]+/)
+    .slice(0, 2)
+    .map(word => word.charAt(0).toUpperCase())
+    .join('');
+
+  return (
+    <div className="h-10 w-10 bg-gradient-to-br from-dark-blue to-light-blue rounded-lg flex items-center justify-center">
+      {initials ? (
+        <span className="text-white font-bold text-sm">{initials}</span>
+      ) : (
+        <FontAwesomeIcon icon={faCode} className="text-white text-lg" />
+      )}
+    </div>
+  );
+}; 
 
 const ProjectCard = ({ project, onTagClick }) => {
   const [imageSrc, setImageSrc] = useState(null);
@@ -60,7 +78,6 @@ const ProjectCard = ({ project, onTagClick }) => {
     return Array.from(uniqueTags);
   };
   
-  const defaultLogo = 'data:image/png;base64,<base64-encoded-image>';
 
   const filteredTags = project.project_tags
     ? normalizeTags(project.project_tags).filter(tag => tag !== project.project_area.toLowerCase())
@@ -88,23 +105,29 @@ const ProjectCard = ({ project, onTagClick }) => {
     <>
       <div className="hidden md:flex justify-between bg-white text-black font-mono relative before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-gradient-to-b from-dark-blue-2 to-light-blue-2 mb-12 ml-8 mr-12 md:mx-16">
         <div className="flex-auto pl-4" style={{ width: '65%' }}>
-          <div className="flex flex-col items-start space-y-2 mb-2">
-            <a href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`} target="_blank" rel="noopener noreferrer">
-              <img src={imageSrc || defaultLogo} alt={project.project_name} className="h-10 w-auto" />
+          <div className="flex flex-col items-start gap-2 mb-3">
+            <a
+              href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={project.project_name}
+              className="hover:opacity-80 transition-opacity"
+            >
+              {imageSrc ? (
+                <img src={imageSrc} alt={project.project_name} className="h-12 w-auto" />
+              ) : (
+                <ProjectFallbackLogo name={project.project_name} />
+              )}
             </a>
-            {project.project_website ? (
-              <a href={project.project_website} target="_blank" className="text-dark-blue-2 text-md" rel="noreferrer">
+            {project.project_website && (
+              <a href={project.project_website} target="_blank" className="text-dark-blue-2 text-sm hover:underline" rel="noreferrer">
                 Project Website
               </a>
-            ) : (
-              <span className="block h-6"></span>
             )}
           </div>
-          <div className="text-gray-700 mb-4 text-start max-w-full md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-6xl">
+          <div className="text-gray-600 mb-4 text-start text-sm leading-relaxed max-w-full md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-6xl">
             <p>
-              {project.project_description
-                ? project.project_description
-                : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus luctus enim sed semper. Aliquam pellentesque sem in gravida aliquet.'}
+              {project.project_description || 'No description available.'}
             </p>
           </div>
           <div className="flex space-x-2 items-center">
@@ -167,11 +190,19 @@ const ProjectCard = ({ project, onTagClick }) => {
       <div className="block md:hidden bg-white text-black font-mono relative z-10 mb-8 mx-4 sm:mx-8">
         <div className="flex flex-col p-4 border border-gray-200 rounded-lg shadow-md">
           <div className="flex flex-col items-center mb-4">
-            <img src={imageSrc || defaultLogo} alt={project.project_name} className="h-12 w-auto" />
-            <div className="flex items-center space-x-2 mt-2 mb-2 text-sm">
-              <div className="items-center">
-                <img src={GitHubIcon} alt="GitHub" className="h-4 w-4" />
-              </div>
+            <a
+              href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={project.project_name}
+            >
+              {imageSrc ? (
+                <img src={imageSrc} alt={project.project_name} className="h-12 w-auto" />
+              ) : (
+                <ProjectFallbackLogo name={project.project_name} />
+              )}
+            </a>
+            <div className="flex items-center space-x-3 mt-3 mb-2 text-sm text-gray-600">
               <div className="flex items-center">
                 <FontAwesomeIcon icon={faStarRegular} />
                 <span className="ml-1">{project.total_stars}</span>
@@ -181,12 +212,10 @@ const ProjectCard = ({ project, onTagClick }) => {
                 <span className="ml-1">{project.total_repositories}</span>
               </div>
             </div>
-            {project.project_website ? (
-              <a href={project.project_website} className="text-dark-blue-2 mt-2 mb-4 text-xs" target="_blank" rel="noopener noreferrer">
+            {project.project_website && (
+              <a href={project.project_website} className="text-dark-blue-2 mb-3 text-xs hover:underline" target="_blank" rel="noopener noreferrer">
                 Project Website
               </a>
-            ) : (
-              <span className="block h-6"></span>
             )}
             <div className="flex flex-wrap justify-center mb-4">
               {visibleTags.map((tag, index) => (

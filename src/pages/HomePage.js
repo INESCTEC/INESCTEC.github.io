@@ -10,6 +10,7 @@ import AreaCard from '../components/AreaCard';
 
 const HomePage = () => {
   const [areas, setAreas] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch('/areas.json')
@@ -24,6 +25,9 @@ const HomePage = () => {
       .catch(error => {
         console.error('Error loading the data:', error);
         setAreas([]);
+      })
+      .finally(() => {
+        setLoading(false);
       });
   }, []);
 
@@ -175,9 +179,17 @@ const HomePage = () => {
               </p>
             </section>
 
-            {areas.map((area, index) => (
-              <AreaCard key={index} area={area} />
-            ))}
+            {loading ? (
+              <div className="flex justify-center items-center py-12">
+                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-dark-blue-2"></div>
+              </div>
+            ) : areas.length > 0 ? (
+              areas.map((area, index) => (
+                <AreaCard key={index} area={area} />
+              ))
+            ) : (
+              <p className="text-center text-gray-500">No innovation areas found.</p>
+            )}
             
           </div>
         </div>

@@ -8,6 +8,7 @@ import ScrollNavbar from '../components/ScrollNavbar';
 
 const ProjectsPage = () => {
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const [projectsPerPage] = useState(5);
   const [searchTerm, setSearchTerm] = useState('');
@@ -33,6 +34,9 @@ const ProjectsPage = () => {
       .catch(error => {
         console.error('Error loading the data:', error);
         setProjects([]);
+      })
+      .finally(() => {
+        setLoading(false);
       });
   }, []);
 
@@ -131,48 +135,66 @@ const ProjectsPage = () => {
               onCategoryChange={handleCategoryChange}
             />
             <div className="mt-4 mb-4 pb-2 pt-2">
-              {currentProjects.length > 0 ? (
+              {loading ? (
+                <div className="flex justify-center items-center py-16">
+                  <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-dark-blue-2"></div>
+                </div>
+              ) : currentProjects.length > 0 ? (
                 currentProjects.map((project, index) => (
                   <React.Fragment key={index}>
                     <ProjectCard project={project} onTagClick={handleTagClick} />
                   </React.Fragment>
                 ))
               ) : (
-                <p>No projects found.</p>
+                <p className="text-center text-gray-500 py-8">No projects found.</p>
               )}
             </div>
   
-            <div className="flex justify-center md:flex md:justify-end mt-2 md:mr-14 text-sm">
-              <button
-                className={`px-3 py-1 border border-gray-300 rounded-l-lg ${
-                  currentPage === 1 ? 'bg-gray-100 text-gray-500 cursor-not-allowed' : 'bg-white text-black'
-                }`}
-                onClick={() => handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-              >
-                Previous
-              </button>
-              {Array.from({ length: totalPages }, (_, index) => (
-                <button
-                  key={index + 1}
-                  className={`px-3 py-1 border-t border-b border-l border-gray-300 ${
-                    currentPage === index + 1 ? 'bg-gray-100 text-black' : 'bg-white text-black'
-                  }`}
-                  onClick={() => handlePageChange(index + 1)}
-                >
-                  {index + 1}
-                </button>
-              ))}
-              <button
-                className={`px-3 py-1 border border-gray-300 rounded-r-lg ${
-                  currentPage === totalPages ? 'bg-gray-100 text-gray-500 cursor-not-allowed' : 'bg-white text-black'
-                }`}
-                onClick={() => handlePageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}
-              >
-                Next
-              </button>
-            </div>
+            {!loading && filteredProjects.length > 0 && (
+              <div className="flex justify-center md:justify-end mt-4 md:mr-14">
+                <nav aria-label="Pagination" className="flex items-center gap-1">
+                  <button
+                    className={`min-w-[44px] min-h-[44px] px-4 py-2 border border-gray-300 rounded-l-lg font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-light-blue focus:ring-offset-1 ${
+                      currentPage === 1
+                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                        : 'bg-white text-dark-blue-2 hover:bg-gray-50'
+                    }`}
+                    onClick={() => handlePageChange(currentPage - 1)}
+                    disabled={currentPage === 1}
+                    aria-label="Previous page"
+                  >
+                    Previous
+                  </button>
+                  {Array.from({ length: totalPages }, (_, index) => (
+                    <button
+                      key={index + 1}
+                      className={`min-w-[44px] min-h-[44px] px-4 py-2 border-t border-b border-l border-gray-300 font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-light-blue focus:ring-offset-1 ${
+                        currentPage === index + 1
+                          ? 'bg-dark-blue-2 text-white border-dark-blue-2'
+                          : 'bg-white text-dark-blue-2 hover:bg-gray-50'
+                      }`}
+                      onClick={() => handlePageChange(index + 1)}
+                      aria-label={`Page ${index + 1}`}
+                      aria-current={currentPage === index + 1 ? 'page' : undefined}
+                    >
+                      {index + 1}
+                    </button>
+                  ))}
+                  <button
+                    className={`min-w-[44px] min-h-[44px] px-4 py-2 border border-gray-300 rounded-r-lg font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-light-blue focus:ring-offset-1 ${
+                      currentPage === totalPages || totalPages === 0
+                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                        : 'bg-white text-dark-blue-2 hover:bg-gray-50'
+                    }`}
+                    onClick={() => handlePageChange(currentPage + 1)}
+                    disabled={currentPage === totalPages || totalPages === 0}
+                    aria-label="Next page"
+                  >
+                    Next
+                  </button>
+                </nav>
+              </div>
+            )}
           </div>
         </div>
   

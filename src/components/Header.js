@@ -63,32 +63,37 @@ const Header = ({
         <span className="reverse-gradient-text mt-4 mb-4 text-2xl md:text-4xl">
           Open Source Software
         </span>
-        <div className="flex space-x-4">
+        <nav aria-label="Project categories" className="flex flex-wrap gap-2">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => handleCategoryChange(category)}
-              className={`px-4 py-1 text-xs font-semibold rounded-full transition-colors duration-300 ${
+              aria-pressed={activeCategory === category}
+              className={`min-h-[44px] px-4 py-2 text-sm font-semibold rounded-full transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-light-blue focus:ring-offset-1 ${
                 activeCategory === category
                   ? "bg-light-blue-2 text-white"
-                  : "text-dark-blue-2 bg-white border border-dark-blue-2"
+                  : "text-dark-blue-2 bg-white border border-dark-blue-2 hover:bg-gray-50"
               }`}
             >
               {category}
             </button>
           ))}
-        </div>
+        </nav>
       </div>
       <div className="flex items-center w-full px-6 md:px-8">
         <div className="flex-grow flex border border-dark-blue-2 rounded-full overflow-hidden">
           <input
             type="text"
-            className="flex-grow ml-6 p-2 bg-white outline-none text-dark-blue-2 placeholder-dark-blue-2"
+            className="flex-grow ml-6 p-2 bg-white outline-none text-dark-blue-2 placeholder-dark-blue-2 focus:ring-2 focus:ring-light-blue"
             placeholder="Search"
+            aria-label="Search projects by name or tag"
             value={searchTerm}
             onChange={handleSearchInputChange}
           />
-          <button className="px-4 py-2 bg-white flex items-center justify-center">
+          <button
+            aria-label="Search"
+            className="px-4 py-2 bg-white flex items-center justify-center"
+          >
             <FontAwesomeIcon icon={faSearch} className="text-dark-blue-2" />
           </button>
         </div>
@@ -101,7 +106,8 @@ const Header = ({
             />
             <button
               onClick={toggleArrow}
-              className={`focus:outline-none ${
+              aria-label="Sort by stars"
+              className={`focus:outline-none focus:ring-2 focus:ring-light-blue focus:ring-offset-1 rounded ${
                 sortByRepos ? "opacity-50 cursor-not-allowed" : ""
               }`}
               disabled={!!sortByRepos}
@@ -116,7 +122,8 @@ const Header = ({
             <RepoIcon size={18} className="text-dark-blue-2 text-md ml-2" />
             <button
               onClick={toggleCalendarArrow}
-              className={`focus:outline-none ${
+              aria-label="Sort by repositories"
+              className={`focus:outline-none focus:ring-2 focus:ring-light-blue focus:ring-offset-1 rounded ${
                 sortByStars ? "opacity-50 cursor-not-allowed" : ""
               }`}
               disabled={!!sortByStars}
@@ -129,21 +136,25 @@ const Header = ({
           </div>
         </div>
       </div>
-      <div className="flex items-center flex-wrap mt-4 ml-6 md:ml-8">
-        {activeFilters.map((filter, index) => (
-          <div
-            key={index}
-            className="flex items-center bg-light-blue-2 text-white px-3 py-1 rounded-full mr-2 mb-2"
-          >
-            <span>{filter}</span>
-            <FontAwesomeIcon
-              icon={faTimes}
-              className="ml-2 cursor-pointer"
+      {activeFilters.length > 0 && (
+        <div className="flex items-center flex-wrap mt-4 ml-6 md:ml-8" role="list" aria-label="Active filters">
+          {activeFilters.map((filter, index) => (
+            <button
+              key={index}
               onClick={() => onRemoveTag(filter)}
-            />
-          </div>
-        ))}
-      </div>
+              aria-label={`Remove filter: ${filter}`}
+              className="flex items-center bg-light-blue-2 text-white px-3 py-2 rounded-full mr-2 mb-2 min-h-[36px] hover:bg-dark-blue transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-dark-blue focus:ring-offset-1"
+            >
+              <span>{filter}</span>
+              <FontAwesomeIcon
+                icon={faTimes}
+                className="ml-2"
+                aria-hidden="true"
+              />
+            </button>
+          ))}
+        </div>
+      )}
       <Tooltip anchorId="stars" place="top" />
       <Tooltip anchorId="repos" place="top" />
     </header>

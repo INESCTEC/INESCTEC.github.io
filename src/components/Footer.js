@@ -9,7 +9,7 @@ const Footer = () => {
           <a href="https://github.com/INESCTEC/.github/blob/main/documents/code_of_conduct.md" className="hover:underline">Code of Conduct</a>
         </div>
         <div className="mt-4 md:mt-0 text-center md:text-right text-sm md:text-base">
-          2024, INESC TEC
+          {new Date().getFullYear()}, INESC TEC
         </div>
       </div>
     </footer>
