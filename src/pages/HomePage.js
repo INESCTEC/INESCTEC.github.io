@@ -43,7 +43,7 @@ const HomePage = () => {
   const totalStars = projects.reduce((sum, p) => sum + (p.total_stars || 0), 0);
 
   return (
-    <div className="font-mono h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
+    <div id="home-scroll-container" className="font-mono h-screen overflow-y-auto snap-y snap-proximity scroll-smooth">
       <Element name="top" className="min-h-screen snap-start snap-always">
         <main className="relative flex items-center justify-center bg-gradient-to-r from-dark-blue to-light-blue min-h-screen text-white overflow-hidden">
           <ParticleNetwork />
@@ -67,6 +67,7 @@ const HomePage = () => {
                 to="vision"
                 smooth={true}
                 duration={500}
+                containerId="home-scroll-container"
                 className="hero-nav-link text-xl mb-4 md:text-2xl md:mb-6 cursor-pointer 2xl:text-2xl"
               >
                 Our Vision
@@ -75,6 +76,7 @@ const HomePage = () => {
                 to="innovation-areas"
                 smooth={true}
                 duration={500}
+                containerId="home-scroll-container"
                 className="hero-nav-link text-xl mb-4 md:text-2xl md:mb-6 cursor-pointer 2xl:text-2xl"
               >
                 Innovation Areas
@@ -93,6 +95,7 @@ const HomePage = () => {
             to="vision"
             smooth={true}
             duration={500}
+            containerId="home-scroll-container"
             className="absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer z-10 animate-bounce"
           >
             <FontAwesomeIcon icon={faChevronDown} className="text-white/70 text-2xl" />
@@ -104,7 +107,7 @@ const HomePage = () => {
         <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
           <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
             <span>Open Source</span>
-            <ScrollLink to="top" smooth={true} duration={500} className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
+            <ScrollLink to="top" smooth={true} duration={500} containerId="home-scroll-container" className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
               <FontAwesomeIcon icon={faChevronUp} width={30} />
             </ScrollLink>
           </h1>
@@ -148,7 +151,7 @@ const HomePage = () => {
         <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
           <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
             <span>Innovation Areas</span>
-            <ScrollLink to="top" smooth={true} duration={500} className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
+            <ScrollLink to="top" smooth={true} duration={500} containerId="home-scroll-container" className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
               <FontAwesomeIcon icon={faChevronUp} width={30} />
             </ScrollLink>
           </h1>
