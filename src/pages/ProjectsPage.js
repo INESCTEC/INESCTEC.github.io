@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer';
+import BackToTop from '../components/BackToTop';
 import image from '../assets/circuit.png';
 import { useLocation } from 'react-router-dom';
 import ScrollNavbar from '../components/ScrollNavbar';
@@ -134,6 +135,14 @@ const ProjectsPage = () => {
               defaultCategory={defaultCategory} 
               onCategoryChange={handleCategoryChange}
             />
+            {!loading && filteredProjects.length > 0 && (
+              <div className="flex justify-between items-center px-6 md:px-8 mt-4 text-sm text-gray-600">
+                <span>
+                  Showing {indexOfFirstProject + 1}-{Math.min(indexOfLastProject, filteredProjects.length)} of {filteredProjects.length} project{filteredProjects.length !== 1 ? 's' : ''}
+                </span>
+              </div>
+            )}
+
             <div className="mt-4 mb-4 pb-2 pt-2">
               {loading ? (
                 <div className="flex justify-center items-center py-16">
@@ -146,7 +155,13 @@ const ProjectsPage = () => {
                   </React.Fragment>
                 ))
               ) : (
-                <p className="text-center text-gray-500 py-8">No projects found.</p>
+                <div className="flex flex-col items-center justify-center py-16 text-gray-500">
+                  <svg className="w-16 h-16 mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <p className="text-lg font-medium mb-2">No projects found</p>
+                  <p className="text-sm">Try adjusting your search or filters</p>
+                </div>
               )}
             </div>
   
@@ -200,6 +215,7 @@ const ProjectsPage = () => {
   
         {/* Footer */}
         <Footer />
+        <BackToTop />
       </div>
     </>
   );  
