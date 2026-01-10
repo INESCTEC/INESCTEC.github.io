@@ -134,7 +134,7 @@ const HomePage = () => {
               </div>
             ) : areas.length > 0 ? (
               areas.map((area, index) => (
-                <AreaCard key={index} area={area} />
+                <AreaCard key={index} area={area} index={index} />
               ))
             ) : (
               <p className="text-center text-gray-500">No innovation areas found.</p>
