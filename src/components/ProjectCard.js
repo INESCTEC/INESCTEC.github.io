@@ -130,19 +130,22 @@ const ProjectCard = ({ project, onTagClick }) => {
               {project.project_description || 'No description available.'}
             </p>
           </div>
-          <div className="flex space-x-2 items-center">
-            <span className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer" onClick={() => onTagClick(project.project_area)}>
+          <div className="flex flex-wrap gap-2 items-center">
+            <button
+              className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer hover:bg-dark-blue-2 transition-colors duration-200"
+              onClick={() => onTagClick(project.project_area)}
+            >
               {project.project_area}
-            </span>
+            </button>
 
             {visibleTags.map((tag, index) => (
-              <span
+              <button
                 key={tag + index}
-                className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer"
+                className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-sm cursor-pointer hover:bg-dark-blue-2 transition-colors duration-200"
                 onClick={() => onTagClick(tag)}
               >
                 {tag}
-              </span>
+              </button>
             ))}
 
             {extraTags.length > 0 && (
@@ -180,8 +183,16 @@ const ProjectCard = ({ project, onTagClick }) => {
               </div>
             </div>
             <div className="mt-auto text-end">
-              <a href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`} className="text-dark-blue-2" target="_blank" rel="noopener noreferrer">
-                <button className="text-dark-blue-2">See repositories</button>
+              <a
+                href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-dark-blue-2 font-medium hover:text-light-blue-2 transition-colors duration-200"
+              >
+                See repositories
+                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
               </a>
             </div>
           </div>
@@ -219,13 +230,13 @@ const ProjectCard = ({ project, onTagClick }) => {
             )}
             <div className="flex flex-wrap justify-center mb-4">
               {visibleTags.map((tag, index) => (
-                <span
+                <button
                   key={tag + index}
-                  className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-xs mr-1 mb-1 cursor-pointer"
+                  className="px-3 py-1 bg-light-blue-2 text-white font-bold rounded-full text-xs mr-1 mb-1 cursor-pointer hover:bg-dark-blue-2 transition-colors duration-200"
                   onClick={() => onTagClick(tag)}
                 >
                   {tag}
-                </span>
+                </button>
               ))}
 
               {extraTags.length > 0 && (
@@ -237,8 +248,16 @@ const ProjectCard = ({ project, onTagClick }) => {
               )}
             </div>
             <div className="mt-auto text-center">
-              <a href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`} className="text-dark-blue-2 text-sm" target="_blank" rel="noopener noreferrer">
-                See all repositories
+              <a
+                href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-dark-blue-2 font-medium hover:text-light-blue-2 transition-colors duration-200 text-sm"
+              >
+                See repositories
+                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
               </a>
             </div>
           </div>

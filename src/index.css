@@ -20,11 +20,21 @@
   @apply bg-gradient-to-r from-dark-blue to-light-blue;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Better focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid #64C8EC;
+  outline-offset: 2px;
 }
 
 code {
