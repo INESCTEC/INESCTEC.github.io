@@ -67,7 +67,7 @@ const Header = ({
       </div>
 
       {/* Second row: Categories */}
-      <div className="flex gap-2 mb-4 overflow-x-auto pb-2 -mx-1 px-1 scrollbar-hide">
+      <div className="flex gap-2 mb-4 overflow-x-auto py-1 -mx-1 px-1 scrollbar-hide">
         {categories.map((category) => (
           <button
             key={category}
