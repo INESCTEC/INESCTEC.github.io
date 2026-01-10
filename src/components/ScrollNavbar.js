@@ -27,35 +27,39 @@ const ScrollNavbar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-20 shadow-md transition-opacity duration-300 ${
-        showNavbar ? 'opacity-100' : 'opacity-0'
-      } bg-white navbar-large`}
+      className={`fixed top-0 left-0 w-full z-20 shadow-md transition-all duration-300 ${
+        showNavbar ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'
+      } bg-white`}
+      style={{ pointerEvents: showNavbar ? 'auto' : 'none' }}
     >
-      <nav className="flex justify-between items-center p-8">
-        <div className="flex items-end">
-          <Link to="/">
-            <img src={logo} alt="Logo" className="h-8 w-auto md:h-10 w-auto" />
-          </Link>
-          <span className="hidden md:block ml-3 text-dark-blue-2 font-bold text-xl self-end">OSS</span>
-        </div>
-        
-        <ul className="flex items-center space-x-4 text-dark-blue-2 font-semibold text-lg">
+      <nav className="flex justify-between items-center px-6 py-4 md:px-8">
+        <Link to="/" className="flex items-end group">
+          <img src={logo} alt="INESC TEC" className="h-8 md:h-10 w-auto" />
+          <span className="hidden md:block ml-3 text-dark-blue-2 font-bold text-xl self-end group-hover:text-light-blue-2 transition-colors">
+            OSS
+          </span>
+        </Link>
+
+        <ul className="flex items-center space-x-6 text-dark-blue-2 font-semibold">
           <li>
             <button
-              onClick={() => handleLinkClick('/')} 
-              className={`pb-2 ${
-                location.pathname === '/' ? 'border-b-2 border-light-blue-2' : ''
+              onClick={() => handleLinkClick('/')}
+              className={`px-3 py-2 rounded-lg transition-all duration-200 ${
+                location.pathname === '/'
+                  ? 'bg-dark-blue-2 text-white'
+                  : 'hover:bg-gray-100'
               }`}
             >
               Home
             </button>
           </li>
-          <span className="text-dark-blue-2">|</span>
           <li>
             <button
-              onClick={() => handleLinkClick('/projects')} 
-              className={`pb-2 ${
-                location.pathname === '/projects' ? 'border-b-2 border-dark-blue-2' : ''
+              onClick={() => handleLinkClick('/projects')}
+              className={`px-3 py-2 rounded-lg transition-all duration-200 ${
+                location.pathname === '/projects'
+                  ? 'bg-dark-blue-2 text-white'
+                  : 'hover:bg-gray-100'
               }`}
             >
               Projects

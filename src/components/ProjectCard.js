@@ -103,8 +103,8 @@ const ProjectCard = ({ project, onTagClick }) => {
 
   return (
     <>
-      <div className="hidden md:flex justify-between bg-white text-black font-mono relative before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-gradient-to-b from-dark-blue-2 to-light-blue-2 mb-12 ml-8 mr-12 md:mx-16">
-        <div className="flex-auto pl-4" style={{ width: '65%' }}>
+      <div className="hidden md:flex justify-between bg-white text-black font-mono relative before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-gradient-to-b from-dark-blue-2 to-light-blue-2 mb-12 ml-8 mr-12 md:mx-16 transition-all duration-300 hover:shadow-lg hover:before:w-2 py-6">
+        <div className="flex-auto pl-6" style={{ width: '65%' }}>
           <div className="flex flex-col items-start gap-2 mb-3">
             <a
               href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`}
@@ -154,7 +154,7 @@ const ProjectCard = ({ project, onTagClick }) => {
             )}
           </div>
         </div>
-        <div className="flex-none pl-4" style={{ width: '32%' }}>
+        <div className="flex-none pl-4 pr-6" style={{ width: '32%' }}>
           <div className="flex flex-col justify-between h-full">
             <div>
               <h3 className="font-semibold mb-3 text-start">Top OSS Repositories</h3>
@@ -188,7 +188,7 @@ const ProjectCard = ({ project, onTagClick }) => {
         </div>
       </div>
       <div className="block md:hidden bg-white text-black font-mono relative z-10 mb-8 mx-4 sm:mx-8">
-        <div className="flex flex-col p-4 border border-gray-200 rounded-lg shadow-md">
+        <div className="flex flex-col p-4 border border-gray-200 rounded-lg shadow-md transition-all duration-300 hover:shadow-xl hover:border-light-blue-2">
           <div className="flex flex-col items-center mb-4">
             <a
               href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`}

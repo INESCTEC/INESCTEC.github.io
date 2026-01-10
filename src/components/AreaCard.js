@@ -59,7 +59,7 @@ const AreaCard = ({ area }) => {
     <>
       {/* Desktop Layout */}
       <div
-        className="hidden md:flex justify-between card-gradient text-black font-sans rounded-lg shadow-md p-6 mb-8 relative before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-dark-blue-2"
+        className="hidden md:flex justify-between card-gradient text-black font-sans rounded-lg shadow-md p-6 mb-8 relative before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-dark-blue-2 transition-all duration-300 hover:shadow-xl hover:before:w-2"
         style={{ '--tw-gradient-from': area.area === 'Energy' ? 'bg-dark-blue-2' : 'bg-industry-red' }}
       >
         {/* Left Section */}
@@ -113,7 +113,7 @@ const AreaCard = ({ area }) => {
       </div>
 
       {/* Mobile Layout */}
-      <div className="md:hidden flex flex-col items-center text-center p-4 bg-white border border-gray-300 rounded-lg shadow-lg">
+      <div className="md:hidden flex flex-col items-center text-center p-4 bg-white border border-gray-300 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:border-light-blue-2">
         <h2 className="text-4xl font-black mb-2 text-energy-yellow">
           {area.area}
         </h2>

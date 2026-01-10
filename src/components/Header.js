@@ -97,6 +97,7 @@ const Header = ({
             <FontAwesomeIcon icon={faSearch} className="text-dark-blue-2" />
           </button>
         </div>
+        {/* Desktop sort */}
         <div className="hidden md:flex items-center ml-4">
           <span className="text-dark-blue-2">Sort: </span>
           <div id="stars" data-tooltip-content="Total Stars">
@@ -135,6 +136,37 @@ const Header = ({
             </button>
           </div>
         </div>
+      </div>
+
+      {/* Mobile sort */}
+      <div className="flex md:hidden items-center justify-end gap-3 px-6 mt-3">
+        <span className="text-dark-blue-2 text-sm">Sort:</span>
+        <button
+          onClick={toggleArrow}
+          aria-label="Sort by stars"
+          className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-sm transition-colors ${
+            sortByStars
+              ? "bg-dark-blue-2 text-white"
+              : "bg-gray-100 text-dark-blue-2"
+          } ${sortByRepos ? "opacity-50" : ""}`}
+          disabled={!!sortByRepos}
+        >
+          <FontAwesomeIcon icon={faStarRegular} />
+          <FontAwesomeIcon icon={isArrowUp ? faArrowUp : faArrowDown} className="text-xs" />
+        </button>
+        <button
+          onClick={toggleCalendarArrow}
+          aria-label="Sort by repositories"
+          className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-sm transition-colors ${
+            sortByRepos
+              ? "bg-dark-blue-2 text-white"
+              : "bg-gray-100 text-dark-blue-2"
+          } ${sortByStars ? "opacity-50" : ""}`}
+          disabled={!!sortByStars}
+        >
+          <RepoIcon size={14} />
+          <FontAwesomeIcon icon={calendarArrowUp ? faArrowUp : faArrowDown} className="text-xs" />
+        </button>
       </div>
       {activeFilters.length > 0 && (
         <div className="flex items-center flex-wrap mt-4 ml-6 md:ml-8" role="list" aria-label="Active filters">
