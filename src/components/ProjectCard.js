@@ -2,26 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import GitHubIcon from '../assets/github-icon.png';
 import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
-import { faCodeBranch as faCodeBranchSolid, faCode, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faCodeBranch as faCodeBranchSolid, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { Popover, Button } from 'antd';
 
-const ProjectFallbackLogo = ({ name, size = 'md' }) => {
-  const initials = name
-    .split(/[\s-_]+/)
-    .slice(0, 2)
-    .map(word => word.charAt(0).toUpperCase())
-    .join('');
-
-  const sizeClasses = size === 'sm' ? 'h-8 w-8 text-xs' : 'h-12 w-12 text-sm';
+const ProjectFallbackName = ({ name, size = 'md' }) => {
+  const sizeClasses = size === 'sm'
+    ? 'text-base font-bold'
+    : 'text-lg font-bold';
 
   return (
-    <div className={`${sizeClasses} bg-gradient-to-br from-dark-blue to-light-blue rounded-lg flex items-center justify-center`}>
-      {initials ? (
-        <span className="text-white font-bold">{initials}</span>
-      ) : (
-        <FontAwesomeIcon icon={faCode} className="text-white" />
-      )}
-    </div>
+    <span className={`${sizeClasses} text-gray-900`}>
+      {name}
+    </span>
   );
 };
 
@@ -88,7 +80,7 @@ const ProjectCard = ({ project, onTagClick, viewMode = 'list' }) => {
             {imageSrc ? (
               <img src={imageSrc} alt={project.project_name} className="h-10 w-auto" />
             ) : (
-              <ProjectFallbackLogo name={project.project_name} />
+              <ProjectFallbackName name={project.project_name || project.project_topic} />
             )}
           </a>
           <div className="flex items-center gap-3 text-gray-500 text-sm">
@@ -178,7 +170,7 @@ const ProjectCard = ({ project, onTagClick, viewMode = 'list' }) => {
                 {imageSrc ? (
                   <img src={imageSrc} alt={project.project_name} className="h-12 w-auto" />
                 ) : (
-                  <ProjectFallbackLogo name={project.project_name} />
+                  <ProjectFallbackName name={project.project_name || project.project_topic} />
                 )}
               </a>
               <div className="flex items-center gap-4">
@@ -293,7 +285,7 @@ const ProjectCard = ({ project, onTagClick, viewMode = 'list' }) => {
             {imageSrc ? (
               <img src={imageSrc} alt={project.project_name} className="h-10 w-auto" />
             ) : (
-              <ProjectFallbackLogo name={project.project_name} size="sm" />
+              <ProjectFallbackName name={project.project_name || project.project_topic} size="sm" />
             )}
           </a>
           <div className="flex items-center gap-3 text-gray-500 text-sm">
