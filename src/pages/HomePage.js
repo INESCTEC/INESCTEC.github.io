@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faChevronDown, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import logo from '../assets/INESCTEC_logotipo_monocrom_white.png';
 import Footer from '../components/Footer';
 import image from '../assets/INESCTEC_circuito_Set2024-03-cropped.svg';
@@ -104,7 +105,7 @@ const HomePage = () => {
       </Element>
 
       <Element name="vision" className="min-h-screen bg-white font-mono flex snap-start snap-always">
-        <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
+        <div className="w-full md:w-[92%] p-8 text-left mx-4 md:mx-20">
           <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
             <span>Open Source</span>
             <ScrollLink to="top" smooth={true} duration={500} containerId="home-scroll-container" className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
@@ -112,35 +113,49 @@ const HomePage = () => {
             </ScrollLink>
           </h1>
           <div className="h-[1px] bg-gradient-to-r from-dark-blue-2 to-light-blue mb-8"></div>
-          <div className="space-y-12 text-black mt-20">
+          <div className="space-y-8 text-black mt-12">
+            {/* Our Vision Card */}
             <section>
               <h2 className="text-2xl font-bold text-black mb-4">Our Vision</h2>
-              <p className="text-lg md:text-xl 3xl:text-2xl mb-16 text-justify">
-                At INESC TEC, we believe in the power of open-source solutions to accelerate scientific innovation, enhance transparency, and foster collaboration within the research community. Our commitment is to develop and share technologies that advance global research efforts, empowering scientists and communities to collaborate, innovate, and drive meaningful progress.
+              <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+                At INESC TEC, we believe in the power of <strong className="text-dark-blue">open-source solutions</strong> to accelerate scientific innovation, enhance transparency, and foster <strong className="text-dark-blue">collaboration</strong> within the research community. Our commitment is to develop and share technologies that advance global research efforts, empowering scientists and communities to collaborate, innovate, and drive meaningful progress.
               </p>
             </section>
+
+            {/* Where to Start Card */}
             <section>
               <h2 className="text-2xl font-bold text-black mb-4">Where to start?</h2>
-              <p className="text-lg md:text-xl 3xl:text-2xl mb-16 text-justify">
-                Whether you’re a researcher, developer, or enthusiast, you can access our tools, and collaborate with a diverse community of experts. Dive into our <a href='https://github.com/INESCTEC' className='text-dark-blue-2 hover:text-light-blue-2' rel="noreffer noreferrer" target='_blank'>Official Github</a> and start contributing to cutting-edge research today.
+              <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
+                Whether you're a researcher, developer, or enthusiast, you can access our tools and collaborate with a diverse community of experts. Start contributing to cutting-edge research today.
               </p>
+              <a
+                href="https://github.com/INESCTEC"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-dark-blue to-light-blue text-white font-medium rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300"
+              >
+                <FontAwesomeIcon icon={faGithub} className="text-xl" />
+                View GitHub
+              </a>
             </section>
+
+            {/* Contacts Card */}
             <section>
               <h2 className="text-2xl font-bold text-black mb-4">Contacts</h2>
-              <p className="text-lg md:text-xl 3xl:text-2xl mb-16 text-justify">
-                Whether you have questions, feedback, or partnership ideas, feel free to contact us at
-                <a
-                  href="mailto:oss@inesctec.pt"
-                  className="text-dark-blue hover:underline hover:text-light-blue"
-                >
-                  {' '}oss@inesctec.pt
-                </a>.
-                We are open to collaboration and committed to fostering open science initiatives.
+              <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
+                Whether you have questions, feedback, or partnership ideas, we're here to help. We are open to collaboration and committed to fostering open science initiatives.
               </p>
+              <a
+                href="mailto:oss@inesctec.pt"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-dark-blue font-medium rounded-lg border-2 border-dark-blue hover:bg-dark-blue hover:text-white transition-all duration-300"
+              >
+                <FontAwesomeIcon icon={faEnvelope} />
+                Contact Us
+              </a>
             </section>
           </div>
         </div>
-        <div className="hidden md:block w-1/6 relative">
+        <div className="hidden md:block w-[8%] relative">
           <img src={image} alt="Description" className="absolute inset-0 w-full h-full object-cover" />
         </div>
       </Element>
@@ -148,7 +163,7 @@ const HomePage = () => {
       <div className="w-full h-[1px] bg-gradient-to-r from-dark-blue-2 to-light-blue py-0.5"></div>
 
       <Element name="innovation-areas" className="min-h-screen bg-white font-mono flex snap-start snap-always">
-        <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
+        <div className="w-full md:w-[92%] p-8 text-left mx-4 md:mx-20">
           <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
             <span>Innovation Areas</span>
             <ScrollLink to="top" smooth={true} duration={500} containerId="home-scroll-container" className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
@@ -177,7 +192,7 @@ const HomePage = () => {
             
           </div>
         </div>
-        <div className="hidden md:block w-1/6 relative">
+        <div className="hidden md:block w-[8%] relative">
           <img src={image} alt="Description" className="absolute inset-0 w-full h-full object-cover" />
         </div>
       </Element>
