@@ -50,30 +50,30 @@ const Header = ({
   return (
     <header className="bg-white text-black font-mono pt-4 pb-6">
       {/* Top row: Logo + Title + Stats */}
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
-        <div className="flex items-center gap-4">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4 md:mb-6">
+        <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
           <Link to="/">
             <img src={logo} alt="INESC TEC" className="h-10 md:h-12" />
           </Link>
-          <span className="reverse-gradient-text text-xl md:text-2xl font-semibold">
+          <span className="reverse-gradient-text text-lg md:text-2xl font-semibold">
             Open Source Software
           </span>
         </div>
         {stats && (
-          <div className="text-sm text-gray-500 mt-2 md:mt-0">
+          <div className="hidden md:block text-sm text-gray-500">
             {stats.totalProjects} Projects · {stats.totalRepos} Repositories · {stats.totalStars.toLocaleString()} Stars
           </div>
         )}
       </div>
 
       {/* Second row: Categories */}
-      <div className="flex flex-wrap gap-2 mb-4">
+      <div className="flex gap-2 mb-4 overflow-x-auto pb-2 -mx-1 px-1 scrollbar-hide">
         {categories.map((category) => (
           <button
             key={category}
             onClick={() => handleCategoryChange(category)}
             aria-pressed={activeCategory === category}
-            className={`px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-light-blue focus:ring-offset-1 ${
+            className={`px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-light-blue focus:ring-offset-1 whitespace-nowrap flex-shrink-0 ${
               activeCategory === category
                 ? "bg-dark-blue text-white"
                 : "text-dark-blue-2 bg-white border border-gray-300 hover:border-dark-blue-2"
@@ -134,9 +134,9 @@ const Header = ({
             <FontAwesomeIcon icon={sortByRepos === 'asc' ? faArrowUp : faArrowDown} className="text-xs" />
           </button>
 
-          {/* View mode toggle */}
+          {/* View mode toggle - desktop only */}
           {onViewModeChange && (
-            <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden ml-2">
+            <div className="hidden md:flex items-center border border-gray-300 rounded-lg overflow-hidden ml-2">
               <button
                 onClick={() => onViewModeChange('list')}
                 aria-label="List view"
