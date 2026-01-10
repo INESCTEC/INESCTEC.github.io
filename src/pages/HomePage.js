@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons'; 
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/INESCTEC_logotipo_monocrom_white.png';
-import Footer from '../components/Footer'; 
+import Footer from '../components/Footer';
 import image from '../assets/INESCTEC_circuito_Set2024-03-cropped.svg';
 import AreaCard from '../components/AreaCard';
 
@@ -31,60 +31,9 @@ const HomePage = () => {
       });
   }, []);
 
-  useEffect(() => {
-    let isScrolling = false;
-
-    const handleScroll = (event) => {
-      if (isScrolling) return;
-
-      isScrolling = true;
-
-      setTimeout(() => {
-        isScrolling = false;
-      }, 800); 
-
-      const scrollDirection = event.deltaY > 0 ? 'down' : 'up'; 
-      const sections = document.querySelectorAll('.snap-section');
-      let currentSectionIndex = 0;
-
-      sections.forEach((section, index) => {
-        const sectionTop = section.offsetTop;
-        if (window.scrollY >= sectionTop - window.innerHeight / 2) {
-          currentSectionIndex = index;
-        }
-      });
-
-      let targetSectionIndex;
-
-      if (scrollDirection === 'down') {
-        targetSectionIndex = currentSectionIndex + 1;
-        if (targetSectionIndex >= sections.length) {
-          return;
-        }
-      }
-      else {
-        targetSectionIndex = currentSectionIndex - 1;
-        if (targetSectionIndex < 0) {
-          return;
-        }
-      }
-
-      sections[targetSectionIndex].scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    };
-
-    window.addEventListener('wheel', handleScroll, { passive: false });
-
-    return () => {
-      window.removeEventListener('wheel', handleScroll);
-    };
-  }, []);
-
   return (
-    <div className="font-mono">
-      <Element name="top" className="min-h-screen snap-section">
+    <div className="font-mono h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
+      <Element name="top" className="min-h-screen snap-start snap-always">
         <main className="flex items-center justify-center bg-gradient-to-r from-dark-blue to-light-blue min-h-screen text-white">
           <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl p-8">
             <div className="flex flex-col items-center md:items-start md:mr-8">
@@ -119,7 +68,7 @@ const HomePage = () => {
         </main>
       </Element>
 
-      <Element name="vision" className="min-h-screen bg-white font-mono flex snap-section">
+      <Element name="vision" className="min-h-screen bg-white font-mono flex snap-start snap-always">
         <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
           <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
             <span>Open Source</span>
@@ -163,7 +112,7 @@ const HomePage = () => {
 
       <div className="w-full h-[1px] bg-gradient-to-r from-dark-blue-2 to-light-blue py-0.5"></div>
 
-      <Element name="innovation-areas" className="min-h-screen bg-white font-mono flex snap-section">
+      <Element name="innovation-areas" className="min-h-screen bg-white font-mono flex snap-start snap-always">
         <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
           <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
             <span>Innovation Areas</span>

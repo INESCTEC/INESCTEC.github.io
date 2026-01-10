@@ -1,18 +1,33 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { Suspense, lazy } from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
-import HomePage from './pages/HomePage';
-import ProjectsPage from './pages/ProjectsPage';
-import NotFoundPage from './pages/NotFoundPage';
+
+// Code splitting - lazy load pages
+const HomePage = lazy(() => import('./pages/HomePage'));
+const ProjectsPage = lazy(() => import('./pages/ProjectsPage'));
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
+
+// Loading spinner component
+const PageLoader = () => (
+  <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-dark-blue to-light-blue">
+    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white"></div>
+  </div>
+);
 
 function App() {
+  const location = useLocation();
+
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
+      <Suspense fallback={<PageLoader />}>
+        <div key={location.pathname} className="page-transition">
+          <Routes location={location}>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+        </div>
+      </Suspense>
     </div>
   );
 }
