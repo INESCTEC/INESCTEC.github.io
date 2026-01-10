@@ -149,7 +149,6 @@ code {
 
 /* Next section indicator */
 .next-indicator {
-  display: flex;
   align-items: center;
   gap: 0.5rem;
   color: #0C85B0;

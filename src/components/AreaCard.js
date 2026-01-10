@@ -62,69 +62,113 @@ const AreaCard = ({ area, index = 0, darkMode = false }) => {
     window.scrollTo(0, 0);
   };
 
-  // Dark Mode Timeline Layout (transparent background)
+  // Dark Mode Layout
   if (darkMode) {
     return (
-      <div className={`timeline-item animate-fade-in-up ${animationDelay}`}>
-        <div className="timeline-chevron">
-          <FontAwesomeIcon icon={faChevronDown} className="text-dark-blue text-xs" />
-        </div>
-        <div className="dark-card flex text-left">
-          {/* Left Section - 2/3 */}
-          <div className="w-2/3 pr-6 flex flex-col">
-            <h2 className="text-2xl font-bold mb-3 text-gray-900">{area.area}</h2>
-            <p className="text-gray-600 leading-relaxed mb-4 text-left">
-              {area.area_description || 'No description available.'}
-            </p>
-            <button
-              onClick={handleSeeProjectsClick}
-              className="group flex items-center text-dark-blue font-bold text-sm hover:text-light-blue transition-colors duration-200 mt-auto"
-            >
-              <span className="group-hover:underline">See all projects</span>
-              <span className="ml-2 transition-transform duration-200 group-hover:translate-x-1">&rarr;</span>
-            </button>
-          </div>
-
-          {/* Right Section - 1/3 */}
-          <div className="w-1/3">
-            <h3 className="text-dark-blue font-bold text-xs uppercase tracking-wide mb-3">
-              Featured Projects
-            </h3>
-            <div className="space-y-2">
-              {area.featured_projects.slice(0, 3).map((project) => (
-                <div key={project.project_name} className="flex items-center justify-between">
-                  <a
-                    href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:opacity-80 transition-opacity"
-                  >
-                    {projectImages[project.project_name] ? (
-                      <img
-                        src={projectImages[project.project_name]}
-                        alt={`${project.project_name} logo`}
-                        className="h-6 w-auto"
-                      />
-                    ) : (
-                      <ProjectFallbackLogo name={project.project_name} size="sm" />
-                    )}
-                  </a>
-                  <div className="flex items-center gap-3 text-gray-500 text-xs">
-                    <div className="flex items-center gap-1">
-                      <FontAwesomeIcon icon={faStarRegular} />
-                      <span>{project.total_stars || 0}</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <FontAwesomeIcon icon={faCodeBranchSolid} />
-                      <span>{project.total_repos || 0}</span>
-                    </div>
+      <>
+        {/* Mobile: Compact card layout */}
+        <div className={`md:hidden bg-white border border-gray-200 rounded-lg p-4 mb-3 border-l-4 border-l-dark-blue shadow-sm text-left animate-fade-in-up ${animationDelay}`}>
+          <h2 className="text-base font-bold text-gray-900 mb-3">{area.area}</h2>
+          <div className="space-y-2 mb-3">
+            {area.featured_projects.slice(0, 3).map((project) => (
+              <div key={project.project_name} className="flex items-center justify-between">
+                <a
+                  href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  {projectImages[project.project_name] ? (
+                    <img
+                      src={projectImages[project.project_name]}
+                      alt={`${project.project_name} logo`}
+                      className="h-5 w-auto"
+                    />
+                  ) : (
+                    <ProjectFallbackLogo name={project.project_name} size="sm" />
+                  )}
+                </a>
+                <div className="flex items-center gap-2 text-gray-500 text-xs">
+                  <div className="flex items-center gap-1">
+                    <FontAwesomeIcon icon={faStarRegular} />
+                    <span>{project.total_stars || 0}</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <FontAwesomeIcon icon={faCodeBranchSolid} />
+                    <span>{project.total_repos || 0}</span>
                   </div>
                 </div>
-              ))}
+              </div>
+            ))}
+          </div>
+          <button
+            onClick={handleSeeProjectsClick}
+            className="group flex items-center text-dark-blue font-bold text-xs hover:text-light-blue transition-colors duration-200"
+          >
+            <span className="group-hover:underline">See all projects</span>
+            <span className="ml-2 transition-transform duration-200 group-hover:translate-x-1">&rarr;</span>
+          </button>
+        </div>
+
+        {/* Desktop: Timeline layout */}
+        <div className={`hidden md:block timeline-item animate-fade-in-up ${animationDelay}`}>
+          <div className="timeline-chevron">
+            <FontAwesomeIcon icon={faChevronDown} className="text-dark-blue text-xs" />
+          </div>
+          <div className="dark-card flex text-left">
+            <div className="w-2/3 pr-6 flex flex-col">
+              <h2 className="text-2xl font-bold mb-3 text-gray-900">{area.area}</h2>
+              <p className="text-base text-gray-600 leading-relaxed mb-4 text-left">
+                {area.area_description || 'No description available.'}
+              </p>
+              <button
+                onClick={handleSeeProjectsClick}
+                className="group flex items-center text-dark-blue font-bold text-sm hover:text-light-blue transition-colors duration-200 mt-auto"
+              >
+                <span className="group-hover:underline">See all projects</span>
+                <span className="ml-2 transition-transform duration-200 group-hover:translate-x-1">&rarr;</span>
+              </button>
+            </div>
+            <div className="w-1/3">
+              <h3 className="text-dark-blue font-bold text-xs uppercase tracking-wide mb-3">
+                Featured Projects
+              </h3>
+              <div className="space-y-2">
+                {area.featured_projects.slice(0, 3).map((project) => (
+                  <div key={project.project_name} className="flex items-center justify-between">
+                    <a
+                      href={`https://github.com/orgs/INESCTEC/repositories?q=topic%3A${project.project_topic}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:opacity-80 transition-opacity"
+                    >
+                      {projectImages[project.project_name] ? (
+                        <img
+                          src={projectImages[project.project_name]}
+                          alt={`${project.project_name} logo`}
+                          className="h-6 w-auto"
+                        />
+                      ) : (
+                        <ProjectFallbackLogo name={project.project_name} size="sm" />
+                      )}
+                    </a>
+                    <div className="flex items-center gap-3 text-gray-500 text-xs">
+                      <div className="flex items-center gap-1">
+                        <FontAwesomeIcon icon={faStarRegular} />
+                        <span>{project.total_stars || 0}</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <FontAwesomeIcon icon={faCodeBranchSolid} />
+                        <span>{project.total_repos || 0}</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 
