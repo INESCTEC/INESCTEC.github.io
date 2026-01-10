@@ -15,7 +15,7 @@
         "project_website": null,
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
-        "project_tags": ["Energy", "forecasting"]
+        "project_tags": ["Energy", "forecasting", "mv-grids", "lv-grids"]
     },
     {
         "project_area": "Energy",
