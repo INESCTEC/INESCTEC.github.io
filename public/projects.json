@@ -7,10 +7,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
             "collaborative-analytics",
             "collaborative-forecasting",
-            "predico"
+            "predico",
+            "data-market"
         ],
         "top_repositories": [
             {
@@ -37,15 +37,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "enershare",
-            "client-library",
             "price-optimization",
+            "dataspaces",
             "energy-communities",
-            "energy",
-            "renewable-energy-communities",
             "tno-security-gateway",
+            "renewable-energy-communities",
             "python",
-            "dataspaces"
+            "energy",
+            "client-library",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -101,15 +101,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "greendatai",
-            "data-sharing",
-            "enershare",
-            "client-library",
             "data-sharing-incentives",
+            "python",
+            "collaborative-forecasting",
             "machine-learning-algorithms",
             "energy",
-            "collaborative-forecasting",
+            "data-sharing",
+            "client-library",
             "data-marketplace",
-            "python"
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -168,13 +168,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "recommender",
-            "causality",
-            "incentives",
-            "energy",
             "electric-vehicles",
+            "interconnect",
+            "incentives",
             "python",
-            "interconnect"
+            "recommender",
+            "energy",
+            "causality"
         ],
         "top_repositories": [
             {
@@ -225,8 +225,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -343,8 +343,8 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "slam",
             "tribe",
+            "slam",
             "robotics",
             "agro-food"
         ],
@@ -419,8 +419,8 @@
         "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
         "project_topic": "greenauto",
         "project_tags": [
-            "greenauto",
-            "robotics"
+            "robotics",
+            "greenauto"
         ],
         "top_repositories": [
             {
@@ -455,18 +455,18 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "single-document",
             "unsupervised-approach",
+            "single-document",
+            "keyword-extraction",
             "ai",
             "corpus-independent",
-            "keyword-extraction",
             "domain-and-language-independent"
         ],
         "top_repositories": [
             {
                 "name": "yake",
                 "url": "https://github.com/INESCTEC/yake",
-                "stars": 1809,
+                "stars": 1810,
                 "is_fork": false,
                 "topics": [
                     "keyword-extraction",
@@ -478,7 +478,7 @@
                 ]
             }
         ],
-        "total_stars": 1809,
+        "total_stars": 1810,
         "total_repositories": 1
     }
 ]
