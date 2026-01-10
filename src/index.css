@@ -89,3 +89,76 @@ code {
 .hero-nav-link:hover {
   transform: translateX(4px);
 }
+
+/* Timeline styles */
+.timeline-container {
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #0C85B0, #59B2D1);
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-chevron {
+  position: absolute;
+  left: -11px;
+  top: 1.5rem;
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #0C85B0;
+  z-index: 10;
+}
+
+/* Dark card style */
+.dark-card {
+  background: transparent;
+  color: #1a2332;
+  padding: 1.5rem 0;
+}
+
+/* Large number styling */
+.card-number {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #59B2D1, #0C85B0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+/* Next section indicator */
+.next-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #0C85B0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.next-indicator:hover {
+  transform: translateY(4px);
+  color: #59B2D1;
+}
