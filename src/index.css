@@ -162,3 +162,11 @@ code {
   transform: translateY(4px);
   color: #59B2D1;
 }
+
+/* Line clamp utilities */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
