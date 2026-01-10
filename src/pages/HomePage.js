@@ -2,69 +2,101 @@ import React, { useEffect, useState } from 'react';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/INESCTEC_logotipo_monocrom_white.png';
 import Footer from '../components/Footer';
 import image from '../assets/INESCTEC_circuito_Set2024-03-cropped.svg';
 import AreaCard from '../components/AreaCard';
+import ParticleNetwork from '../components/ParticleNetwork';
 
 const HomePage = () => {
   const [areas, setAreas] = useState([]);
+  const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/areas.json')
-      .then(response => response.json())
-      .then(data => {
-        if (Array.isArray(data)) {
-          setAreas(data);
-        } else {
-          console.error('Data is not an array:', data);
+    Promise.all([
+      fetch('/areas.json').then(res => res.json()),
+      fetch('/projects.json').then(res => res.json())
+    ])
+      .then(([areasData, projectsData]) => {
+        if (Array.isArray(areasData)) {
+          setAreas(areasData);
+        }
+        if (Array.isArray(projectsData)) {
+          setProjects(projectsData);
         }
       })
       .catch(error => {
-        console.error('Error loading the data:', error);
+        console.error('Error loading data:', error);
         setAreas([]);
+        setProjects([]);
       })
       .finally(() => {
         setLoading(false);
       });
   }, []);
 
+  // Calculate stats
+  const totalProjects = projects.length;
+  const totalRepos = projects.reduce((sum, p) => sum + (p.total_repositories || 0), 0);
+  const totalStars = projects.reduce((sum, p) => sum + (p.total_stars || 0), 0);
+
   return (
     <div className="font-mono h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
       <Element name="top" className="min-h-screen snap-start snap-always">
-        <main className="flex items-center justify-center bg-gradient-to-r from-dark-blue to-light-blue min-h-screen text-white">
-          <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl p-8">
+        <main className="relative flex items-center justify-center bg-gradient-to-r from-dark-blue to-light-blue min-h-screen text-white overflow-hidden">
+          <ParticleNetwork />
+          <div className="relative z-10 flex flex-col md:flex-row justify-between items-center w-full max-w-4xl p-8">
             <div className="flex flex-col items-center md:items-start md:mr-8">
               <img src={logo} alt="INESC TEC" className="h-14 2xl:h-16" />
               <h2 className="text-2xl md:text-3xl 2xl:text-4xl mt-4">Open Source Software</h2>
+              <p className="text-sm md:text-base text-white/80 mt-2 text-center md:text-left">
+                Advancing research through collaborative innovation
+              </p>
+              <p className="text-xs md:text-sm text-white/60 mt-1">
+                {totalProjects > 0 ? `${totalProjects} Projects` : ''}
+                {totalProjects > 0 && totalRepos > 0 ? ' · ' : ''}
+                {totalRepos > 0 ? `${totalRepos} Repositories` : ''}
+                {totalRepos > 0 && totalStars > 0 ? ' · ' : ''}
+                {totalStars > 0 ? `${totalStars.toLocaleString()} Stars` : ''}
+              </p>
             </div>
             <div className="flex flex-col items-center mt-6 md:items-start md:mt-0 2xl:mt-2">
               <ScrollLink
                 to="vision"
                 smooth={true}
                 duration={500}
-                className="text-xl mb-4 md:text-2xl hover:underline md:mb-6 cursor-pointer 2xl:text-2xl"
+                className="hero-nav-link text-xl mb-4 md:text-2xl md:mb-6 cursor-pointer 2xl:text-2xl"
               >
-                {'>'} Our Vision
+                Our Vision
               </ScrollLink>
               <ScrollLink
                 to="innovation-areas"
                 smooth={true}
                 duration={500}
-                className="text-xl mb-4 md:text-2xl hover:underline md:mb-6 cursor-pointer 2xl:text-2xl"
+                className="hero-nav-link text-xl mb-4 md:text-2xl md:mb-6 cursor-pointer 2xl:text-2xl"
               >
-                {'>'} Innovation Areas
+                Innovation Areas
               </ScrollLink>
               <RouterLink
                 to="/projects"
-                className="text-xl md:text-2xl hover:underline cursor-pointer 2xl:text-2xl"
+                className="hero-nav-link text-xl md:text-2xl cursor-pointer 2xl:text-2xl"
               >
-                {'>'} Our Projects
+                Our Projects
               </RouterLink>
             </div>
           </div>
+
+          {/* Scroll indicator */}
+          <ScrollLink
+            to="vision"
+            smooth={true}
+            duration={500}
+            className="absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer z-10 animate-bounce"
+          >
+            <FontAwesomeIcon icon={faChevronDown} className="text-white/70 text-2xl" />
+          </ScrollLink>
         </main>
       </Element>
 
