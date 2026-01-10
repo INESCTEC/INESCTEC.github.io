@@ -1,6 +1,42 @@
 [
     {
         "project_area": "Energy",
+        "project_name": "Data-driven tools for LV grids operation",
+        "project_logo": null,
+        "project_website": null,
+        "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
+        "project_topic": "dd-tools-lv-grids",
+        "project_tags": ["Energy", "lv-grids-ops"]
+    },
+    {
+        "project_area": "Energy",
+        "project_name": "Predigrid",
+        "project_logo": null,
+        "project_website": null,
+        "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
+        "project_topic": "predigrid",
+        "project_tags": ["Energy", "forecasting"]
+    },
+    {
+        "project_area": "Energy",
+        "project_name": "FlexiHome",
+        "project_logo": null,
+        "project_website": null,
+        "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
+        "project_topic": "flexihome",
+        "project_tags": ["Energy", "home-energy-management"]
+    },
+    {
+        "project_area": "Energy",
+        "project_name": "EV Forecasting",
+        "project_logo": null,
+        "project_website": null,
+        "project_description": "Forecasting services and tools for electric vehicle related forecasting tasks.",
+        "project_topic": "ev-forecasting",
+        "project_tags": ["Energy", "forecasting", "ev"]
+    },
+    {
+        "project_area": "Energy",
         "project_name": "Predico",
         "project_logo": "predico.png",
         "project_website": "https://www.inesctec.pt/en/news/the-platform-that-seeks-to-revolutionise-the-forecasting-of-energy-production-is-collaborative-and-features-inesc-tec#about",
