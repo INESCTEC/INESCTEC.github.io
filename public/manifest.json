@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "INESC TEC OSS",
+  "name": "INESC TEC Open Source Software Website",
   "icons": [
     {
       "src": "favicon-16x16.ico",
@@ -30,6 +30,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#0C85B0",
   "background_color": "#ffffff"
 }
