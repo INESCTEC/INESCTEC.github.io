@@ -117,7 +117,7 @@ const HomePage = () => {
               <h1 className="text-2xl md:text-5xl reverse-gradient-text font-bold mb-2 md:mb-6 text-left">
                 Open Source
               </h1>
-              <p className="text-lg text-gray-600 leading-relaxed hidden md:block">
+              <p className="text-lg text-gray-600 leading-relaxed hidden md:block text-left">
                 Discover our commitment to open-source solutions that accelerate scientific innovation and foster collaboration within the research community.
               </p>
             </div>
@@ -255,7 +255,7 @@ const HomePage = () => {
               <h1 className="text-2xl md:text-5xl reverse-gradient-text font-bold mb-2 md:mb-6 text-left">
                 Innovation Areas
               </h1>
-              <p className="text-lg text-gray-600 leading-relaxed hidden md:block">
+              <p className="text-lg text-gray-600 leading-relaxed hidden md:block text-left">
                 Explore our key areas of innovation where we strive to make a difference through open-source solutions and collaborative research.
               </p>
             </div>
