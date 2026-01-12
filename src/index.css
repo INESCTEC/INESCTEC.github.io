@@ -20,6 +20,10 @@
   @apply bg-gradient-to-r from-dark-blue to-light-blue;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
@@ -27,7 +31,174 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Better focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid #64C8EC;
+  outline-offset: 2px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Fade in up animation for cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+/* Animation delay utilities for staggered effects */
+.animation-delay-100 { animation-delay: 100ms; }
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-300 { animation-delay: 300ms; }
+.animation-delay-400 { animation-delay: 400ms; }
+
+/* Hero navigation link hover effect */
+.hero-nav-link {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hero-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.hero-nav-link:hover::after {
+  width: 100%;
+}
+
+.hero-nav-link:hover {
+  transform: translateX(4px);
+}
+
+/* Timeline styles */
+.timeline-container {
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #0C85B0, #59B2D1);
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (min-height: 900px) {
+  .timeline-item {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-height: 1100px) {
+  .timeline-item {
+    padding-bottom: 2rem;
+  }
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-chevron {
+  position: absolute;
+  left: -11px;
+  top: 1.5rem;
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #0C85B0;
+  z-index: 10;
+}
+
+/* Dark card style */
+.dark-card {
+  background: transparent;
+  color: #1a2332;
+  padding: 0.5rem 0;
+}
+
+@media (min-height: 900px) {
+  .dark-card {
+    padding: 1rem 0;
+  }
+}
+
+@media (min-height: 1100px) {
+  .dark-card {
+    padding: 1.5rem 0;
+  }
+}
+
+/* Large number styling */
+.card-number {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #59B2D1, #0C85B0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+/* Next section indicator */
+.next-indicator {
+  align-items: center;
+  gap: 0.5rem;
+  color: #0C85B0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.next-indicator:hover {
+  transform: translateY(4px);
+  color: #59B2D1;
+}
+
+/* Line clamp utilities */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Hide scrollbar but keep functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

@@ -2,190 +2,327 @@ import React, { useEffect, useState } from 'react';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons'; 
+import { faChevronUp, faChevronDown, faEnvelope, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import logo from '../assets/INESCTEC_logotipo_monocrom_white.png';
-import Footer from '../components/Footer'; 
-import image from '../assets/INESCTEC_circuito_Set2024-03-cropped.svg';
+import Footer from '../components/Footer';
 import AreaCard from '../components/AreaCard';
+import ParticleNetwork from '../components/ParticleNetwork';
 
 const HomePage = () => {
   const [areas, setAreas] = useState([]);
+  const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/areas.json')
-      .then(response => response.json())
-      .then(data => {
-        if (Array.isArray(data)) {
-          setAreas(data);
-        } else {
-          console.error('Data is not an array:', data);
+    Promise.all([
+      fetch('/areas.json').then(res => res.json()),
+      fetch('/projects.json').then(res => res.json())
+    ])
+      .then(([areasData, projectsData]) => {
+        if (Array.isArray(areasData)) {
+          setAreas(areasData);
+        }
+        if (Array.isArray(projectsData)) {
+          setProjects(projectsData);
         }
       })
       .catch(error => {
-        console.error('Error loading the data:', error);
+        console.error('Error loading data:', error);
         setAreas([]);
+        setProjects([]);
+      })
+      .finally(() => {
+        setLoading(false);
       });
   }, []);
 
-  useEffect(() => {
-    let isScrolling = false;
-
-    const handleScroll = (event) => {
-      if (isScrolling) return;
-
-      isScrolling = true;
-
-      setTimeout(() => {
-        isScrolling = false;
-      }, 800); 
-
-      const scrollDirection = event.deltaY > 0 ? 'down' : 'up'; 
-      const sections = document.querySelectorAll('.snap-section');
-      let currentSectionIndex = 0;
-
-      sections.forEach((section, index) => {
-        const sectionTop = section.offsetTop;
-        if (window.scrollY >= sectionTop - window.innerHeight / 2) {
-          currentSectionIndex = index;
-        }
-      });
-
-      let targetSectionIndex;
-
-      if (scrollDirection === 'down') {
-        targetSectionIndex = currentSectionIndex + 1;
-        if (targetSectionIndex >= sections.length) {
-          return;
-        }
-      }
-      else {
-        targetSectionIndex = currentSectionIndex - 1;
-        if (targetSectionIndex < 0) {
-          return;
-        }
-      }
-
-      sections[targetSectionIndex].scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    };
-
-    window.addEventListener('wheel', handleScroll, { passive: false });
-
-    return () => {
-      window.removeEventListener('wheel', handleScroll);
-    };
-  }, []);
+  // Calculate stats
+  const totalProjects = projects.length;
+  const totalRepos = projects.reduce((sum, p) => sum + (p.total_repositories || 0), 0);
+  const totalStars = projects.reduce((sum, p) => sum + (p.total_stars || 0), 0);
 
   return (
-    <div className="font-mono">
-      <Element name="top" className="min-h-screen snap-section">
-        <main className="flex items-center justify-center bg-gradient-to-r from-dark-blue to-light-blue min-h-screen text-white">
-          <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl p-8">
+    <div id="home-scroll-container" className="font-mono h-screen overflow-y-auto snap-y md:snap-mandatory scroll-smooth">
+      <Element name="top" className="min-h-screen snap-start">
+        <main className="relative flex items-center justify-center bg-gradient-to-r from-dark-blue to-light-blue min-h-screen text-white overflow-hidden">
+          <ParticleNetwork />
+          <div className="relative z-10 flex flex-col md:flex-row justify-between items-center w-full max-w-4xl p-8">
             <div className="flex flex-col items-center md:items-start md:mr-8">
               <img src={logo} alt="INESC TEC" className="h-14 2xl:h-16" />
               <h2 className="text-2xl md:text-3xl 2xl:text-4xl mt-4">Open Source Software</h2>
+              <p className="text-sm md:text-base text-white/80 mt-2 text-center md:text-left">
+                Advancing research through collaborative innovation
+              </p>
+              <p className="text-xs md:text-sm text-white/60 mt-1">
+                {totalProjects > 0 ? `${totalProjects} Projects` : ''}
+                {totalProjects > 0 && totalRepos > 0 ? ' · ' : ''}
+                {totalRepos > 0 ? `${totalRepos} Repositories` : ''}
+                {totalRepos > 0 && totalStars > 0 ? ' · ' : ''}
+                {totalStars > 0 ? `${totalStars.toLocaleString()} Stars` : ''}
+              </p>
             </div>
-            <div className="flex flex-col items-center mt-6 md:items-start md:mt-0 2xl:mt-2">
+            <div className="flex flex-col items-center mt-10 md:items-start md:mt-0 2xl:mt-2">
               <ScrollLink
                 to="vision"
                 smooth={true}
                 duration={500}
-                className="text-xl mb-4 md:text-2xl hover:underline md:mb-6 cursor-pointer 2xl:text-2xl"
+                containerId="home-scroll-container"
+                className="hero-nav-link text-xl mb-4 md:text-2xl md:mb-6 cursor-pointer 2xl:text-2xl"
               >
-                {'>'} Our Vision
+                Our Vision
               </ScrollLink>
               <ScrollLink
                 to="innovation-areas"
                 smooth={true}
                 duration={500}
-                className="text-xl mb-4 md:text-2xl hover:underline md:mb-6 cursor-pointer 2xl:text-2xl"
+                containerId="home-scroll-container"
+                className="hero-nav-link text-xl mb-4 md:text-2xl md:mb-6 cursor-pointer 2xl:text-2xl"
               >
-                {'>'} Innovation Areas
+                Innovation Areas
               </ScrollLink>
               <RouterLink
                 to="/projects"
-                className="text-xl md:text-2xl hover:underline cursor-pointer 2xl:text-2xl"
+                className="hero-nav-link text-xl md:text-2xl cursor-pointer 2xl:text-2xl"
               >
-                {'>'} Our Projects
+                Our Projects
               </RouterLink>
             </div>
+          </div>
+
+          {/* Scroll indicator */}
+          <div className="absolute bottom-8 inset-x-0 flex justify-center z-10">
+            <ScrollLink
+              to="vision"
+              smooth={true}
+              duration={500}
+              containerId="home-scroll-container"
+              className="cursor-pointer animate-bounce"
+            >
+              <FontAwesomeIcon icon={faChevronDown} className="text-white/70 text-2xl" />
+            </ScrollLink>
           </div>
         </main>
       </Element>
 
-      <Element name="vision" className="min-h-screen bg-white font-mono flex snap-section">
-        <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
-          <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
-            <span>Open Source</span>
-            <ScrollLink to="top" smooth={true} duration={500} className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
-              <FontAwesomeIcon icon={faChevronUp} width={30} />
+      <Element name="vision" className="min-h-screen bg-white font-mono snap-start">
+        <div className="flex flex-col md:flex-row min-h-screen">
+          {/* Left Column - Title and Description */}
+          <div className="w-full md:w-[40%] px-6 pt-6 pb-2 md:p-12 flex flex-col justify-between">
+            <div>
+              <ScrollLink to="top" smooth={true} duration={500} containerId="home-scroll-container" className="next-indicator mb-4 hidden md:flex">
+                <FontAwesomeIcon icon={faChevronUp} />
+                <span>Back to top</span>
+              </ScrollLink>
+              <h1 className="text-2xl md:text-5xl reverse-gradient-text font-bold mb-2 md:mb-6 text-left">
+                Open Source
+              </h1>
+              <p className="text-lg text-gray-600 leading-relaxed hidden md:block text-left">
+                Discover our commitment to open-source solutions that accelerate scientific innovation and foster collaboration within the research community.
+              </p>
+            </div>
+
+            {/* Next Section Indicator */}
+            <ScrollLink
+              to="innovation-areas"
+              smooth={true}
+              duration={500}
+              containerId="home-scroll-container"
+              className="next-indicator mt-8 md:mt-0 hidden md:flex"
+            >
+              <FontAwesomeIcon icon={faChevronDown} />
+              <span>Next: Innovation Areas</span>
             </ScrollLink>
-          </h1>
-          <div className="h-[1px] bg-gradient-to-r from-dark-blue-2 to-light-blue mb-8"></div>
-          <div className="space-y-12 text-black mt-20">
-            <section>
-              <h2 className="text-2xl font-bold text-black mb-4">Our Vision</h2>
-              <p className="text-lg md:text-xl 3xl:text-2xl mb-16 text-justify">
-                At INESC TEC, we believe in the power of open-source solutions to accelerate scientific innovation, enhance transparency, and foster collaboration within the research community. Our commitment is to develop and share technologies that advance global research efforts, empowering scientists and communities to collaborate, innovate, and drive meaningful progress.
-              </p>
-            </section>
-            <section>
-              <h2 className="text-2xl font-bold text-black mb-4">Where to start?</h2>
-              <p className="text-lg md:text-xl 3xl:text-2xl mb-16 text-justify">
-                Whether you’re a researcher, developer, or enthusiast, you can access our tools, and collaborate with a diverse community of experts. Dive into our <a href='https://github.com/INESCTEC' className='text-dark-blue-2 hover:text-light-blue-2' rel="noreffer noreferrer" target='_blank'>Official Github</a> and start contributing to cutting-edge research today.
-              </p>
-            </section>
-            <section>
-              <h2 className="text-2xl font-bold text-black mb-4">Contacts</h2>
-              <p className="text-lg md:text-xl 3xl:text-2xl mb-16 text-justify">
-                Whether you have questions, feedback, or partnership ideas, feel free to contact us at
+          </div>
+
+          {/* Right Column - Cards */}
+          <div className="w-full md:w-[60%] px-6 pt-2 pb-6 md:p-12">
+            {/* Mobile: Compact cards */}
+            <div className="md:hidden space-y-3">
+              {/* Card 01 - Our Vision */}
+              <div className="bg-white border border-gray-200 rounded-lg p-4 border-l-4 border-l-dark-blue shadow-sm text-left">
+                <h2 className="text-base font-bold mb-2 text-gray-900">Our Vision</h2>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  At INESC TEC, we believe in the power of open-source solutions to accelerate scientific innovation, enhance transparency, and foster collaboration within the research community.
+                </p>
+              </div>
+
+              {/* Card 02 - Where to Start */}
+              <div className="bg-white border border-gray-200 rounded-lg p-4 border-l-4 border-l-dark-blue shadow-sm text-left">
+                <h2 className="text-base font-bold mb-2 text-gray-900">Where to start?</h2>
+                <p className="text-sm text-gray-600 leading-relaxed mb-3">
+                  Whether you're a researcher, developer, or enthusiast, you can access our tools and collaborate with a diverse community of experts.
+                </p>
+                <a
+                  href="https://github.com/INESCTEC"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-3 py-1.5 text-sm bg-dark-blue text-white font-medium rounded-lg hover:bg-light-blue transition-all duration-300"
+                >
+                  <FontAwesomeIcon icon={faGithub} />
+                  View GitHub
+                </a>
+              </div>
+
+              {/* Card 03 - Contacts */}
+              <div className="bg-white border border-gray-200 rounded-lg p-4 border-l-4 border-l-dark-blue shadow-sm text-left">
+                <h2 className="text-base font-bold mb-2 text-gray-900">Contacts</h2>
+                <p className="text-sm text-gray-600 leading-relaxed mb-3">
+                  Whether you have questions, feedback, or partnership ideas, we're here to help. We are open to collaboration.
+                </p>
                 <a
                   href="mailto:oss@inesctec.pt"
-                  className="text-dark-blue hover:underline hover:text-light-blue"
+                  className="inline-flex items-center gap-2 px-3 py-1.5 text-sm bg-transparent text-dark-blue font-medium rounded-lg border-2 border-dark-blue hover:bg-dark-blue hover:text-white transition-all duration-300"
                 >
-                  {' '}oss@inesctec.pt
-                </a>.
-                We are open to collaboration and committed to fostering open science initiatives.
-              </p>
-            </section>
+                  <FontAwesomeIcon icon={faEnvelope} />
+                  Contact Us
+                </a>
+              </div>
+
+              {/* Card 04 - Contributing */}
+              <div className="bg-white border border-gray-200 rounded-lg p-4 border-l-4 border-l-dark-blue shadow-sm text-left">
+                <h2 className="text-base font-bold mb-2 text-gray-900">Contributing</h2>
+                <p className="text-sm text-gray-600 leading-relaxed mb-3">
+                  Join us in building impactful open-source tools. We welcome contributions from researchers, developers, and enthusiasts worldwide.
+                </p>
+                <a
+                  href="https://github.com/INESCTEC/.github/blob/main/documents/contributing.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-3 py-1.5 text-sm bg-transparent text-dark-blue font-medium rounded-lg border-2 border-dark-blue hover:bg-dark-blue hover:text-white transition-all duration-300"
+                >
+                  <FontAwesomeIcon icon={faCode} />
+                  Get Started
+                </a>
+              </div>
+            </div>
+
+            {/* Desktop: Timeline layout */}
+            <div className="hidden md:block timeline-container">
+              <div className="timeline-line"></div>
+
+              {/* Card 01 - Our Vision */}
+              <div className="timeline-item">
+                <div className="timeline-chevron">
+                  <FontAwesomeIcon icon={faChevronDown} className="text-dark-blue text-xs" />
+                </div>
+                <div className="dark-card text-left">
+                  <h2 className="text-xl font-bold mb-3 text-gray-900">Our Vision</h2>
+                  <p className="text-base text-gray-600 leading-relaxed text-left">
+                    At INESC TEC, we believe in the power of open-source solutions to accelerate scientific innovation, enhance transparency, and foster collaboration within the research community. Our commitment is to develop and share technologies that advance global research efforts.
+                  </p>
+                </div>
+              </div>
+
+              {/* Card 02 - Where to Start */}
+              <div className="timeline-item">
+                <div className="timeline-chevron">
+                  <FontAwesomeIcon icon={faChevronDown} className="text-dark-blue text-xs" />
+                </div>
+                <div className="dark-card text-left">
+                  <h2 className="text-xl font-bold mb-3 text-gray-900">Where to start?</h2>
+                  <p className="text-base text-gray-600 leading-relaxed mb-4 text-left">
+                    Whether you're a researcher, developer, or enthusiast, you can access our tools and collaborate with a diverse community of experts.
+                  </p>
+                  <a
+                    href="https://github.com/INESCTEC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 text-base bg-dark-blue text-white font-medium rounded-lg hover:bg-light-blue transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                    View GitHub
+                  </a>
+                </div>
+              </div>
+
+              {/* Card 03 - Contacts */}
+              <div className="timeline-item">
+                <div className="timeline-chevron">
+                  <FontAwesomeIcon icon={faChevronDown} className="text-dark-blue text-xs" />
+                </div>
+                <div className="dark-card text-left">
+                  <h2 className="text-xl font-bold mb-3 text-gray-900">Contacts</h2>
+                  <p className="text-base text-gray-600 leading-relaxed mb-4 text-left">
+                    Whether you have questions, feedback, or partnership ideas, we're here to help. We are open to collaboration.
+                  </p>
+                  <a
+                    href="mailto:oss@inesctec.pt"
+                    className="inline-flex items-center gap-2 px-4 py-2 text-base bg-transparent text-dark-blue font-medium rounded-lg border-2 border-dark-blue hover:bg-dark-blue hover:text-white transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faEnvelope} />
+                    Contact Us
+                  </a>
+                </div>
+              </div>
+
+              {/* Card 04 - Contributing */}
+              <div className="timeline-item">
+                <div className="timeline-chevron">
+                  <FontAwesomeIcon icon={faChevronDown} className="text-dark-blue text-xs" />
+                </div>
+                <div className="dark-card text-left">
+                  <h2 className="text-xl font-bold mb-3 text-gray-900">Contributing</h2>
+                  <p className="text-base text-gray-600 leading-relaxed mb-4 text-left">
+                    Join us in building impactful open-source tools. We welcome contributions from researchers, developers, and enthusiasts worldwide.
+                  </p>
+                  <a
+                    href="https://github.com/INESCTEC/.github/blob/main/documents/contributing.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 text-base bg-transparent text-dark-blue font-medium rounded-lg border-2 border-dark-blue hover:bg-dark-blue hover:text-white transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faCode} />
+                    Get Started
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="hidden md:block w-1/6 relative">
-          <img src={image} alt="Description" className="absolute inset-0 w-full h-full object-cover" />
         </div>
       </Element>
 
-      <div className="w-full h-[1px] bg-gradient-to-r from-dark-blue-2 to-light-blue py-0.5"></div>
-
-      <Element name="innovation-areas" className="min-h-screen bg-white font-mono flex snap-section">
-        <div className="w-full md:w-5/6 p-8 text-left mx-4 md:mx-20">
-          <h1 className="text-4xl mt-6 mb-4 reverse-gradient-text font-bold flex items-center justify-between">
-            <span>Innovation Areas</span>
-            <ScrollLink to="top" smooth={true} duration={500} className="text-dark-blue-2 cursor-pointer" style={{ marginTop: '5px' }}>
-              <FontAwesomeIcon icon={faChevronUp} width={30} />
-            </ScrollLink>
-          </h1>
-          <div className="h-[1px] bg-gradient-to-r from-dark-blue to-light-blue"></div>
-          <div className="space-y-12 text-black mt-6">
-            <section>
-              <p className="text-lg md:text-xl 3xl:text-2xl mb-16 text-justify">
-                Explore our key areas of innovation where we strive to make a difference through open-source solutions and collaborative research. Stay tuned as we continue to expand and showcase our projects in these domains.
+      <Element name="innovation-areas" className="min-h-screen bg-white font-mono md:snap-start">
+        <div className="flex flex-col md:flex-row min-h-screen">
+          {/* Left Column - Title and Description */}
+          <div className="w-full md:w-[40%] px-6 pt-6 pb-2 md:p-12 flex flex-col justify-between">
+            <div>
+              <ScrollLink to="vision" smooth={true} duration={500} containerId="home-scroll-container" className="next-indicator mb-4 hidden md:flex">
+                <FontAwesomeIcon icon={faChevronUp} />
+                <span>Back to Open Source</span>
+              </ScrollLink>
+              <h1 className="text-2xl md:text-5xl reverse-gradient-text font-bold mb-2 md:mb-6 text-left">
+                Innovation Areas
+              </h1>
+              <p className="text-lg text-gray-600 leading-relaxed hidden md:block text-left">
+                Explore our key areas of innovation where we strive to make a difference through open-source solutions and collaborative research.
               </p>
-            </section>
+            </div>
 
-            {areas.map((area, index) => (
-              <AreaCard key={index} area={area} />
-            ))}
-            
+          </div>
+
+          {/* Right Column - Timeline with Area Cards */}
+          <div className="w-full md:w-[60%] px-6 pt-2 pb-6 md:p-12">
+            {loading ? (
+              <div className="flex justify-center items-center py-12">
+                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-dark-blue-2"></div>
+              </div>
+            ) : areas.length > 0 ? (
+              <div className="timeline-container">
+                <div className="hidden md:block timeline-line"></div>
+                {areas.map((area, index) => (
+                  <AreaCard key={index} area={area} index={index} darkMode={true} />
+                ))}
+              </div>
+            ) : (
+              <p className="text-center text-gray-500">No innovation areas found.</p>
+            )}
           </div>
         </div>
-        <div className="hidden md:block w-1/6 relative">
-          <img src={image} alt="Description" className="absolute inset-0 w-full h-full object-cover" />
-        </div>
       </Element>
-      <Footer />
+      <div className="md:snap-start">
+        <Footer />
+      </div>
     </div>
   );
 };
