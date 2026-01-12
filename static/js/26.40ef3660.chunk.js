@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[26],{8026(e,a,s){e.exports=s.p+"static/media/greendatai.48676af4115d7d2fd421.png"}}]);

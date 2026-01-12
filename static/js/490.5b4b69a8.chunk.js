@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[490],{1490(e,p,s){e.exports=s.p+"static/media/predico.cc866d095849455dadd8.png"}}]);

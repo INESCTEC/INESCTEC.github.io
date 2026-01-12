@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[194],{8194(e,p,s){e.exports=s.p+"static/media/INESCTEC_logotipo_color_rgb.21e99582a7dd11537ff1.png"}}]);

@@ -1,16 +1,112 @@
 [
     {
         "project_area": "Energy",
+        "project_name": "Data-driven tools for LV grids operation",
+        "project_logo": null,
+        "project_website": null,
+        "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
+        "project_topic": "dd-tools-lv-grids",
+        "project_tags": [],
+        "top_repositories": [],
+        "total_stars": 0,
+        "total_repositories": 0
+    },
+    {
+        "project_area": "Energy",
+        "project_name": "Predigrid",
+        "project_logo": null,
+        "project_website": null,
+        "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
+        "project_topic": "predigrid",
+        "project_tags": [],
+        "top_repositories": [],
+        "total_stars": 0,
+        "total_repositories": 0
+    },
+    {
+        "project_area": "Energy",
+        "project_name": "FlexiHome",
+        "project_logo": null,
+        "project_website": null,
+        "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
+        "project_topic": "flexihome",
+        "project_tags": [
+            "flexihome",
+            "energy"
+        ],
+        "top_repositories": [
+            {
+                "name": "flexihome-mobile",
+                "url": "https://github.com/INESCTEC/flexihome-mobile",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
+                    "energy",
+                    "flexihome"
+                ]
+            },
+            {
+                "name": "flexihome-hub",
+                "url": "https://github.com/INESCTEC/flexihome-hub",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
+                    "energy",
+                    "flexihome"
+                ]
+            },
+            {
+                "name": "flexihome-energy-manager",
+                "url": "https://github.com/INESCTEC/flexihome-energy-manager",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
+                    "energy",
+                    "flexihome"
+                ]
+            }
+        ],
+        "total_stars": 0,
+        "total_repositories": 3
+    },
+    {
+        "project_area": "Energy",
+        "project_name": "EV Forecasting",
+        "project_logo": null,
+        "project_website": null,
+        "project_description": "Forecasting services and tools for electric vehicle related forecasting tasks.",
+        "project_topic": "ev-forecasting",
+        "project_tags": [
+            "ev-forecasting",
+            "energy"
+        ],
+        "top_repositories": [
+            {
+                "name": "ev-occupancy-forecaster",
+                "url": "https://github.com/INESCTEC/ev-occupancy-forecaster",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
+                    "energy",
+                    "ev-forecasting"
+                ]
+            }
+        ],
+        "total_stars": 0,
+        "total_repositories": 1
+    },
+    {
+        "project_area": "Energy",
         "project_name": "Predico",
         "project_logo": "predico.png",
         "project_website": "https://www.inesctec.pt/en/news/the-platform-that-seeks-to-revolutionise-the-forecasting-of-energy-production-is-collaborative-and-features-inesc-tec#about",
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "predico",
+            "data-market",
             "collaborative-analytics",
-            "collaborative-forecasting",
-            "data-market"
+            "predico",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -37,14 +133,14 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy",
-            "enershare",
             "renewable-energy-communities",
+            "energy",
+            "energy-communities",
+            "enershare",
+            "price-optimization",
+            "python",
             "client-library",
             "tno-security-gateway",
-            "price-optimization",
-            "energy-communities",
-            "python",
             "dataspaces"
         ],
         "top_repositories": [
@@ -101,15 +197,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "data-sharing-incentives",
-            "collaborative-forecasting",
-            "energy",
+            "machine-learning-algorithms",
             "enershare",
             "data-marketplace",
-            "client-library",
-            "machine-learning-algorithms",
-            "data-sharing",
+            "greendatai",
             "python",
-            "greendatai"
+            "client-library",
+            "energy",
+            "collaborative-forecasting",
+            "data-sharing"
         ],
         "top_repositories": [
             {
@@ -168,13 +264,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "causality",
-            "recommender",
-            "energy",
-            "interconnect",
             "incentives",
+            "recommender",
+            "interconnect",
+            "causality",
             "electric-vehicles",
-            "python"
+            "python",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -225,8 +321,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -271,8 +367,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -317,8 +413,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -343,10 +439,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "slam",
+            "tribe",
             "agro-food",
             "robotics",
-            "tribe"
+            "slam"
         ],
         "top_repositories": [
             {
@@ -424,8 +520,8 @@
         ],
         "top_repositories": [
             {
-                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
-                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -434,8 +530,8 @@
                 ]
             },
             {
-                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
-                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -455,12 +551,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "domain-and-language-independent",
-            "keyword-extraction",
-            "unsupervised-approach",
-            "ai",
+            "corpus-independent",
             "single-document",
-            "corpus-independent"
+            "unsupervised-approach",
+            "keyword-extraction",
+            "ai",
+            "domain-and-language-independent"
         ],
         "top_repositories": [
             {
