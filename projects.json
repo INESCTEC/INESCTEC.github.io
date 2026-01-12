@@ -7,12 +7,12 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
+            "power-systems",
+            "low-voltage-grids",
+            "energy",
+            "smart-grids",
             "energy-management",
             "dd-tools-lv-grids",
-            "smart-grids",
-            "energy",
-            "low-voltage-grids",
-            "power-systems",
             "state-estimation",
             "voltage-prediction"
         ],
@@ -56,9 +56,9 @@
         "project_topic": "predigrid",
         "project_tags": [
             "forecasting-time-series",
-            "forecasting",
+            "predigrid",
             "energy",
-            "predigrid"
+            "forecasting"
         ],
         "top_repositories": [
             {
@@ -85,8 +85,8 @@
         "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
         "project_topic": "flexihome",
         "project_tags": [
-            "flexihome",
-            "energy"
+            "energy",
+            "flexihome"
         ],
         "top_repositories": [
             {
@@ -167,10 +167,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "predico",
             "collaborative-analytics",
             "data-market",
-            "collaborative-forecasting"
+            "collaborative-forecasting",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -197,15 +197,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "dataspaces",
-            "client-library",
             "price-optimization",
-            "energy-communities",
-            "renewable-energy-communities",
+            "tno-security-gateway",
             "energy",
-            "enershare",
             "python",
-            "tno-security-gateway"
+            "energy-communities",
+            "client-library",
+            "renewable-energy-communities",
+            "enershare",
+            "dataspaces"
         ],
         "top_repositories": [
             {
@@ -260,16 +260,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
-            "client-library",
             "data-marketplace",
-            "data-sharing-incentives",
+            "data-sharing",
             "energy",
-            "enershare",
             "python",
             "machine-learning-algorithms",
-            "data-sharing",
-            "collaborative-forecasting"
+            "data-sharing-incentives",
+            "greendatai",
+            "collaborative-forecasting",
+            "client-library",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -328,13 +328,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "electric-vehicles",
-            "incentives",
-            "interconnect",
             "energy",
-            "causality",
             "python",
-            "recommender"
+            "causality",
+            "interconnect",
+            "incentives",
+            "recommender",
+            "electric-vehicles"
         ],
         "top_repositories": [
             {
@@ -477,8 +477,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -503,10 +503,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "tribe",
-            "agro-food",
+            "slam",
             "robotics",
-            "slam"
+            "agro-food",
+            "tribe"
         ],
         "top_repositories": [
             {
@@ -553,8 +553,8 @@
         "project_description": "To disclose the state-of-the-art in advanced production technologies through the demonstration of research, experimentation and advanced training results. iiLab supports technology-based innovation in public and private organisations, thus contributing to the development of their skills in the development, adoption and implementation of advanced production technologies, leading to a sustainable competitiveness in the circular economy context.",
         "project_topic": "iilab",
         "project_tags": [
-            "iilab",
-            "robotics"
+            "robotics",
+            "iilab"
         ],
         "top_repositories": [
             {
@@ -615,12 +615,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "corpus-independent",
-            "keyword-extraction",
             "domain-and-language-independent",
-            "unsupervised-approach",
             "ai",
-            "single-document"
+            "unsupervised-approach",
+            "keyword-extraction",
+            "single-document",
+            "corpus-independent"
         ],
         "top_repositories": [
             {
