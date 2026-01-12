@@ -18,10 +18,28 @@
         "project_website": null,
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
-        "project_tags": [],
-        "top_repositories": [],
+        "project_tags": [
+            "forecasting-time-series",
+            "predigrid",
+            "forecasting",
+            "energy"
+        ],
+        "top_repositories": [
+            {
+                "name": "predigrid",
+                "url": "https://github.com/INESCTEC/predigrid",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
+                    "energy",
+                    "forecasting",
+                    "forecasting-time-series",
+                    "predigrid"
+                ]
+            }
+        ],
         "total_stars": 0,
-        "total_repositories": 0
+        "total_repositories": 1
     },
     {
         "project_area": "Energy",
@@ -103,10 +121,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
+            "collaborative-forecasting",
             "collaborative-analytics",
             "predico",
-            "collaborative-forecasting"
+            "data-market"
         ],
         "top_repositories": [
             {
@@ -133,15 +151,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "renewable-energy-communities",
-            "energy",
-            "energy-communities",
-            "enershare",
-            "price-optimization",
-            "python",
+            "dataspaces",
             "client-library",
+            "enershare",
+            "python",
+            "renewable-energy-communities",
             "tno-security-gateway",
-            "dataspaces"
+            "price-optimization",
+            "energy",
+            "energy-communities"
         ],
         "top_repositories": [
             {
@@ -196,16 +214,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing-incentives",
-            "machine-learning-algorithms",
-            "enershare",
-            "data-marketplace",
-            "greendatai",
-            "python",
-            "client-library",
-            "energy",
             "collaborative-forecasting",
-            "data-sharing"
+            "data-marketplace",
+            "client-library",
+            "enershare",
+            "python",
+            "greendatai",
+            "data-sharing",
+            "machine-learning-algorithms",
+            "energy",
+            "data-sharing-incentives"
         ],
         "top_repositories": [
             {
@@ -264,13 +282,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "incentives",
             "recommender",
-            "interconnect",
-            "causality",
-            "electric-vehicles",
             "python",
-            "energy"
+            "causality",
+            "incentives",
+            "energy",
+            "interconnect",
+            "electric-vehicles"
         ],
         "top_repositories": [
             {
@@ -439,10 +457,10 @@
         "project_description": "Robotised solutions and intelligent systems for agriculture and forestry.",
         "project_topic": "tribe",
         "project_tags": [
-            "tribe",
-            "agro-food",
             "robotics",
-            "slam"
+            "tribe",
+            "slam",
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -515,8 +533,8 @@
         "project_description": "Multisensor natural navigation and intelligent warehouse management systems for automated logistics in large-scale automotive industry environments.",
         "project_topic": "greenauto",
         "project_tags": [
-            "greenauto",
-            "robotics"
+            "robotics",
+            "greenauto"
         ],
         "top_repositories": [
             {
@@ -551,11 +569,11 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "corpus-independent",
-            "single-document",
-            "unsupervised-approach",
             "keyword-extraction",
             "ai",
+            "unsupervised-approach",
+            "corpus-independent",
+            "single-document",
             "domain-and-language-independent"
         ],
         "top_repositories": [
