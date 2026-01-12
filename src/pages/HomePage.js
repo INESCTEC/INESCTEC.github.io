@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link as ScrollLink, Element } from 'react-scroll';
+import { Element } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faChevronDown, faEnvelope, faCode } from '@fortawesome/free-solid-svg-icons';
@@ -8,11 +8,13 @@ import logo from '../assets/INESCTEC_logotipo_monocrom_white.png';
 import Footer from '../components/Footer';
 import AreaCard from '../components/AreaCard';
 import ParticleNetwork from '../components/ParticleNetwork';
+import useSnapScroll from '../hooks/useSnapScroll';
 
 const HomePage = () => {
   const [areas, setAreas] = useState([]);
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
+  const scrollToElement = useSnapScroll('home-scroll-container');
 
   useEffect(() => {
     Promise.all([
@@ -43,8 +45,8 @@ const HomePage = () => {
   const totalStars = projects.reduce((sum, p) => sum + (p.total_stars || 0), 0);
 
   return (
-    <div id="home-scroll-container" className="font-mono h-screen overflow-y-auto snap-y md:snap-mandatory scroll-smooth">
-      <Element name="top" className="min-h-screen snap-start">
+    <div id="home-scroll-container" className="font-mono h-screen overflow-y-auto snap-y md:snap-mandatory">
+      <Element name="top" id="top" className="min-h-screen snap-start">
         <main className="relative flex items-center justify-center bg-gradient-to-r from-dark-blue to-light-blue min-h-screen text-white overflow-hidden">
           <ParticleNetwork />
           <div className="relative z-10 flex flex-col md:flex-row justify-between items-center w-full max-w-4xl p-8">
@@ -63,24 +65,20 @@ const HomePage = () => {
               </p>
             </div>
             <div className="flex flex-col items-center mt-10 md:items-start md:mt-0 2xl:mt-2">
-              <ScrollLink
-                to="vision"
-                smooth={true}
-                duration={500}
-                containerId="home-scroll-container"
+              <button
+                onClick={() => scrollToElement('vision', 500)}
                 className="hero-nav-link text-xl mb-4 md:text-2xl md:mb-6 cursor-pointer 2xl:text-2xl"
+                type="button"
               >
                 Our Vision
-              </ScrollLink>
-              <ScrollLink
-                to="innovation-areas"
-                smooth={true}
-                duration={500}
-                containerId="home-scroll-container"
+              </button>
+              <button
+                onClick={() => scrollToElement('innovation-areas', 500)}
                 className="hero-nav-link text-xl mb-4 md:text-2xl md:mb-6 cursor-pointer 2xl:text-2xl"
+                type="button"
               >
                 Innovation Areas
-              </ScrollLink>
+              </button>
               <RouterLink
                 to="/projects"
                 className="hero-nav-link text-xl md:text-2xl cursor-pointer 2xl:text-2xl"
@@ -92,28 +90,26 @@ const HomePage = () => {
 
           {/* Scroll indicator */}
           <div className="absolute bottom-8 inset-x-0 flex justify-center z-10">
-            <ScrollLink
-              to="vision"
-              smooth={true}
-              duration={500}
-              containerId="home-scroll-container"
+            <button
+              onClick={() => scrollToElement('vision', 500)}
               className="cursor-pointer animate-bounce"
+              type="button"
             >
               <FontAwesomeIcon icon={faChevronDown} className="text-white/70 text-2xl" />
-            </ScrollLink>
+            </button>
           </div>
         </main>
       </Element>
 
-      <Element name="vision" className="min-h-screen bg-white font-mono snap-start">
+      <Element name="vision" id="vision" className="min-h-screen bg-white font-mono snap-start">
         <div className="flex flex-col md:flex-row min-h-screen">
           {/* Left Column - Title and Description */}
           <div className="w-full md:w-[40%] px-6 pt-6 pb-2 md:p-12 flex flex-col justify-between">
             <div>
-              <ScrollLink to="top" smooth={true} duration={500} containerId="home-scroll-container" className="next-indicator mb-4 hidden md:flex">
+              <button onClick={() => scrollToElement('top', 500)} className="next-indicator mb-4 hidden md:flex" type="button">
                 <FontAwesomeIcon icon={faChevronUp} />
                 <span>Back to top</span>
-              </ScrollLink>
+              </button>
               <h1 className="text-2xl md:text-5xl reverse-gradient-text font-bold mb-2 md:mb-6 text-left">
                 Open Source
               </h1>
@@ -123,16 +119,14 @@ const HomePage = () => {
             </div>
 
             {/* Next Section Indicator */}
-            <ScrollLink
-              to="innovation-areas"
-              smooth={true}
-              duration={500}
-              containerId="home-scroll-container"
+            <button
+              onClick={() => scrollToElement('innovation-areas', 500)}
               className="next-indicator mt-8 md:mt-0 hidden md:flex"
+              type="button"
             >
               <FontAwesomeIcon icon={faChevronDown} />
               <span>Next: Innovation Areas</span>
-            </ScrollLink>
+            </button>
           </div>
 
           {/* Right Column - Cards */}
@@ -282,15 +276,15 @@ const HomePage = () => {
         </div>
       </Element>
 
-      <Element name="innovation-areas" className="min-h-screen bg-white font-mono md:snap-start">
+      <Element name="innovation-areas" id="innovation-areas" className="min-h-screen bg-white font-mono md:snap-start">
         <div className="flex flex-col md:flex-row min-h-screen">
           {/* Left Column - Title and Description */}
           <div className="w-full md:w-[40%] px-6 pt-6 pb-2 md:p-12 flex flex-col justify-between">
             <div>
-              <ScrollLink to="vision" smooth={true} duration={500} containerId="home-scroll-container" className="next-indicator mb-4 hidden md:flex">
+              <button onClick={() => scrollToElement('vision', 500)} className="next-indicator mb-4 hidden md:flex" type="button">
                 <FontAwesomeIcon icon={faChevronUp} />
                 <span>Back to Open Source</span>
-              </ScrollLink>
+              </button>
               <h1 className="text-2xl md:text-5xl reverse-gradient-text font-bold mb-2 md:mb-6 text-left">
                 Innovation Areas
               </h1>
