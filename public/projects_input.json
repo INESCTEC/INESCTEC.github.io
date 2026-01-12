@@ -11,7 +11,7 @@
     {
         "project_area": "Energy",
         "project_name": "Predigrid",
-        "project_logo": null,
+        "project_logo": "predigrid.png",
         "project_website": null,
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
@@ -20,7 +20,7 @@
     {
         "project_area": "Energy",
         "project_name": "FlexiHome",
-        "project_logo": null,
+        "project_logo": "flexihome.png",
         "project_website": null,
         "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
         "project_topic": "flexihome",
