@@ -36,9 +36,6 @@ const AreaCard = ({ area, index = 0, darkMode = false }) => {
   const totalStars = area.featured_projects.reduce((sum, p) => sum + (p.total_stars || 0), 0);
   const totalRepos = area.featured_projects.reduce((sum, p) => sum + (p.total_repos || 0), 0);
 
-  // Format number with leading zero
-  const cardNumber = String(index + 1).padStart(2, '0');
-
   useEffect(() => {
     const loadImages = async () => {
       const images = {};
