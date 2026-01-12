@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faChevronDown, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faChevronDown, faEnvelope, faCode } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import logo from '../assets/INESCTEC_logotipo_monocrom_white.png';
 import Footer from '../components/Footer';
@@ -178,6 +178,23 @@ const HomePage = () => {
                   Contact Us
                 </a>
               </div>
+
+              {/* Card 04 - Contributing */}
+              <div className="bg-white border border-gray-200 rounded-lg p-4 border-l-4 border-l-dark-blue shadow-sm text-left">
+                <h2 className="text-base font-bold mb-2 text-gray-900">Contributing</h2>
+                <p className="text-sm text-gray-600 leading-relaxed mb-3">
+                  Join us in building impactful open-source tools. We welcome contributions from researchers, developers, and enthusiasts worldwide.
+                </p>
+                <a
+                  href="https://github.com/INESCTEC/.github/blob/main/documents/contributing.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-3 py-1.5 text-sm bg-transparent text-dark-blue font-medium rounded-lg border-2 border-dark-blue hover:bg-dark-blue hover:text-white transition-all duration-300"
+                >
+                  <FontAwesomeIcon icon={faCode} />
+                  Get Started
+                </a>
+              </div>
             </div>
 
             {/* Desktop: Timeline layout */}
@@ -235,6 +252,28 @@ const HomePage = () => {
                   >
                     <FontAwesomeIcon icon={faEnvelope} />
                     Contact Us
+                  </a>
+                </div>
+              </div>
+
+              {/* Card 04 - Contributing */}
+              <div className="timeline-item">
+                <div className="timeline-chevron">
+                  <FontAwesomeIcon icon={faChevronDown} className="text-dark-blue text-xs" />
+                </div>
+                <div className="dark-card text-left">
+                  <h2 className="text-xl font-bold mb-3 text-gray-900">Contributing</h2>
+                  <p className="text-base text-gray-600 leading-relaxed mb-4 text-left">
+                    Join us in building impactful open-source tools. We welcome contributions from researchers, developers, and enthusiasts worldwide.
+                  </p>
+                  <a
+                    href="https://github.com/INESCTEC/.github/blob/main/documents/contributing.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 text-base bg-transparent text-dark-blue font-medium rounded-lg border-2 border-dark-blue hover:bg-dark-blue hover:text-white transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faCode} />
+                    Get Started
                   </a>
                 </div>
               </div>

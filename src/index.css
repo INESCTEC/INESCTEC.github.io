@@ -107,7 +107,19 @@ code {
 .timeline-item {
   position: relative;
   padding-left: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (min-height: 900px) {
+  .timeline-item {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-height: 1100px) {
+  .timeline-item {
+    padding-bottom: 2rem;
+  }
 }
 
 .timeline-item:last-child {
@@ -133,7 +145,19 @@ code {
 .dark-card {
   background: transparent;
   color: #1a2332;
-  padding: 1.5rem 0;
+  padding: 0.5rem 0;
+}
+
+@media (min-height: 900px) {
+  .dark-card {
+    padding: 1rem 0;
+  }
+}
+
+@media (min-height: 1100px) {
+  .dark-card {
+    padding: 1.5rem 0;
+  }
 }
 
 /* Large number styling */
