@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.4baa108b.css",
-    "main.js": "/static/js/main.ae45c162.js",
-    "static/js/482.6276bd4c.chunk.js": "/static/js/482.6276bd4c.chunk.js",
-    "static/js/731.96b9cce1.chunk.js": "/static/js/731.96b9cce1.chunk.js",
+    "main.js": "/static/js/main.3cbcd6c8.js",
+    "static/js/482.3b5f851d.chunk.js": "/static/js/482.3b5f851d.chunk.js",
+    "static/js/731.f0c76e6f.chunk.js": "/static/js/731.f0c76e6f.chunk.js",
     "static/js/3.8f67c13e.chunk.js": "/static/js/3.8f67c13e.chunk.js",
     "static/js/86.07b8dd72.chunk.js": "/static/js/86.07b8dd72.chunk.js",
     "static/js/320.c57782be.chunk.js": "/static/js/320.c57782be.chunk.js",
@@ -13,12 +13,14 @@
     "static/js/123.8ed85d79.chunk.js": "/static/js/123.8ed85d79.chunk.js",
     "static/js/390.2feed05a.chunk.js": "/static/js/390.2feed05a.chunk.js",
     "static/js/7.b5767348.chunk.js": "/static/js/7.b5767348.chunk.js",
+    "static/js/553.119e2278.chunk.js": "/static/js/553.119e2278.chunk.js",
     "static/js/935.d0266c0f.chunk.js": "/static/js/935.d0266c0f.chunk.js",
     "static/js/26.40ef3660.chunk.js": "/static/js/26.40ef3660.chunk.js",
     "static/js/125.7622d2cd.chunk.js": "/static/js/125.7622d2cd.chunk.js",
     "static/js/216.70c55ad8.chunk.js": "/static/js/216.70c55ad8.chunk.js",
     "static/js/265.801b52e2.chunk.js": "/static/js/265.801b52e2.chunk.js",
     "static/js/490.5b4b69a8.chunk.js": "/static/js/490.5b4b69a8.chunk.js",
+    "static/js/252.d4e95d32.chunk.js": "/static/js/252.d4e95d32.chunk.js",
     "static/js/790.b397facf.chunk.js": "/static/js/790.b397facf.chunk.js",
     "static/js/678.e6e8b519.chunk.js": "/static/js/678.e6e8b519.chunk.js",
     "static/js/446.f23a888e.chunk.js": "/static/js/446.f23a888e.chunk.js",
@@ -27,9 +29,11 @@
     "static/js/28.910f148a.chunk.js": "/static/js/28.910f148a.chunk.js",
     "static/media/circuit.png": "/static/media/circuit.38c9c48472f5c5a37f24.png",
     "static/media/GreenAuto.png": "/static/media/GreenAuto.9ad674e975f5b760580a.png",
+    "static/media/flexihome.png": "/static/media/flexihome.966af297837d06a0fa73.png",
     "static/media/INESCTEC_circuito_Set2024-03-cropped.svg": "/static/media/INESCTEC_circuito_Set2024-03-cropped.b499a3b2f7dd77131751.svg",
     "static/media/predico.png": "/static/media/predico.cc866d095849455dadd8.png",
     "static/media/interconnect.png": "/static/media/interconnect.554d1a8626e2c6082e6b.png",
+    "static/media/predigrid.png": "/static/media/predigrid.f166cdc23a79ab348e95.png",
     "static/media/tribe.png": "/static/media/tribe.105f7f86404657e63c63.png",
     "static/media/iilab.png": "/static/media/iilab.c233859408e0069b5e6f.png",
     "static/media/interstore.png": "/static/media/interstore.f912019a044139528487.png",
@@ -41,9 +45,9 @@
     "static/media/attest.png": "/static/media/attest.0dc6f57ae77da58021dd.png",
     "index.html": "/index.html",
     "main.4baa108b.css.map": "/static/css/main.4baa108b.css.map",
-    "main.ae45c162.js.map": "/static/js/main.ae45c162.js.map",
-    "482.6276bd4c.chunk.js.map": "/static/js/482.6276bd4c.chunk.js.map",
-    "731.96b9cce1.chunk.js.map": "/static/js/731.96b9cce1.chunk.js.map",
+    "main.3cbcd6c8.js.map": "/static/js/main.3cbcd6c8.js.map",
+    "482.3b5f851d.chunk.js.map": "/static/js/482.3b5f851d.chunk.js.map",
+    "731.f0c76e6f.chunk.js.map": "/static/js/731.f0c76e6f.chunk.js.map",
     "3.8f67c13e.chunk.js.map": "/static/js/3.8f67c13e.chunk.js.map",
     "446.f23a888e.chunk.js.map": "/static/js/446.f23a888e.chunk.js.map",
     "1.01d1f369.chunk.js.map": "/static/js/1.01d1f369.chunk.js.map",
@@ -52,6 +56,6 @@
   },
   "entrypoints": [
     "static/css/main.4baa108b.css",
-    "static/js/main.ae45c162.js"
+    "static/js/main.3cbcd6c8.js"
   ]
 }
