@@ -33,21 +33,21 @@
             {
                 "project_name": "NaviBox",
                 "project_topic": "navibox",
-                "project_logo": "placeholder.png",
+                "project_logo": "navibox_icon.png",
                 "total_stars": 4,
                 "total_repos": 3
             },
             {
                 "project_name": "RicoSLAM",
                 "project_topic": "ricoslam",
-                "project_logo": "ricoslam.png",
+                "project_logo": "ricoslam_icon.png",
                 "total_stars": 0,
                 "total_repos": 1
             },
             {
                 "project_name": "Apostles",
                 "project_topic": "apostles",
-                "project_logo": "apostles.png",
+                "project_logo": "apostles_icon.png",
                 "total_stars": 0,
                 "total_repos": 1
             }
