@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[772],{4772(a,c,e){a.exports=e.p+"static/media/ricoSLAM_icon.89a084cb81ca124a652c.png"}}]);

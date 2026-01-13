@@ -110,7 +110,7 @@
     {
         "project_area": "Robotics",
         "project_name": "RicoSLAM",
-        "project_logo": "ricoslam.png",
+        "project_logo": "ricoSLAM.png",
         "project_website": "",
         "project_description": "Long-Term Localization and Mapping.",
         "project_topic": "ricoslam",
