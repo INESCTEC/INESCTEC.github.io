@@ -31,25 +31,25 @@
         "area_description": "The Robotics area focuses on projects related to the development of robotic systems and technologies that enhance autonomy, safety, and efficiency",
         "featured_projects": [
             {
-                "project_name": "TRIBE",
-                "project_topic": "tribe",
-                "project_logo": "tribe.png",
+                "project_name": "NaviBox",
+                "project_topic": "navibox",
+                "project_logo": "placeholder.png",
                 "total_stars": 4,
                 "total_repos": 3
             },
             {
-                "project_name": "iiLab",
-                "project_topic": "iilab",
-                "project_logo": "iilab.png",
-                "total_stars": 1,
+                "project_name": "RicoSLAM",
+                "project_topic": "ricoslam",
+                "project_logo": "ricoslam.png",
+                "total_stars": 0,
                 "total_repos": 1
             },
             {
-                "project_name": "GreenAuto",
-                "project_topic": "greenauto",
-                "project_logo": "GreenAuto.png",
+                "project_name": "Apostles",
+                "project_topic": "apostles",
+                "project_logo": "apostles.png",
                 "total_stars": 0,
-                "total_repos": 2
+                "total_repos": 1
             }
         ]
     },

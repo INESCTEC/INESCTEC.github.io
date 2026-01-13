@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[578],{5578(e,s,c){e.exports=c.p+"static/media/ricoslam.cff35bce7a43823c5cd1.png"}}]);
