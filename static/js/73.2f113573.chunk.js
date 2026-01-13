@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[73],{9073(e,s,p){e.exports=p.p+"static/media/apostles_icon.644954fe4c5a48fdd03c.png"}}]);

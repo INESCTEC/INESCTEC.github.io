@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[485],{9485(e,s,a){e.exports=a.p+"static/media/apostles.70ea00b5d7a2237edb70.png"}}]);

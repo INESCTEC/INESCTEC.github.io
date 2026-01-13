@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[641],{9641(e,s,c){e.exports=c.p+"static/media/navibox_icon.831c48c68c933eb53d71.png"}}]);
