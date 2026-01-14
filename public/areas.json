@@ -41,8 +41,8 @@
                 "project_name": "RicoSLAM",
                 "project_topic": "ricoslam",
                 "project_logo": "ricoSLAM.png",
-                "total_stars": 0,
-                "total_repos": 1
+                "total_stars": 1,
+                "total_repos": 2
             },
             {
                 "project_name": "Apostles",
@@ -61,7 +61,7 @@
                 "project_name": "YAKE!",
                 "project_topic": "ai",
                 "project_logo": "yake.png",
-                "total_stars": 1811,
+                "total_stars": 1812,
                 "total_repos": 1
             }
         ]
