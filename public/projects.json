@@ -7,14 +7,14 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "energy-management",
             "energy",
-            "voltage-prediction",
-            "low-voltage-grids",
-            "state-estimation",
-            "power-systems",
             "smart-grids",
-            "dd-tools-lv-grids"
+            "state-estimation",
+            "voltage-prediction",
+            "power-systems",
+            "energy-management",
+            "dd-tools-lv-grids",
+            "low-voltage-grids"
         ],
         "top_repositories": [
             {
@@ -55,10 +55,10 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "predigrid",
-            "forecasting",
             "energy",
-            "forecasting-time-series"
+            "forecasting-time-series",
+            "forecasting",
+            "predigrid"
         ],
         "top_repositories": [
             {
@@ -167,10 +167,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-forecasting",
-            "data-market",
             "predico",
-            "collaborative-analytics"
+            "collaborative-forecasting",
+            "collaborative-analytics",
+            "data-market"
         ],
         "top_repositories": [
             {
@@ -197,15 +197,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "renewable-energy-communities",
-            "enershare",
-            "python",
-            "dataspaces",
-            "client-library",
-            "energy-communities",
             "price-optimization",
             "energy",
-            "tno-security-gateway"
+            "tno-security-gateway",
+            "python",
+            "energy-communities",
+            "renewable-energy-communities",
+            "enershare",
+            "client-library",
+            "dataspaces"
         ],
         "top_repositories": [
             {
@@ -260,16 +260,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-marketplace",
-            "enershare",
             "data-sharing-incentives",
+            "energy",
             "data-sharing",
-            "python",
-            "collaborative-forecasting",
-            "client-library",
-            "greendatai",
             "machine-learning-algorithms",
-            "energy"
+            "python",
+            "enershare",
+            "client-library",
+            "data-marketplace",
+            "collaborative-forecasting",
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -328,13 +328,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "energy",
+            "causality",
             "python",
+            "recommender",
             "incentives",
             "electric-vehicles",
-            "causality",
-            "interconnect",
-            "recommender",
-            "energy"
+            "interconnect"
         ],
         "top_repositories": [
             {
@@ -385,13 +385,13 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -400,8 +400,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -456,8 +456,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -504,8 +504,8 @@
         "project_topic": "navibox",
         "project_tags": [
             "navibox",
-            "agro-food",
             "slam",
+            "agro-food",
             "robotics"
         ],
         "top_repositories": [
@@ -550,16 +550,16 @@
         "project_name": "RicoSLAM",
         "project_logo": "ricoSLAM.png",
         "project_website": "",
-        "project_description": "Long-Term Localization and Mapping.",
+        "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "robotics",
-            "ricoslam"
+            "ricoslam",
+            "robotics"
         ],
         "top_repositories": [
             {
-                "name": "OptiOdom-Generic_Approach_for_Odometry_Calibration_of_Wheeled_Mobile_Robots",
-                "url": "https://github.com/INESCTEC/OptiOdom-Generic_Approach_for_Odometry_Calibration_of_Wheeled_Mobile_Robots",
+                "name": "optiodom",
+                "url": "https://github.com/INESCTEC/optiodom",
                 "stars": 1,
                 "is_fork": false,
                 "topics": [
@@ -568,8 +568,8 @@
                 ]
             },
             {
-                "name": "Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
-                "url": "https://github.com/INESCTEC/Line-Fitting-Based-Corner-Like-Detector-for-2D-Laser-Scanners-Data",
+                "name": "inesctec_mrdt_line_fit_based_corner_detector_2d_laser",
+                "url": "https://github.com/INESCTEC/inesctec_mrdt_line_fit_based_corner_detector_2d_laser",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -586,7 +586,7 @@
         "project_name": "Apostles",
         "project_logo": "apostles.png",
         "project_website": "",
-        "project_description": "Mobile Robotic Platforms Oriented for R&D and STEM Applications.",
+        "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
             "apostles",
@@ -594,8 +594,8 @@
         ],
         "top_repositories": [
             {
-                "name": "Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
-                "url": "https://github.com/INESCTEC/Integrating-Multimodal-Perception-into-Ground-Mobile-Robots",
+                "name": "inesctec_mrdt_hangfa_discovery_q2",
+                "url": "https://github.com/INESCTEC/inesctec_mrdt_hangfa_discovery_q2",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -615,12 +615,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "single-document",
-            "unsupervised-approach",
-            "domain-and-language-independent",
-            "ai",
+            "keyword-extraction",
             "corpus-independent",
-            "keyword-extraction"
+            "ai",
+            "unsupervised-approach",
+            "single-document",
+            "domain-and-language-independent"
         ],
         "top_repositories": [
             {
