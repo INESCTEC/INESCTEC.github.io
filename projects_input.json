@@ -112,7 +112,7 @@
         "project_name": "RicoSLAM",
         "project_logo": "ricoSLAM.png",
         "project_website": "",
-        "project_description": "Long-Term Localization and Mapping.",
+        "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": ["Robotics"]
     },
@@ -121,7 +121,7 @@
         "project_name": "Apostles",
         "project_logo": "apostles.png",
         "project_website": "",
-        "project_description": "Mobile Robotic Platforms Oriented for R&D and STEM Applications.",
+        "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": ["Robotics"]
     },
