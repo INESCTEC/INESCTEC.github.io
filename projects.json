@@ -8,13 +8,13 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "power-systems",
-            "smart-grids",
-            "low-voltage-grids",
             "energy",
-            "dd-tools-lv-grids",
+            "energy-management",
+            "low-voltage-grids",
             "state-estimation",
-            "voltage-prediction",
-            "energy-management"
+            "dd-tools-lv-grids",
+            "smart-grids",
+            "voltage-prediction"
         ],
         "top_repositories": [
             {
@@ -55,9 +55,9 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
+            "forecasting",
             "predigrid",
             "forecasting-time-series",
-            "forecasting",
             "energy"
         ],
         "top_repositories": [
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "name": "flexihome-mobile",
-                "url": "https://github.com/INESCTEC/flexihome-mobile",
+                "name": "flexihome-device-manager",
+                "url": "https://github.com/INESCTEC/flexihome-device-manager",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -167,9 +167,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
             "predico",
             "collaborative-forecasting",
+            "data-market",
             "collaborative-analytics"
         ],
         "top_repositories": [
@@ -197,15 +197,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "dataspaces",
-            "renewable-energy-communities",
-            "enershare",
-            "python",
-            "energy",
-            "client-library",
             "energy-communities",
-            "price-optimization",
-            "tno-security-gateway"
+            "energy",
+            "renewable-energy-communities",
+            "tno-security-gateway",
+            "python",
+            "dataspaces",
+            "client-library",
+            "enershare",
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -260,16 +260,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
-            "data-sharing",
-            "enershare",
-            "python",
-            "energy",
             "data-sharing-incentives",
-            "client-library",
             "data-marketplace",
+            "energy",
+            "data-sharing",
+            "python",
+            "collaborative-forecasting",
             "machine-learning-algorithms",
-            "collaborative-forecasting"
+            "client-library",
+            "enershare",
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -282,6 +282,20 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -301,20 +315,6 @@
                     "data-marketplace",
                     "energy"
                 ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 7,
@@ -328,14 +328,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "incentives",
-            "interconnect",
+            "paper",
+            "recommender",
+            "energy",
             "causality",
             "python",
-            "energy",
-            "electric-vehicles",
-            "paper",
-            "recommender"
+            "interconnect",
+            "incentives",
+            "electric-vehicles"
         ],
         "top_repositories": [
             {
@@ -506,10 +506,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "slam",
-            "agro-food",
+            "navibox",
             "robotics",
-            "navibox"
+            "agro-food",
+            "slam"
         ],
         "top_repositories": [
             {
@@ -592,8 +592,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "robotics",
-            "apostles"
+            "apostles",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -618,12 +618,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "corpus-independent",
-            "unsupervised-approach",
+            "ai",
+            "domain-and-language-independent",
             "keyword-extraction",
             "single-document",
-            "ai",
-            "domain-and-language-independent"
+            "corpus-independent",
+            "unsupervised-approach"
         ],
         "top_repositories": [
             {
