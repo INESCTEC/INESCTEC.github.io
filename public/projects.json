@@ -7,14 +7,14 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "power-systems",
-            "low-voltage-grids",
             "energy-management",
-            "dd-tools-lv-grids",
             "voltage-prediction",
+            "low-voltage-grids",
+            "power-systems",
             "energy",
-            "state-estimation",
-            "smart-grids"
+            "dd-tools-lv-grids",
+            "smart-grids",
+            "state-estimation"
         ],
         "top_repositories": [
             {
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "name": "flexihome-mobile",
-                "url": "https://github.com/INESCTEC/flexihome-mobile",
+                "name": "flexihome-device-manager",
+                "url": "https://github.com/INESCTEC/flexihome-device-manager",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -167,9 +167,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
+            "predico",
             "data-market",
             "collaborative-analytics",
-            "predico",
             "collaborative-forecasting"
         ],
         "top_repositories": [
@@ -197,14 +197,14 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "enershare",
-            "dataspaces",
-            "renewable-energy-communities",
-            "client-library",
-            "python",
-            "tno-security-gateway",
             "energy-communities",
+            "renewable-energy-communities",
+            "enershare",
+            "tno-security-gateway",
+            "python",
+            "client-library",
             "price-optimization",
+            "dataspaces",
             "energy"
         ],
         "top_repositories": [
@@ -262,14 +262,14 @@
         "project_tags": [
             "data-sharing-incentives",
             "enershare",
-            "greendatai",
-            "client-library",
-            "python",
-            "data-sharing",
-            "data-marketplace",
-            "collaborative-forecasting",
             "machine-learning-algorithms",
-            "energy"
+            "data-marketplace",
+            "python",
+            "client-library",
+            "data-sharing",
+            "energy",
+            "greendatai",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -328,14 +328,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "causality",
-            "paper",
             "interconnect",
+            "electric-vehicles",
             "recommender",
             "python",
-            "electric-vehicles",
+            "incentives",
+            "paper",
             "energy",
-            "incentives"
+            "causality"
         ],
         "top_repositories": [
             {
@@ -434,8 +434,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
@@ -480,8 +480,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -506,10 +506,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
+            "slam",
             "robotics",
             "agro-food",
-            "navibox",
-            "slam"
+            "navibox"
         ],
         "top_repositories": [
             {
@@ -618,18 +618,18 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "keyword-extraction",
             "unsupervised-approach",
             "domain-and-language-independent",
-            "single-document",
             "corpus-independent",
-            "ai"
+            "keyword-extraction",
+            "ai",
+            "single-document"
         ],
         "top_repositories": [
             {
                 "name": "yake",
                 "url": "https://github.com/INESCTEC/yake",
-                "stars": 1814,
+                "stars": 1815,
                 "is_fork": false,
                 "topics": [
                     "keyword-extraction",
@@ -641,7 +641,7 @@
                 ]
             }
         ],
-        "total_stars": 1814,
+        "total_stars": 1815,
         "total_repositories": 1
     }
 ]
