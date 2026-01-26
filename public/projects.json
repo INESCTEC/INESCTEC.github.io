@@ -7,14 +7,14 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "energy-management",
-            "voltage-prediction",
-            "low-voltage-grids",
-            "power-systems",
+            "state-estimation",
             "energy",
             "dd-tools-lv-grids",
             "smart-grids",
-            "state-estimation"
+            "low-voltage-grids",
+            "voltage-prediction",
+            "power-systems",
+            "energy-management"
         ],
         "top_repositories": [
             {
@@ -55,10 +55,10 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "energy",
             "forecasting",
-            "forecasting-time-series",
-            "predigrid"
+            "predigrid",
+            "energy",
+            "forecasting-time-series"
         ],
         "top_repositories": [
             {
@@ -85,8 +85,8 @@
         "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
         "project_topic": "flexihome",
         "project_tags": [
-            "energy",
-            "flexihome"
+            "flexihome",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -167,10 +167,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "predico",
-            "data-market",
             "collaborative-analytics",
-            "collaborative-forecasting"
+            "data-market",
+            "collaborative-forecasting",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -197,15 +197,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy-communities",
-            "renewable-energy-communities",
-            "enershare",
+            "energy",
             "tno-security-gateway",
-            "python",
-            "client-library",
-            "price-optimization",
+            "renewable-energy-communities",
+            "energy-communities",
             "dataspaces",
-            "energy"
+            "price-optimization",
+            "enershare",
+            "client-library",
+            "python"
         ],
         "top_repositories": [
             {
@@ -260,16 +260,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
+            "data-marketplace",
+            "data-sharing",
+            "collaborative-forecasting",
+            "energy",
             "data-sharing-incentives",
             "enershare",
-            "machine-learning-algorithms",
-            "data-marketplace",
-            "python",
-            "client-library",
-            "data-sharing",
-            "energy",
             "greendatai",
-            "collaborative-forecasting"
+            "machine-learning-algorithms",
+            "client-library",
+            "python"
         ],
         "top_repositories": [
             {
@@ -328,14 +328,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
-            "electric-vehicles",
-            "recommender",
-            "python",
             "incentives",
-            "paper",
+            "recommender",
             "energy",
-            "causality"
+            "interconnect",
+            "paper",
+            "electric-vehicles",
+            "causality",
+            "python"
         ],
         "top_repositories": [
             {
@@ -459,8 +459,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---interoperability-common",
-                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -480,8 +480,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -506,10 +506,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "slam",
             "robotics",
+            "navibox",
             "agro-food",
-            "navibox"
+            "slam"
         ],
         "top_repositories": [
             {
@@ -592,8 +592,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "robotics",
-            "apostles"
+            "apostles",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -618,18 +618,18 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "unsupervised-approach",
+            "single-document",
             "domain-and-language-independent",
-            "corpus-independent",
             "keyword-extraction",
+            "unsupervised-approach",
             "ai",
-            "single-document"
+            "corpus-independent"
         ],
         "top_repositories": [
             {
                 "name": "yake",
                 "url": "https://github.com/INESCTEC/yake",
-                "stars": 1815,
+                "stars": 1816,
                 "is_fork": false,
                 "topics": [
                     "keyword-extraction",
@@ -641,7 +641,7 @@
                 ]
             }
         ],
-        "total_stars": 1815,
+        "total_stars": 1816,
         "total_repositories": 1
     }
 ]
