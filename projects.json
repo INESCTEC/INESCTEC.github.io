@@ -7,14 +7,14 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "energy-management",
-            "energy",
-            "state-estimation",
-            "low-voltage-grids",
             "smart-grids",
-            "dd-tools-lv-grids",
             "voltage-prediction",
-            "power-systems"
+            "dd-tools-lv-grids",
+            "energy",
+            "power-systems",
+            "state-estimation",
+            "energy-management",
+            "low-voltage-grids"
         ],
         "top_repositories": [
             {
@@ -56,9 +56,9 @@
         "project_topic": "predigrid",
         "project_tags": [
             "forecasting",
-            "forecasting-time-series",
+            "predigrid",
             "energy",
-            "predigrid"
+            "forecasting-time-series"
         ],
         "top_repositories": [
             {
@@ -100,8 +100,8 @@
                 ]
             },
             {
-                "name": "flexihome-account-manager",
-                "url": "https://github.com/INESCTEC/flexihome-account-manager",
+                "name": "flexihome-device-manager",
+                "url": "https://github.com/INESCTEC/flexihome-device-manager",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "name": "flexihome-device-manager",
-                "url": "https://github.com/INESCTEC/flexihome-device-manager",
+                "name": "flexihome-account-manager",
+                "url": "https://github.com/INESCTEC/flexihome-account-manager",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -167,10 +167,10 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
-            "predico",
             "collaborative-analytics",
-            "collaborative-forecasting"
+            "collaborative-forecasting",
+            "data-market",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -198,14 +198,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "tno-security-gateway",
-            "energy",
-            "dataspaces",
-            "price-optimization",
-            "client-library",
             "energy-communities",
-            "python",
+            "dataspaces",
+            "energy",
             "renewable-energy-communities",
-            "enershare"
+            "client-library",
+            "enershare",
+            "python",
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -260,15 +260,15 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
+            "collaborative-forecasting",
+            "data-marketplace",
             "data-sharing",
             "energy",
-            "collaborative-forecasting",
+            "greendatai",
+            "enershare",
             "client-library",
             "machine-learning-algorithms",
-            "greendatai",
             "python",
-            "data-marketplace",
-            "enershare",
             "data-sharing-incentives"
         ],
         "top_repositories": [
@@ -328,14 +328,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "energy",
             "paper",
-            "interconnect",
-            "causality",
-            "python",
-            "recommender",
             "incentives",
-            "electric-vehicles"
+            "energy",
+            "python",
+            "electric-vehicles",
+            "recommender",
+            "causality",
+            "interconnect"
         ],
         "top_repositories": [
             {
@@ -507,9 +507,9 @@
         "project_topic": "navibox",
         "project_tags": [
             "navibox",
-            "robotics",
+            "agro-food",
             "slam",
-            "agro-food"
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -556,8 +556,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "ricoslam",
-            "robotics"
+            "robotics",
+            "ricoslam"
         ],
         "top_repositories": [
             {
@@ -618,12 +618,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "domain-and-language-independent",
-            "single-document",
-            "keyword-extraction",
             "ai",
+            "unsupervised-approach",
+            "domain-and-language-independent",
             "corpus-independent",
-            "unsupervised-approach"
+            "single-document",
+            "keyword-extraction"
         ],
         "top_repositories": [
             {
