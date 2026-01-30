@@ -7,14 +7,14 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "voltage-prediction",
-            "state-estimation",
-            "low-voltage-grids",
-            "smart-grids",
-            "dd-tools-lv-grids",
-            "energy",
             "power-systems",
-            "energy-management"
+            "smart-grids",
+            "state-estimation",
+            "voltage-prediction",
+            "energy-management",
+            "low-voltage-grids",
+            "dd-tools-lv-grids",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -131,8 +131,8 @@
         "project_description": "Forecasting services and tools for electric vehicle related forecasting tasks.",
         "project_topic": "ev-forecasting",
         "project_tags": [
-            "ev-forecasting",
-            "energy"
+            "energy",
+            "ev-forecasting"
         ],
         "top_repositories": [
             {
@@ -167,9 +167,9 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-forecasting",
             "data-market",
             "collaborative-analytics",
+            "collaborative-forecasting",
             "predico"
         ],
         "top_repositories": [
@@ -197,15 +197,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy-communities",
-            "tno-security-gateway",
-            "price-optimization",
-            "dataspaces",
-            "python",
-            "energy",
-            "renewable-energy-communities",
+            "enershare",
             "client-library",
-            "enershare"
+            "python",
+            "energy-communities",
+            "renewable-energy-communities",
+            "dataspaces",
+            "energy",
+            "tno-security-gateway",
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -260,16 +260,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
+            "enershare",
             "data-sharing-incentives",
-            "machine-learning-algorithms",
-            "greendatai",
             "collaborative-forecasting",
-            "python",
-            "energy",
-            "data-sharing",
             "client-library",
+            "python",
+            "greendatai",
+            "data-sharing",
             "data-marketplace",
-            "enershare"
+            "machine-learning-algorithms",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -329,13 +329,13 @@
         "project_topic": "interconnect",
         "project_tags": [
             "incentives",
-            "interconnect",
-            "recommender",
             "paper",
             "python",
+            "electric-vehicles",
+            "recommender",
             "causality",
             "energy",
-            "electric-vehicles"
+            "interconnect"
         ],
         "top_repositories": [
             {
@@ -388,20 +388,10 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
-            {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "attest",
-                    "energy"
-                ]
-            },
             {
                 "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
@@ -421,6 +411,16 @@
                     "attest",
                     "energy"
                 ]
+            },
+            {
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "attest",
+                    "energy"
+                ]
             }
         ],
         "total_stars": 0,
@@ -434,8 +434,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -506,10 +506,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
+            "slam",
             "agro-food",
-            "navibox",
             "robotics",
-            "slam"
+            "navibox"
         ],
         "top_repositories": [
             {
@@ -556,8 +556,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "robotics",
-            "ricoslam"
+            "ricoslam",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -619,11 +619,11 @@
         "project_topic": "ai",
         "project_tags": [
             "corpus-independent",
-            "keyword-extraction",
+            "unsupervised-approach",
             "domain-and-language-independent",
-            "single-document",
             "ai",
-            "unsupervised-approach"
+            "single-document",
+            "keyword-extraction"
         ],
         "top_repositories": [
             {
