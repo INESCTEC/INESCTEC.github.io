@@ -8,25 +8,15 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "power-systems",
-            "state-estimation",
-            "voltage-prediction",
-            "low-voltage-grids",
-            "smart-grids",
             "energy",
             "dd-tools-lv-grids",
-            "energy-management"
+            "state-estimation",
+            "energy-management",
+            "voltage-prediction",
+            "low-voltage-grids",
+            "smart-grids"
         ],
         "top_repositories": [
-            {
-                "name": "lv-voltage-control",
-                "url": "https://github.com/INESCTEC/lv-voltage-control",
-                "stars": 0,
-                "is_fork": false,
-                "topics": [
-                    "energy",
-                    "dd-tools-lv-grids"
-                ]
-            },
             {
                 "name": "lv-state-estimator",
                 "url": "https://github.com/INESCTEC/lv-state-estimator",
@@ -39,6 +29,16 @@
                     "state-estimation",
                     "low-voltage-grids",
                     "voltage-prediction",
+                    "energy",
+                    "dd-tools-lv-grids"
+                ]
+            },
+            {
+                "name": "lv-voltage-control",
+                "url": "https://github.com/INESCTEC/lv-voltage-control",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
                     "energy",
                     "dd-tools-lv-grids"
                 ]
@@ -56,9 +56,9 @@
         "project_topic": "predigrid",
         "project_tags": [
             "energy",
+            "predigrid",
             "forecasting",
-            "forecasting-time-series",
-            "predigrid"
+            "forecasting-time-series"
         ],
         "top_repositories": [
             {
@@ -131,8 +131,8 @@
         "project_description": "Forecasting services and tools for electric vehicle related forecasting tasks.",
         "project_topic": "ev-forecasting",
         "project_tags": [
-            "energy",
-            "ev-forecasting"
+            "ev-forecasting",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "ensemble-machine-learning",
-            "collaborative-forecasting",
-            "time-series-forecasting",
             "data-market",
-            "predico"
+            "predico",
+            "collaborative-forecasting",
+            "ensemble-machine-learning",
+            "time-series-forecasting"
         ],
         "top_repositories": [
             {
@@ -199,15 +199,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "python",
-            "price-optimization",
-            "renewable-energy-communities",
+            "energy",
             "enershare",
             "dataspaces",
-            "energy",
-            "energy-communities",
+            "python",
+            "client-library",
+            "renewable-energy-communities",
             "tno-security-gateway",
-            "client-library"
+            "price-optimization",
+            "energy-communities"
         ],
         "top_repositories": [
             {
@@ -262,16 +262,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "python",
-            "collaborative-forecasting",
-            "enershare",
             "greendatai",
-            "data-sharing",
-            "data-marketplace",
+            "enershare",
             "energy",
+            "data-sharing",
+            "machine-learning-algorithms",
+            "collaborative-forecasting",
             "data-sharing-incentives",
+            "python",
             "client-library",
-            "machine-learning-algorithms"
+            "data-marketplace"
         ],
         "top_repositories": [
             {
@@ -330,14 +330,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "python",
-            "interconnect",
-            "recommender",
-            "electric-vehicles",
-            "causality",
-            "paper",
             "incentives",
-            "energy"
+            "energy",
+            "interconnect",
+            "electric-vehicles",
+            "python",
+            "recommender",
+            "paper",
+            "causality"
         ],
         "top_repositories": [
             {
@@ -436,8 +436,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "energy",
-            "interstore"
+            "interstore",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -508,10 +508,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "slam",
-            "agro-food",
+            "navibox",
             "robotics",
-            "navibox"
+            "slam",
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -558,8 +558,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "ricoslam",
-            "robotics"
+            "robotics",
+            "ricoslam"
         ],
         "top_repositories": [
             {
@@ -620,12 +620,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
+            "single-document",
+            "corpus-independent",
+            "domain-and-language-independent",
             "unsupervised-approach",
             "ai",
-            "single-document",
-            "keyword-extraction",
-            "corpus-independent",
-            "domain-and-language-independent"
+            "keyword-extraction"
         ],
         "top_repositories": [
             {
