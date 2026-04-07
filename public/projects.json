@@ -8,13 +8,13 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "energy",
+            "smart-grids",
+            "voltage-prediction",
             "energy-management",
             "power-systems",
             "state-estimation",
-            "low-voltage-grids",
             "dd-tools-lv-grids",
-            "voltage-prediction",
-            "smart-grids"
+            "low-voltage-grids"
         ],
         "top_repositories": [
             {
@@ -55,10 +55,10 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "energy",
             "predigrid",
-            "forecasting-time-series",
-            "forecasting"
+            "energy",
+            "forecasting",
+            "forecasting-time-series"
         ],
         "top_repositories": [
             {
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-forecasting",
-            "ensemble-machine-learning",
-            "predico",
+            "time-series-forecasting",
             "data-market",
-            "time-series-forecasting"
+            "collaborative-forecasting",
+            "predico",
+            "ensemble-machine-learning"
         ],
         "top_repositories": [
             {
@@ -199,15 +199,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy",
-            "renewable-energy-communities",
             "tno-security-gateway",
-            "python",
-            "energy-communities",
+            "energy",
             "price-optimization",
+            "energy-communities",
+            "dataspaces",
             "enershare",
+            "renewable-energy-communities",
             "client-library",
-            "dataspaces"
+            "python"
         ],
         "top_repositories": [
             {
@@ -263,15 +263,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "energy",
-            "collaborative-forecasting",
-            "greendatai",
-            "data-marketplace",
             "enershare",
             "python",
-            "machine-learning-algorithms",
             "data-sharing",
-            "data-sharing-incentives",
-            "client-library"
+            "collaborative-forecasting",
+            "machine-learning-algorithms",
+            "data-marketplace",
+            "greendatai",
+            "client-library",
+            "data-sharing-incentives"
         ],
         "top_repositories": [
             {
@@ -332,12 +332,12 @@
         "project_tags": [
             "energy",
             "paper",
-            "electric-vehicles",
-            "recommender",
             "causality",
-            "python",
+            "electric-vehicles",
+            "interconnect",
             "incentives",
-            "interconnect"
+            "recommender",
+            "python"
         ],
         "top_repositories": [
             {
@@ -510,8 +510,8 @@
         "project_tags": [
             "agro-food",
             "robotics",
-            "navibox",
-            "slam"
+            "slam",
+            "navibox"
         ],
         "top_repositories": [
             {
@@ -594,8 +594,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "apostles",
-            "robotics"
+            "robotics",
+            "apostles"
         ],
         "top_repositories": [
             {
@@ -620,18 +620,18 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "unsupervised-approach",
             "single-document",
-            "corpus-independent",
             "keyword-extraction",
+            "ai",
+            "corpus-independent",
             "domain-and-language-independent",
-            "ai"
+            "unsupervised-approach"
         ],
         "top_repositories": [
             {
                 "name": "yake",
                 "url": "https://github.com/INESCTEC/yake",
-                "stars": 1838,
+                "stars": 1839,
                 "is_fork": false,
                 "topics": [
                     "keyword-extraction",
@@ -643,7 +643,7 @@
                 ]
             }
         ],
-        "total_stars": 1838,
+        "total_stars": 1839,
         "total_repositories": 1
     }
 ]
