@@ -8,13 +8,13 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "voltage-prediction",
-            "power-systems",
-            "smart-grids",
-            "energy",
             "energy-management",
-            "low-voltage-grids",
+            "state-estimation",
+            "smart-grids",
+            "power-systems",
+            "energy",
             "dd-tools-lv-grids",
-            "state-estimation"
+            "low-voltage-grids"
         ],
         "top_repositories": [
             {
@@ -56,9 +56,9 @@
         "project_topic": "predigrid",
         "project_tags": [
             "predigrid",
-            "forecasting",
+            "forecasting-time-series",
             "energy",
-            "forecasting-time-series"
+            "forecasting"
         ],
         "top_repositories": [
             {
@@ -131,8 +131,8 @@
         "project_description": "Forecasting services and tools for electric vehicle related forecasting tasks.",
         "project_topic": "ev-forecasting",
         "project_tags": [
-            "energy",
-            "ev-forecasting"
+            "ev-forecasting",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -168,10 +168,10 @@
         "project_topic": "predico",
         "project_tags": [
             "ensemble-machine-learning",
+            "data-market",
             "collaborative-forecasting",
             "time-series-forecasting",
-            "predico",
-            "data-market"
+            "predico"
         ],
         "top_repositories": [
             {
@@ -199,15 +199,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
+            "dataspaces",
+            "tno-security-gateway",
             "python",
-            "energy-communities",
+            "client-library",
+            "renewable-energy-communities",
             "price-optimization",
             "enershare",
             "energy",
-            "tno-security-gateway",
-            "dataspaces",
-            "client-library",
-            "renewable-energy-communities"
+            "energy-communities"
         ],
         "top_repositories": [
             {
@@ -262,16 +262,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing",
-            "collaborative-forecasting",
-            "python",
             "data-marketplace",
-            "enershare",
-            "machine-learning-algorithms",
-            "energy",
+            "python",
             "data-sharing-incentives",
             "client-library",
-            "greendatai"
+            "greendatai",
+            "collaborative-forecasting",
+            "enershare",
+            "energy",
+            "data-sharing",
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -284,20 +284,6 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -317,6 +303,20 @@
                     "data-marketplace",
                     "energy"
                 ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
             }
         ],
         "total_stars": 7,
@@ -330,14 +330,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "python",
-            "interconnect",
-            "incentives",
             "electric-vehicles",
             "recommender",
-            "paper",
+            "interconnect",
+            "python",
             "energy",
-            "causality"
+            "paper",
+            "causality",
+            "incentives"
         ],
         "top_repositories": [
             {
@@ -405,8 +405,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -415,8 +415,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -482,8 +482,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -508,8 +508,8 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "navibox",
             "robotics",
+            "navibox",
             "agro-food",
             "slam"
         ],
@@ -594,8 +594,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "apostles",
-            "robotics"
+            "robotics",
+            "apostles"
         ],
         "top_repositories": [
             {
@@ -620,12 +620,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "ai",
             "unsupervised-approach",
-            "keyword-extraction",
             "single-document",
+            "corpus-independent",
+            "ai",
             "domain-and-language-independent",
-            "corpus-independent"
+            "keyword-extraction"
         ],
         "top_repositories": [
             {
