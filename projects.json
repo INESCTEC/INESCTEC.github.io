@@ -7,12 +7,12 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "energy-management",
-            "dd-tools-lv-grids",
             "low-voltage-grids",
-            "smart-grids",
-            "energy",
+            "dd-tools-lv-grids",
+            "energy-management",
             "voltage-prediction",
+            "energy",
+            "smart-grids",
             "power-systems",
             "state-estimation"
         ],
@@ -55,9 +55,9 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "energy",
-            "forecasting-time-series",
             "forecasting",
+            "forecasting-time-series",
+            "energy",
             "predigrid"
         ],
         "top_repositories": [
@@ -85,14 +85,14 @@
         "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
         "project_topic": "flexihome",
         "project_tags": [
-            "energy",
-            "flexihome"
+            "flexihome",
+            "energy"
         ],
         "top_repositories": [
             {
                 "name": "flexihome-hub",
                 "url": "https://github.com/INESCTEC/flexihome-hub",
-                "stars": 1,
+                "stars": 2,
                 "is_fork": false,
                 "topics": [
                     "energy",
@@ -120,7 +120,7 @@
                 ]
             }
         ],
-        "total_stars": 1,
+        "total_stars": 2,
         "total_repositories": 3
     },
     {
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "data-market",
-            "collaborative-forecasting",
-            "time-series-forecasting",
             "ensemble-machine-learning",
-            "predico"
+            "time-series-forecasting",
+            "data-market",
+            "predico",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -199,13 +199,13 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "python",
             "dataspaces",
             "client-library",
-            "energy-communities",
             "price-optimization",
-            "renewable-energy-communities",
             "energy",
+            "renewable-energy-communities",
+            "python",
+            "energy-communities",
             "tno-security-gateway",
             "enershare"
         ],
@@ -262,15 +262,15 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "python",
             "client-library",
-            "collaborative-forecasting",
-            "machine-learning-algorithms",
-            "data-sharing-incentives",
-            "data-marketplace",
             "data-sharing",
-            "energy",
             "greendatai",
+            "energy",
+            "data-marketplace",
+            "collaborative-forecasting",
+            "python",
+            "data-sharing-incentives",
+            "machine-learning-algorithms",
             "enershare"
         ],
         "top_repositories": [
@@ -290,20 +290,6 @@
                 ]
             },
             {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
-            },
-            {
                 "name": "data-sharing-barter-incentives-forecast",
                 "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-forecast",
                 "stars": 2,
@@ -313,6 +299,20 @@
                     "data-sharing-incentives",
                     "enershare",
                     "machine-learning-algorithms",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -331,13 +331,13 @@
         "project_topic": "interconnect",
         "project_tags": [
             "interconnect",
-            "python",
-            "recommender",
-            "paper",
+            "energy",
             "electric-vehicles",
-            "causality",
             "incentives",
-            "energy"
+            "python",
+            "causality",
+            "recommender",
+            "paper"
         ],
         "top_repositories": [
             {
@@ -508,10 +508,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "navibox",
             "robotics",
-            "agro-food",
-            "slam"
+            "slam",
+            "navibox",
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -558,8 +558,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "ricoslam",
-            "robotics"
+            "robotics",
+            "ricoslam"
         ],
         "top_repositories": [
             {
@@ -594,8 +594,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "apostles",
-            "robotics"
+            "robotics",
+            "apostles"
         ],
         "top_repositories": [
             {
@@ -621,10 +621,10 @@
         "project_topic": "ai",
         "project_tags": [
             "corpus-independent",
-            "unsupervised-approach",
-            "keyword-extraction",
             "domain-and-language-independent",
             "single-document",
+            "keyword-extraction",
+            "unsupervised-approach",
             "ai"
         ],
         "top_repositories": [
