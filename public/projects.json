@@ -8,13 +8,13 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "energy",
-            "state-estimation",
-            "power-systems",
-            "smart-grids",
             "voltage-prediction",
-            "dd-tools-lv-grids",
+            "power-systems",
+            "state-estimation",
             "energy-management",
-            "low-voltage-grids"
+            "low-voltage-grids",
+            "smart-grids",
+            "dd-tools-lv-grids"
         ],
         "top_repositories": [
             {
@@ -55,10 +55,10 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "forecasting-time-series",
-            "forecasting",
             "energy",
-            "predigrid"
+            "predigrid",
+            "forecasting",
+            "forecasting-time-series"
         ],
         "top_repositories": [
             {
@@ -85,8 +85,8 @@
         "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
         "project_topic": "flexihome",
         "project_tags": [
-            "flexihome",
-            "energy"
+            "energy",
+            "flexihome"
         ],
         "top_repositories": [
             {
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "name": "flexihome-account-manager",
-                "url": "https://github.com/INESCTEC/flexihome-account-manager",
+                "name": "flexihome-energy-manager",
+                "url": "https://github.com/INESCTEC/flexihome-energy-manager",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -131,8 +131,8 @@
         "project_description": "Forecasting services and tools for electric vehicle related forecasting tasks.",
         "project_topic": "ev-forecasting",
         "project_tags": [
-            "energy",
-            "ev-forecasting"
+            "ev-forecasting",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -168,10 +168,10 @@
         "project_topic": "predico",
         "project_tags": [
             "time-series-forecasting",
-            "data-market",
             "predico",
-            "ensemble-machine-learning",
-            "collaborative-forecasting"
+            "collaborative-forecasting",
+            "data-market",
+            "ensemble-machine-learning"
         ],
         "top_repositories": [
             {
@@ -200,13 +200,13 @@
         "project_topic": "enershare",
         "project_tags": [
             "energy",
-            "python",
             "client-library",
-            "energy-communities",
+            "price-optimization",
             "enershare",
             "renewable-energy-communities",
             "dataspaces",
-            "price-optimization",
+            "python",
+            "energy-communities",
             "tno-security-gateway"
         ],
         "top_repositories": [
@@ -263,15 +263,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "energy",
-            "python",
             "client-library",
-            "data-sharing-incentives",
-            "enershare",
-            "data-sharing",
             "greendatai",
-            "data-marketplace",
+            "data-sharing",
+            "enershare",
+            "collaborative-forecasting",
+            "python",
             "machine-learning-algorithms",
-            "collaborative-forecasting"
+            "data-sharing-incentives",
+            "data-marketplace"
         ],
         "top_repositories": [
             {
@@ -284,20 +284,6 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -317,6 +303,20 @@
                     "data-marketplace",
                     "energy"
                 ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
             }
         ],
         "total_stars": 7,
@@ -330,14 +330,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "incentives",
             "interconnect",
             "energy",
-            "python",
-            "incentives",
-            "causality",
             "recommender",
-            "electric-vehicles",
-            "paper"
+            "python",
+            "paper",
+            "causality",
+            "electric-vehicles"
         ],
         "top_repositories": [
             {
@@ -461,8 +461,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---interoperability-common",
-                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "name": "InterSTORE---Client-Server",
+                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -509,9 +509,9 @@
         "project_topic": "navibox",
         "project_tags": [
             "slam",
+            "agro-food",
             "navibox",
-            "robotics",
-            "agro-food"
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -558,8 +558,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "ricoslam",
-            "robotics"
+            "robotics",
+            "ricoslam"
         ],
         "top_repositories": [
             {
@@ -620,12 +620,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "single-document",
+            "ai",
             "corpus-independent",
-            "keyword-extraction",
-            "unsupervised-approach",
+            "single-document",
             "domain-and-language-independent",
-            "ai"
+            "keyword-extraction",
+            "unsupervised-approach"
         ],
         "top_repositories": [
             {
