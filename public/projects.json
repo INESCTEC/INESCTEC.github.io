@@ -7,26 +7,16 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "energy-management",
-            "low-voltage-grids",
             "state-estimation",
-            "dd-tools-lv-grids",
             "energy",
-            "power-systems",
+            "dd-tools-lv-grids",
+            "smart-grids",
             "voltage-prediction",
-            "smart-grids"
+            "low-voltage-grids",
+            "power-systems",
+            "energy-management"
         ],
         "top_repositories": [
-            {
-                "name": "lv-voltage-control",
-                "url": "https://github.com/INESCTEC/lv-voltage-control",
-                "stars": 0,
-                "is_fork": false,
-                "topics": [
-                    "energy",
-                    "dd-tools-lv-grids"
-                ]
-            },
             {
                 "name": "lv-state-estimator",
                 "url": "https://github.com/INESCTEC/lv-state-estimator",
@@ -39,6 +29,16 @@
                     "state-estimation",
                     "low-voltage-grids",
                     "voltage-prediction",
+                    "energy",
+                    "dd-tools-lv-grids"
+                ]
+            },
+            {
+                "name": "lv-voltage-control",
+                "url": "https://github.com/INESCTEC/lv-voltage-control",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
                     "energy",
                     "dd-tools-lv-grids"
                 ]
@@ -55,10 +55,10 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "forecasting-time-series",
             "energy",
-            "predigrid",
-            "forecasting"
+            "forecasting-time-series",
+            "forecasting",
+            "predigrid"
         ],
         "top_repositories": [
             {
@@ -167,17 +167,17 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "ensemble-machine-learning",
             "time-series-forecasting",
-            "data-market",
             "predico",
-            "collaborative-forecasting"
+            "collaborative-forecasting",
+            "ensemble-machine-learning",
+            "data-market"
         ],
         "top_repositories": [
             {
                 "name": "predico-collabforecast",
                 "url": "https://github.com/INESCTEC/predico-collabforecast",
-                "stars": 8,
+                "stars": 9,
                 "is_fork": false,
                 "topics": [
                     "collaborative-forecasting",
@@ -188,7 +188,7 @@
                 ]
             }
         ],
-        "total_stars": 8,
+        "total_stars": 9,
         "total_repositories": 1
     },
     {
@@ -199,15 +199,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "renewable-energy-communities",
-            "python",
-            "enershare",
-            "energy",
             "energy-communities",
-            "price-optimization",
-            "client-library",
+            "enershare",
             "tno-security-gateway",
-            "dataspaces"
+            "python",
+            "energy",
+            "price-optimization",
+            "dataspaces",
+            "renewable-energy-communities",
+            "client-library"
         ],
         "top_repositories": [
             {
@@ -262,16 +262,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing",
-            "machine-learning-algorithms",
-            "python",
-            "data-marketplace",
             "data-sharing-incentives",
             "enershare",
+            "collaborative-forecasting",
+            "python",
             "energy",
-            "client-library",
+            "data-sharing",
+            "machine-learning-algorithms",
+            "data-marketplace",
             "greendatai",
-            "collaborative-forecasting"
+            "client-library"
         ],
         "top_repositories": [
             {
@@ -330,11 +330,11 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "paper",
-            "causality",
             "python",
-            "incentives",
             "energy",
+            "causality",
+            "incentives",
+            "paper",
             "interconnect",
             "electric-vehicles",
             "recommender"
@@ -343,7 +343,7 @@
             {
                 "name": "interoperable-recommender-tso",
                 "url": "https://github.com/INESCTEC/interoperable-recommender-tso",
-                "stars": 6,
+                "stars": 7,
                 "is_fork": false,
                 "topics": [
                     "interconnect",
@@ -379,7 +379,7 @@
                 ]
             }
         ],
-        "total_stars": 8,
+        "total_stars": 9,
         "total_repositories": 3
     },
     {
@@ -508,10 +508,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "slam",
+            "navibox",
             "robotics",
-            "agro-food",
-            "navibox"
+            "slam",
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -620,18 +620,18 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "ai",
-            "single-document",
-            "corpus-independent",
             "keyword-extraction",
+            "ai",
             "domain-and-language-independent",
+            "corpus-independent",
+            "single-document",
             "unsupervised-approach"
         ],
         "top_repositories": [
             {
                 "name": "yake",
                 "url": "https://github.com/INESCTEC/yake",
-                "stars": 1853,
+                "stars": 1854,
                 "is_fork": false,
                 "topics": [
                     "keyword-extraction",
@@ -643,7 +643,7 @@
                 ]
             }
         ],
-        "total_stars": 1853,
+        "total_stars": 1854,
         "total_repositories": 1
     }
 ]
