@@ -8,13 +8,13 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "energy",
-            "dd-tools-lv-grids",
             "voltage-prediction",
+            "dd-tools-lv-grids",
             "energy-management",
             "state-estimation",
             "power-systems",
-            "smart-grids",
-            "low-voltage-grids"
+            "low-voltage-grids",
+            "smart-grids"
         ],
         "top_repositories": [
             {
@@ -55,9 +55,9 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "forecasting",
             "energy",
             "predigrid",
+            "forecasting",
             "forecasting-time-series"
         ],
         "top_repositories": [
@@ -92,17 +92,7 @@
             {
                 "name": "flexihome-hub",
                 "url": "https://github.com/INESCTEC/flexihome-hub",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "energy",
-                    "flexihome"
-                ]
-            },
-            {
-                "name": "flexihome-statistics-manager",
-                "url": "https://github.com/INESCTEC/flexihome-statistics-manager",
-                "stars": 0,
+                "stars": 3,
                 "is_fork": false,
                 "topics": [
                     "energy",
@@ -112,6 +102,16 @@
             {
                 "name": "flexihome-energy-manager",
                 "url": "https://github.com/INESCTEC/flexihome-energy-manager",
+                "stars": 1,
+                "is_fork": false,
+                "topics": [
+                    "energy",
+                    "flexihome"
+                ]
+            },
+            {
+                "name": "flexihome-account-manager",
+                "url": "https://github.com/INESCTEC/flexihome-account-manager",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -120,7 +120,7 @@
                 ]
             }
         ],
-        "total_stars": 2,
+        "total_stars": 4,
         "total_repositories": 3
     },
     {
@@ -167,17 +167,17 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "time-series-forecasting",
             "predico",
             "ensemble-machine-learning",
+            "data-market",
             "collaborative-forecasting",
-            "data-market"
+            "time-series-forecasting"
         ],
         "top_repositories": [
             {
                 "name": "predico-collabforecast",
                 "url": "https://github.com/INESCTEC/predico-collabforecast",
-                "stars": 10,
+                "stars": 14,
                 "is_fork": false,
                 "topics": [
                     "collaborative-forecasting",
@@ -188,7 +188,7 @@
                 ]
             }
         ],
-        "total_stars": 10,
+        "total_stars": 14,
         "total_repositories": 1
     },
     {
@@ -199,15 +199,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
+            "tno-security-gateway",
             "energy",
-            "enershare",
+            "price-optimization",
+            "energy-communities",
+            "dataspaces",
             "renewable-energy-communities",
             "python",
-            "tno-security-gateway",
-            "price-optimization",
             "client-library",
-            "dataspaces",
-            "energy-communities"
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -263,15 +263,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "energy",
-            "data-sharing-incentives",
-            "data-sharing",
-            "greendatai",
-            "data-marketplace",
-            "enershare",
-            "python",
             "machine-learning-algorithms",
+            "data-marketplace",
+            "data-sharing",
+            "python",
             "client-library",
-            "collaborative-forecasting"
+            "greendatai",
+            "collaborative-forecasting",
+            "enershare",
+            "data-sharing-incentives"
         ],
         "top_repositories": [
             {
@@ -331,12 +331,12 @@
         "project_topic": "interconnect",
         "project_tags": [
             "energy",
-            "recommender",
-            "interconnect",
+            "paper",
+            "python",
             "electric-vehicles",
             "incentives",
-            "python",
-            "paper",
+            "recommender",
+            "interconnect",
             "causality"
         ],
         "top_repositories": [
@@ -390,8 +390,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
@@ -482,8 +482,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -509,9 +509,9 @@
         "project_topic": "navibox",
         "project_tags": [
             "robotics",
+            "agro-food",
             "slam",
-            "navibox",
-            "agro-food"
+            "navibox"
         ],
         "top_repositories": [
             {
@@ -558,8 +558,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "robotics",
-            "ricoslam"
+            "ricoslam",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -620,10 +620,10 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
+            "domain-and-language-independent",
             "keyword-extraction",
             "unsupervised-approach",
             "corpus-independent",
-            "domain-and-language-independent",
             "single-document",
             "ai"
         ],
