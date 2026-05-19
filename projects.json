@@ -7,14 +7,14 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "low-voltage-grids",
-            "energy",
-            "state-estimation",
             "dd-tools-lv-grids",
             "power-systems",
+            "energy",
+            "smart-grids",
             "energy-management",
             "voltage-prediction",
-            "smart-grids"
+            "state-estimation",
+            "low-voltage-grids"
         ],
         "top_repositories": [
             {
@@ -56,9 +56,9 @@
         "project_topic": "predigrid",
         "project_tags": [
             "energy",
-            "forecasting-time-series",
             "forecasting",
-            "predigrid"
+            "predigrid",
+            "forecasting-time-series"
         ],
         "top_repositories": [
             {
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "name": "flexihome-device-manager",
-                "url": "https://github.com/INESCTEC/flexihome-device-manager",
+                "name": "flexihome-mobile",
+                "url": "https://github.com/INESCTEC/flexihome-mobile",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -168,10 +168,10 @@
         "project_topic": "predico",
         "project_tags": [
             "predico",
-            "data-market",
             "ensemble-machine-learning",
             "time-series-forecasting",
-            "collaborative-forecasting"
+            "collaborative-forecasting",
+            "data-market"
         ],
         "top_repositories": [
             {
@@ -199,15 +199,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "renewable-energy-communities",
+            "python",
+            "dataspaces",
             "client-library",
             "energy",
-            "price-optimization",
-            "dataspaces",
+            "renewable-energy-communities",
             "enershare",
+            "energy-communities",
             "tno-security-gateway",
-            "python",
-            "energy-communities"
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -262,16 +262,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "client-library",
             "energy",
-            "greendatai",
-            "data-sharing",
-            "data-marketplace",
-            "enershare",
-            "machine-learning-algorithms",
-            "data-sharing-incentives",
+            "client-library",
             "python",
-            "collaborative-forecasting"
+            "data-sharing-incentives",
+            "data-marketplace",
+            "machine-learning-algorithms",
+            "collaborative-forecasting",
+            "enershare",
+            "data-sharing",
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -284,6 +284,20 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -303,20 +317,6 @@
                     "data-marketplace",
                     "energy"
                 ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 7,
@@ -330,14 +330,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
-            "paper",
-            "energy",
-            "recommender",
-            "electric-vehicles",
             "python",
-            "incentives",
-            "causality"
+            "recommender",
+            "energy",
+            "causality",
+            "paper",
+            "electric-vehicles",
+            "interconnect",
+            "incentives"
         ],
         "top_repositories": [
             {
@@ -390,13 +390,13 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-shared-resource-planning",
-                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -415,8 +415,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-shared-resource-planning",
+                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -461,8 +461,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-UI",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -509,9 +509,9 @@
         "project_topic": "navibox",
         "project_tags": [
             "slam",
+            "agro-food",
             "navibox",
-            "robotics",
-            "agro-food"
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -558,8 +558,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "robotics",
-            "ricoslam"
+            "ricoslam",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -620,10 +620,10 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "ai",
-            "keyword-extraction",
-            "unsupervised-approach",
             "domain-and-language-independent",
+            "ai",
+            "unsupervised-approach",
+            "keyword-extraction",
             "single-document",
             "corpus-independent"
         ],
@@ -631,7 +631,7 @@
             {
                 "name": "yake",
                 "url": "https://github.com/INESCTEC/yake",
-                "stars": 1857,
+                "stars": 1858,
                 "is_fork": false,
                 "topics": [
                     "keyword-extraction",
@@ -643,7 +643,7 @@
                 ]
             }
         ],
-        "total_stars": 1857,
+        "total_stars": 1858,
         "total_repositories": 1
     }
 ]
