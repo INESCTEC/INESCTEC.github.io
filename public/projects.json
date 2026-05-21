@@ -8,25 +8,15 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "state-estimation",
-            "voltage-prediction",
-            "power-systems",
-            "smart-grids",
             "energy",
-            "energy-management",
+            "power-systems",
             "low-voltage-grids",
-            "dd-tools-lv-grids"
+            "voltage-prediction",
+            "smart-grids",
+            "dd-tools-lv-grids",
+            "energy-management"
         ],
         "top_repositories": [
-            {
-                "name": "lv-voltage-control",
-                "url": "https://github.com/INESCTEC/lv-voltage-control",
-                "stars": 0,
-                "is_fork": false,
-                "topics": [
-                    "energy",
-                    "dd-tools-lv-grids"
-                ]
-            },
             {
                 "name": "lv-state-estimator",
                 "url": "https://github.com/INESCTEC/lv-state-estimator",
@@ -39,6 +29,16 @@
                     "state-estimation",
                     "low-voltage-grids",
                     "voltage-prediction",
+                    "energy",
+                    "dd-tools-lv-grids"
+                ]
+            },
+            {
+                "name": "lv-voltage-control",
+                "url": "https://github.com/INESCTEC/lv-voltage-control",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
                     "energy",
                     "dd-tools-lv-grids"
                 ]
@@ -55,9 +55,9 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "predigrid",
-            "forecasting",
             "forecasting-time-series",
+            "forecasting",
+            "predigrid",
             "energy"
         ],
         "top_repositories": [
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "name": "flexihome-statistics-manager",
-                "url": "https://github.com/INESCTEC/flexihome-statistics-manager",
+                "name": "flexihome-mobile",
+                "url": "https://github.com/INESCTEC/flexihome-mobile",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -131,8 +131,8 @@
         "project_description": "Forecasting services and tools for electric vehicle related forecasting tasks.",
         "project_topic": "ev-forecasting",
         "project_tags": [
-            "energy",
-            "ev-forecasting"
+            "ev-forecasting",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
+            "ensemble-machine-learning",
             "predico",
             "collaborative-forecasting",
-            "time-series-forecasting",
-            "ensemble-machine-learning",
-            "data-market"
+            "data-market",
+            "time-series-forecasting"
         ],
         "top_repositories": [
             {
@@ -200,14 +200,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "energy-communities",
-            "energy",
-            "tno-security-gateway",
-            "price-optimization",
-            "dataspaces",
             "python",
+            "dataspaces",
+            "energy",
             "client-library",
+            "tno-security-gateway",
             "renewable-energy-communities",
-            "enershare"
+            "enershare",
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -262,16 +262,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing-incentives",
-            "energy",
-            "data-sharing",
-            "collaborative-forecasting",
-            "python",
             "machine-learning-algorithms",
+            "python",
+            "data-sharing-incentives",
+            "greendatai",
+            "energy",
             "client-library",
             "data-marketplace",
+            "data-sharing",
             "enershare",
-            "greendatai"
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -330,14 +330,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "causality",
             "incentives",
-            "energy",
-            "recommender",
-            "electric-vehicles",
             "interconnect",
             "python",
-            "paper"
+            "causality",
+            "energy",
+            "paper",
+            "electric-vehicles",
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -405,8 +405,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -415,8 +415,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -461,8 +461,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---interoperability-common",
-                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
+                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -482,8 +482,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -508,10 +508,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "navibox",
-            "robotics",
+            "agro-food",
             "slam",
-            "agro-food"
+            "robotics",
+            "navibox"
         ],
         "top_repositories": [
             {
@@ -558,8 +558,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "robotics",
-            "ricoslam"
+            "ricoslam",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -620,12 +620,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "unsupervised-approach",
-            "single-document",
             "corpus-independent",
             "keyword-extraction",
-            "ai",
-            "domain-and-language-independent"
+            "domain-and-language-independent",
+            "unsupervised-approach",
+            "single-document",
+            "ai"
         ],
         "top_repositories": [
             {
