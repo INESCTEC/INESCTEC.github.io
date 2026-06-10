@@ -7,13 +7,13 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "low-voltage-grids",
-            "energy-management",
+            "voltage-prediction",
             "state-estimation",
             "power-systems",
-            "dd-tools-lv-grids",
             "smart-grids",
-            "voltage-prediction",
+            "energy-management",
+            "dd-tools-lv-grids",
+            "low-voltage-grids",
             "energy"
         ],
         "top_repositories": [
@@ -57,8 +57,8 @@
         "project_tags": [
             "forecasting",
             "predigrid",
-            "forecasting-time-series",
-            "energy"
+            "energy",
+            "forecasting-time-series"
         ],
         "top_repositories": [
             {
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "name": "flexihome-account-manager",
-                "url": "https://github.com/INESCTEC/flexihome-account-manager",
+                "name": "flexihome-device-manager",
+                "url": "https://github.com/INESCTEC/flexihome-device-manager",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-forecasting",
-            "data-market",
-            "ensemble-machine-learning",
             "time-series-forecasting",
-            "predico"
+            "ensemble-machine-learning",
+            "predico",
+            "data-market",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -199,15 +199,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy-communities",
-            "price-optimization",
-            "renewable-energy-communities",
-            "dataspaces",
-            "tno-security-gateway",
-            "python",
             "client-library",
-            "energy",
-            "enershare"
+            "enershare",
+            "price-optimization",
+            "energy-communities",
+            "tno-security-gateway",
+            "renewable-energy-communities",
+            "python",
+            "dataspaces",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -262,16 +262,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-sharing",
-            "data-marketplace",
-            "collaborative-forecasting",
+            "client-library",
             "greendatai",
             "enershare",
-            "python",
+            "data-sharing-incentives",
             "machine-learning-algorithms",
-            "client-library",
             "energy",
-            "data-sharing-incentives"
+            "data-sharing",
+            "python",
+            "data-marketplace",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -330,14 +330,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
+            "electric-vehicles",
             "interconnect",
             "incentives",
-            "recommender",
-            "paper",
-            "python",
-            "electric-vehicles",
             "causality",
-            "energy"
+            "python",
+            "paper",
+            "energy",
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -395,16 +395,6 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "attest",
-                    "energy"
-                ]
-            },
-            {
                 "name": "ATTEST-shared-resource-planning",
                 "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
@@ -417,6 +407,16 @@
             {
                 "name": "ATTEST-WP2.6-Market-Simulator",
                 "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "attest",
+                    "energy"
+                ]
+            },
+            {
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -436,8 +436,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
@@ -461,8 +461,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "name": "InterSTORE---interoperability-common",
+                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -508,10 +508,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "robotics",
             "slam",
+            "navibox",
             "agro-food",
-            "navibox"
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -594,8 +594,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "robotics",
-            "apostles"
+            "apostles",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -621,10 +621,10 @@
         "project_topic": "ai",
         "project_tags": [
             "unsupervised-approach",
-            "domain-and-language-independent",
             "corpus-independent",
             "keyword-extraction",
             "single-document",
+            "domain-and-language-independent",
             "ai"
         ],
         "top_repositories": [
