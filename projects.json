@@ -7,26 +7,16 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "smart-grids",
-            "energy",
-            "voltage-prediction",
-            "low-voltage-grids",
             "energy-management",
-            "state-estimation",
             "power-systems",
-            "dd-tools-lv-grids"
+            "smart-grids",
+            "low-voltage-grids",
+            "voltage-prediction",
+            "dd-tools-lv-grids",
+            "state-estimation",
+            "energy"
         ],
         "top_repositories": [
-            {
-                "name": "lv-voltage-control",
-                "url": "https://github.com/INESCTEC/lv-voltage-control",
-                "stars": 0,
-                "is_fork": false,
-                "topics": [
-                    "energy",
-                    "dd-tools-lv-grids"
-                ]
-            },
             {
                 "name": "lv-state-estimator",
                 "url": "https://github.com/INESCTEC/lv-state-estimator",
@@ -39,6 +29,16 @@
                     "state-estimation",
                     "low-voltage-grids",
                     "voltage-prediction",
+                    "energy",
+                    "dd-tools-lv-grids"
+                ]
+            },
+            {
+                "name": "lv-voltage-control",
+                "url": "https://github.com/INESCTEC/lv-voltage-control",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
                     "energy",
                     "dd-tools-lv-grids"
                 ]
@@ -55,10 +55,10 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "energy",
             "forecasting-time-series",
-            "predigrid",
-            "forecasting"
+            "forecasting",
+            "energy",
+            "predigrid"
         ],
         "top_repositories": [
             {
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "name": "flexihome-device-manager",
-                "url": "https://github.com/INESCTEC/flexihome-device-manager",
+                "name": "flexihome-mobile",
+                "url": "https://github.com/INESCTEC/flexihome-mobile",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -131,8 +131,8 @@
         "project_description": "Forecasting services and tools for electric vehicle related forecasting tasks.",
         "project_topic": "ev-forecasting",
         "project_tags": [
-            "energy",
-            "ev-forecasting"
+            "ev-forecasting",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "collaborative-forecasting",
-            "predico",
-            "data-market",
             "ensemble-machine-learning",
-            "time-series-forecasting"
+            "collaborative-forecasting",
+            "time-series-forecasting",
+            "data-market",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -199,15 +199,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "python",
-            "tno-security-gateway",
-            "energy",
-            "dataspaces",
+            "enershare",
             "energy-communities",
             "renewable-energy-communities",
-            "price-optimization",
+            "tno-security-gateway",
             "client-library",
-            "enershare"
+            "price-optimization",
+            "energy",
+            "dataspaces",
+            "python"
         ],
         "top_repositories": [
             {
@@ -262,16 +262,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
+            "enershare",
+            "data-sharing-incentives",
             "collaborative-forecasting",
             "data-sharing",
-            "energy",
-            "python",
             "machine-learning-algorithms",
-            "data-marketplace",
             "client-library",
+            "data-marketplace",
+            "energy",
             "greendatai",
-            "data-sharing-incentives",
-            "enershare"
+            "python"
         ],
         "top_repositories": [
             {
@@ -284,20 +284,6 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -317,6 +303,20 @@
                     "data-marketplace",
                     "energy"
                 ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
             }
         ],
         "total_stars": 7,
@@ -330,14 +330,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "python",
-            "energy",
-            "interconnect",
             "paper",
-            "recommender",
-            "causality",
+            "electric-vehicles",
             "incentives",
-            "electric-vehicles"
+            "recommender",
+            "interconnect",
+            "causality",
+            "energy",
+            "python"
         ],
         "top_repositories": [
             {
@@ -405,8 +405,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
-                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "name": "ATTEST-shared-resource-planning",
+                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -415,8 +415,8 @@
                 ]
             },
             {
-                "name": "ATTEST-shared-resource-planning",
-                "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
+                "name": "ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
+                "url": "https://github.com/INESCTEC/ATTEST-WP-4.4-Dynamic-Security-Constrained-Transmission-Network-Operation",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -509,8 +509,8 @@
         "project_topic": "navibox",
         "project_tags": [
             "robotics",
-            "agro-food",
             "navibox",
+            "agro-food",
             "slam"
         ],
         "top_repositories": [
@@ -621,11 +621,11 @@
         "project_topic": "ai",
         "project_tags": [
             "ai",
-            "unsupervised-approach",
-            "domain-and-language-independent",
-            "single-document",
             "keyword-extraction",
-            "corpus-independent"
+            "single-document",
+            "domain-and-language-independent",
+            "corpus-independent",
+            "unsupervised-approach"
         ],
         "top_repositories": [
             {
