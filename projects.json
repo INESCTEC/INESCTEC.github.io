@@ -8,15 +8,25 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "smart-grids",
+            "state-estimation",
+            "power-systems",
             "low-voltage-grids",
             "voltage-prediction",
-            "power-systems",
-            "energy-management",
             "dd-tools-lv-grids",
-            "state-estimation",
-            "energy"
+            "energy",
+            "energy-management"
         ],
         "top_repositories": [
+            {
+                "name": "lv-voltage-control",
+                "url": "https://github.com/INESCTEC/lv-voltage-control",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
+                    "energy",
+                    "dd-tools-lv-grids"
+                ]
+            },
             {
                 "name": "lv-state-estimator",
                 "url": "https://github.com/INESCTEC/lv-state-estimator",
@@ -29,16 +39,6 @@
                     "state-estimation",
                     "low-voltage-grids",
                     "voltage-prediction",
-                    "energy",
-                    "dd-tools-lv-grids"
-                ]
-            },
-            {
-                "name": "lv-voltage-control",
-                "url": "https://github.com/INESCTEC/lv-voltage-control",
-                "stars": 0,
-                "is_fork": false,
-                "topics": [
                     "energy",
                     "dd-tools-lv-grids"
                 ]
@@ -55,8 +55,8 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "forecasting-time-series",
             "forecasting",
+            "forecasting-time-series",
             "predigrid",
             "energy"
         ],
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "name": "flexihome-mobile",
-                "url": "https://github.com/INESCTEC/flexihome-mobile",
+                "name": "flexihome-account-manager",
+                "url": "https://github.com/INESCTEC/flexihome-account-manager",
                 "stars": 0,
                 "is_fork": false,
                 "topics": [
@@ -170,8 +170,8 @@
             "predico",
             "collaborative-forecasting",
             "ensemble-machine-learning",
-            "time-series-forecasting",
-            "data-market"
+            "data-market",
+            "time-series-forecasting"
         ],
         "top_repositories": [
             {
@@ -199,15 +199,15 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "renewable-energy-communities",
-            "energy-communities",
             "client-library",
+            "energy-communities",
             "python",
             "tno-security-gateway",
-            "price-optimization",
             "dataspaces",
             "enershare",
-            "energy"
+            "energy",
+            "price-optimization",
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -262,16 +262,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "data-marketplace",
-            "collaborative-forecasting",
             "client-library",
-            "python",
-            "machine-learning-algorithms",
-            "data-sharing",
-            "enershare",
             "greendatai",
+            "collaborative-forecasting",
+            "data-sharing",
+            "python",
+            "data-marketplace",
             "data-sharing-incentives",
-            "energy"
+            "enershare",
+            "energy",
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -284,6 +284,20 @@
                     "enershare",
                     "collaborative-forecasting",
                     "data-sharing-incentives",
+                    "greendatai",
+                    "data-marketplace",
+                    "energy"
+                ]
+            },
+            {
+                "name": "data-sharing-barter-incentives-client",
+                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
+                "stars": 2,
+                "is_fork": false,
+                "topics": [
+                    "client-library",
+                    "python",
+                    "enershare",
                     "greendatai",
                     "data-marketplace",
                     "energy"
@@ -303,20 +317,6 @@
                     "data-marketplace",
                     "energy"
                 ]
-            },
-            {
-                "name": "data-sharing-barter-incentives-client",
-                "url": "https://github.com/INESCTEC/data-sharing-barter-incentives-client",
-                "stars": 2,
-                "is_fork": false,
-                "topics": [
-                    "client-library",
-                    "python",
-                    "enershare",
-                    "greendatai",
-                    "data-marketplace",
-                    "energy"
-                ]
             }
         ],
         "total_stars": 7,
@@ -330,14 +330,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
             "electric-vehicles",
-            "causality",
-            "python",
-            "recommender",
             "incentives",
+            "recommender",
+            "interconnect",
+            "python",
+            "energy",
             "paper",
-            "energy"
+            "causality"
         ],
         "top_repositories": [
             {
@@ -415,8 +415,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2-T2.5-Day-Ahead-Aggregator-Tool",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2-T2.5-Day-Ahead-Aggregator-Tool",
+                "name": "ATTEST-WP2-T2.5-Real-Time-Aggregator-Tool",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2-T2.5-Real-Time-Aggregator-Tool",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -436,8 +436,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
@@ -461,8 +461,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -508,10 +508,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "slam",
-            "robotics",
+            "agro-food",
             "navibox",
-            "agro-food"
+            "robotics",
+            "slam"
         ],
         "top_repositories": [
             {
@@ -558,8 +558,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "ricoslam",
-            "robotics"
+            "robotics",
+            "ricoslam"
         ],
         "top_repositories": [
             {
@@ -573,6 +573,15 @@
                 ]
             },
             {
+                "name": "ricoslam",
+                "url": "https://github.com/INESCTEC/ricoslam",
+                "stars": 1,
+                "is_fork": false,
+                "topics": [
+                    "ricoslam"
+                ]
+            },
+            {
                 "name": "inesctec_mrdt_line_fit_based_corner_detector_2d_laser",
                 "url": "https://github.com/INESCTEC/inesctec_mrdt_line_fit_based_corner_detector_2d_laser",
                 "stars": 0,
@@ -581,18 +590,9 @@
                     "robotics",
                     "ricoslam"
                 ]
-            },
-            {
-                "name": "ricoslam",
-                "url": "https://github.com/INESCTEC/ricoslam",
-                "stars": 0,
-                "is_fork": false,
-                "topics": [
-                    "ricoslam"
-                ]
             }
         ],
-        "total_stars": 1,
+        "total_stars": 2,
         "total_repositories": 3
     },
     {
@@ -629,11 +629,11 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "domain-and-language-independent",
             "single-document",
             "unsupervised-approach",
             "corpus-independent",
             "keyword-extraction",
+            "domain-and-language-independent",
             "ai"
         ],
         "top_repositories": [
