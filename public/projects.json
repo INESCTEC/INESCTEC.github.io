@@ -8,25 +8,15 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "low-voltage-grids",
-            "state-estimation",
             "power-systems",
-            "energy-management",
+            "state-estimation",
+            "energy",
             "smart-grids",
             "voltage-prediction",
             "dd-tools-lv-grids",
-            "energy"
+            "energy-management"
         ],
         "top_repositories": [
-            {
-                "name": "lv-voltage-control",
-                "url": "https://github.com/INESCTEC/lv-voltage-control",
-                "stars": 0,
-                "is_fork": false,
-                "topics": [
-                    "energy",
-                    "dd-tools-lv-grids"
-                ]
-            },
             {
                 "name": "lv-state-estimator",
                 "url": "https://github.com/INESCTEC/lv-state-estimator",
@@ -39,6 +29,16 @@
                     "state-estimation",
                     "low-voltage-grids",
                     "voltage-prediction",
+                    "energy",
+                    "dd-tools-lv-grids"
+                ]
+            },
+            {
+                "name": "lv-voltage-control",
+                "url": "https://github.com/INESCTEC/lv-voltage-control",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
                     "energy",
                     "dd-tools-lv-grids"
                 ]
@@ -55,9 +55,9 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
-            "forecasting-time-series",
-            "energy",
             "forecasting",
+            "energy",
+            "forecasting-time-series",
             "predigrid"
         ],
         "top_repositories": [
@@ -85,8 +85,8 @@
         "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
         "project_topic": "flexihome",
         "project_tags": [
-            "flexihome",
-            "energy"
+            "energy",
+            "flexihome"
         ],
         "top_repositories": [
             {
@@ -131,8 +131,8 @@
         "project_description": "Forecasting services and tools for electric vehicle related forecasting tasks.",
         "project_topic": "ev-forecasting",
         "project_tags": [
-            "energy",
-            "ev-forecasting"
+            "ev-forecasting",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "time-series-forecasting",
-            "data-market",
             "ensemble-machine-learning",
+            "data-market",
             "predico",
-            "collaborative-forecasting"
+            "collaborative-forecasting",
+            "time-series-forecasting"
         ],
         "top_repositories": [
             {
@@ -200,14 +200,14 @@
         "project_topic": "enershare",
         "project_tags": [
             "price-optimization",
-            "dataspaces",
             "tno-security-gateway",
-            "enershare",
-            "renewable-energy-communities",
-            "python",
-            "client-library",
             "energy-communities",
-            "energy"
+            "renewable-energy-communities",
+            "energy",
+            "client-library",
+            "dataspaces",
+            "python",
+            "enershare"
         ],
         "top_repositories": [
             {
@@ -263,15 +263,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "data-marketplace",
-            "data-sharing-incentives",
-            "machine-learning-algorithms",
-            "enershare",
             "energy",
-            "data-sharing",
             "greendatai",
-            "python",
+            "data-sharing",
             "client-library",
-            "collaborative-forecasting"
+            "python",
+            "collaborative-forecasting",
+            "enershare",
+            "data-sharing-incentives",
+            "machine-learning-algorithms"
         ],
         "top_repositories": [
             {
@@ -331,13 +331,13 @@
         "project_topic": "interconnect",
         "project_tags": [
             "paper",
-            "recommender",
-            "interconnect",
-            "incentives",
-            "causality",
-            "python",
+            "energy",
             "electric-vehicles",
-            "energy"
+            "interconnect",
+            "python",
+            "causality",
+            "incentives",
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -395,16 +395,6 @@
         ],
         "top_repositories": [
             {
-                "name": "ATTEST-WP2.6-Market-Simulator",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
-                "stars": 0,
-                "is_fork": true,
-                "topics": [
-                    "attest",
-                    "energy"
-                ]
-            },
-            {
                 "name": "ATTEST-shared-resource-planning",
                 "url": "https://github.com/INESCTEC/ATTEST-shared-resource-planning",
                 "stars": 0,
@@ -415,8 +405,18 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2-T2.5-Real-Time-Aggregator-Tool",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2-T2.5-Real-Time-Aggregator-Tool",
+                "name": "ATTEST-WP2.6-Market-Simulator",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2.6-Market-Simulator",
+                "stars": 0,
+                "is_fork": true,
+                "topics": [
+                    "attest",
+                    "energy"
+                ]
+            },
+            {
+                "name": "ATTEST-WP2-T2.5-Day-Ahead-Aggregator-Tool",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2-T2.5-Day-Ahead-Aggregator-Tool",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -461,8 +461,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-Fiware-Data-App",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-Fiware-Data-App",
+                "name": "InterSTORE---Data-Space-Connector-UI",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -508,10 +508,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "agro-food",
+            "slam",
             "navibox",
             "robotics",
-            "slam"
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -558,8 +558,8 @@
         "project_description": "RicoSLAM focuses on advancing long-term Simultaneous Localization and Mapping (SLAM) for wheeled mobile robots operating in industrial environments. Key research areas include automatic mobile robot calibration, various SLAM formulations, and the use of ray tracing techniques to handle dynamic sensor observations.",
         "project_topic": "ricoslam",
         "project_tags": [
-            "robotics",
-            "ricoslam"
+            "ricoslam",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -603,8 +603,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "robotics",
-            "apostles"
+            "apostles",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -629,12 +629,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "ai",
-            "keyword-extraction",
-            "unsupervised-approach",
-            "domain-and-language-independent",
             "single-document",
-            "corpus-independent"
+            "corpus-independent",
+            "ai",
+            "domain-and-language-independent",
+            "unsupervised-approach",
+            "keyword-extraction"
         ],
         "top_repositories": [
             {
