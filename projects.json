@@ -7,14 +7,14 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
+            "power-systems",
             "state-estimation",
+            "energy-management",
+            "energy",
             "smart-grids",
             "dd-tools-lv-grids",
-            "power-systems",
-            "energy-management",
-            "low-voltage-grids",
             "voltage-prediction",
-            "energy"
+            "low-voltage-grids"
         ],
         "top_repositories": [
             {
@@ -56,8 +56,8 @@
         "project_topic": "predigrid",
         "project_tags": [
             "energy",
-            "predigrid",
             "forecasting-time-series",
+            "predigrid",
             "forecasting"
         ],
         "top_repositories": [
@@ -168,10 +168,10 @@
         "project_topic": "predico",
         "project_tags": [
             "ensemble-machine-learning",
-            "time-series-forecasting",
-            "data-market",
+            "collaborative-forecasting",
             "predico",
-            "collaborative-forecasting"
+            "data-market",
+            "time-series-forecasting"
         ],
         "top_repositories": [
             {
@@ -199,16 +199,16 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy-communities",
-            "renewable-energy-communities",
-            "dataspaces",
             "python",
-            "price-optimization",
             "enershare",
+            "renewable-energy-communities",
             "tno-security-gateway",
             "energy",
+            "price-optimization",
             "enpower",
-            "client-library"
+            "energy-communities",
+            "client-library",
+            "dataspaces"
         ],
         "top_repositories": [
             {
@@ -264,16 +264,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
-            "data-sharing",
-            "client-library",
             "python",
-            "enershare",
+            "greendatai",
             "data-sharing-incentives",
-            "energy",
             "data-marketplace",
+            "collaborative-forecasting",
+            "enershare",
+            "data-sharing",
             "machine-learning-algorithms",
-            "collaborative-forecasting"
+            "energy",
+            "client-library"
         ],
         "top_repositories": [
             {
@@ -332,14 +332,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "recommender",
             "interconnect",
+            "recommender",
             "python",
-            "incentives",
-            "electric-vehicles",
-            "paper",
             "causality",
-            "energy"
+            "paper",
+            "energy",
+            "incentives",
+            "electric-vehicles"
         ],
         "top_repositories": [
             {
@@ -392,8 +392,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -511,9 +511,9 @@
         "project_topic": "navibox",
         "project_tags": [
             "navibox",
-            "slam",
+            "agro-food",
             "robotics",
-            "agro-food"
+            "slam"
         ],
         "top_repositories": [
             {
@@ -631,12 +631,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "single-document",
+            "domain-and-language-independent",
             "keyword-extraction",
-            "unsupervised-approach",
             "ai",
-            "corpus-independent",
-            "domain-and-language-independent"
+            "unsupervised-approach",
+            "single-document",
+            "corpus-independent"
         ],
         "top_repositories": [
             {
