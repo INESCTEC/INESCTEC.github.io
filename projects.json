@@ -7,13 +7,13 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "power-systems",
-            "state-estimation",
-            "energy-management",
             "energy",
-            "smart-grids",
             "dd-tools-lv-grids",
             "voltage-prediction",
+            "energy-management",
+            "state-estimation",
+            "power-systems",
+            "smart-grids",
             "low-voltage-grids"
         ],
         "top_repositories": [
@@ -56,8 +56,8 @@
         "project_topic": "predigrid",
         "project_tags": [
             "energy",
-            "forecasting-time-series",
             "predigrid",
+            "forecasting-time-series",
             "forecasting"
         ],
         "top_repositories": [
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "ensemble-machine-learning",
             "collaborative-forecasting",
-            "predico",
+            "ensemble-machine-learning",
             "data-market",
-            "time-series-forecasting"
+            "time-series-forecasting",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -199,16 +199,16 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "python",
-            "enershare",
-            "renewable-energy-communities",
-            "tno-security-gateway",
             "energy",
-            "price-optimization",
-            "enpower",
+            "renewable-energy-communities",
             "energy-communities",
+            "tno-security-gateway",
+            "dataspaces",
+            "enpower",
+            "enershare",
             "client-library",
-            "dataspaces"
+            "python",
+            "price-optimization"
         ],
         "top_repositories": [
             {
@@ -264,16 +264,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "python",
-            "greendatai",
-            "data-sharing-incentives",
+            "data-sharing",
+            "energy",
             "data-marketplace",
             "collaborative-forecasting",
             "enershare",
-            "data-sharing",
+            "data-sharing-incentives",
             "machine-learning-algorithms",
-            "energy",
-            "client-library"
+            "client-library",
+            "python",
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -332,14 +332,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
-            "recommender",
-            "python",
-            "causality",
-            "paper",
             "energy",
+            "paper",
+            "recommender",
+            "electric-vehicles",
             "incentives",
-            "electric-vehicles"
+            "interconnect",
+            "python",
+            "causality"
         ],
         "top_repositories": [
             {
@@ -392,8 +392,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
@@ -463,8 +463,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Data-Space-Connector-UI",
-                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector-UI",
+                "name": "InterSTORE---interoperability-common",
+                "url": "https://github.com/INESCTEC/InterSTORE---interoperability-common",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -510,10 +510,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
+            "slam",
             "navibox",
             "agro-food",
-            "robotics",
-            "slam"
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -631,12 +631,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "domain-and-language-independent",
-            "keyword-extraction",
-            "ai",
-            "unsupervised-approach",
             "single-document",
-            "corpus-independent"
+            "corpus-independent",
+            "ai",
+            "keyword-extraction",
+            "domain-and-language-independent",
+            "unsupervised-approach"
         ],
         "top_repositories": [
             {
