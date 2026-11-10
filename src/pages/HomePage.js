@@ -102,14 +102,14 @@ const HomePage = () => {
       </Element>
 
       <Element name="vision" id="vision" className="min-h-screen bg-white font-mono snap-start">
-        <div className="flex flex-col md:flex-row min-h-screen">
+        <div className="flex flex-col md:flex-row min-h-screen w-full max-w-[100rem] mx-auto">
           {/* Left Column - Title and Description */}
-          <div className="w-full md:w-[40%] px-6 pt-6 pb-2 md:p-12 flex flex-col justify-between">
-            <div>
-              <button onClick={() => scrollToElement('top', 500)} className="next-indicator mb-4 hidden md:flex" type="button">
-                <FontAwesomeIcon icon={faChevronUp} />
-                <span>Back to top</span>
-              </button>
+          <div className="w-full md:w-[40%] px-6 pt-6 pb-2 md:p-12 flex flex-col">
+            <button onClick={() => scrollToElement('top', 500)} className="next-indicator mb-4 hidden md:flex" type="button">
+              <FontAwesomeIcon icon={faChevronUp} />
+              <span>Back to top</span>
+            </button>
+            <div className="md:my-auto">
               <h1 className="text-2xl md:text-5xl reverse-gradient-text font-bold mb-2 md:mb-6 text-left">
                 Open Source
               </h1>
@@ -130,7 +130,7 @@ const HomePage = () => {
           </div>
 
           {/* Right Column - Cards */}
-          <div className="w-full md:w-[60%] px-6 pt-2 pb-6 md:p-12">
+          <div className="w-full md:w-[60%] px-6 pt-2 pb-6 md:p-12 md:flex md:flex-col md:justify-center">
             {/* Mobile: Compact cards */}
             <div className="md:hidden space-y-3">
               {/* Card 01 - Our Vision */}
@@ -277,14 +277,14 @@ const HomePage = () => {
       </Element>
 
       <Element name="innovation-areas" id="innovation-areas" className="min-h-screen bg-white font-mono md:snap-start">
-        <div className="flex flex-col md:flex-row min-h-screen">
+        <div className="flex flex-col md:flex-row min-h-screen w-full max-w-[100rem] mx-auto">
           {/* Left Column - Title and Description */}
-          <div className="w-full md:w-[40%] px-6 pt-6 pb-2 md:p-12 flex flex-col justify-between">
-            <div>
-              <button onClick={() => scrollToElement('vision', 500)} className="next-indicator mb-4 hidden md:flex" type="button">
-                <FontAwesomeIcon icon={faChevronUp} />
-                <span>Back to Open Source</span>
-              </button>
+          <div className="w-full md:w-[40%] px-6 pt-6 pb-2 md:p-12 flex flex-col">
+            <button onClick={() => scrollToElement('vision', 500)} className="next-indicator mb-4 hidden md:flex" type="button">
+              <FontAwesomeIcon icon={faChevronUp} />
+              <span>Back to Open Source</span>
+            </button>
+            <div className="md:my-auto">
               <h1 className="text-2xl md:text-5xl reverse-gradient-text font-bold mb-2 md:mb-6 text-left">
                 Innovation Areas
               </h1>
@@ -296,7 +296,7 @@ const HomePage = () => {
           </div>
 
           {/* Right Column - Timeline with Area Cards */}
-          <div className="w-full md:w-[60%] px-6 pt-2 pb-6 md:p-12">
+          <div className="w-full md:w-[60%] px-6 pt-2 pb-6 md:p-12 md:flex md:flex-col md:justify-center">
             {loading ? (
               <div className="flex justify-center items-center py-12">
                 <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-dark-blue-2"></div>

@@ -24,6 +24,17 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Scale the whole UI (Tailwind sizes are rem-based) on large / 4K viewports */
+@media (min-width: 1920px) {
+  html { font-size: 18px; }
+}
+@media (min-width: 2560px) {
+  html { font-size: 21px; }
+}
+@media (min-width: 3200px) {
+  html { font-size: 26px; }
+}
+
 body {
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
@@ -128,10 +139,10 @@ code {
 
 .timeline-chevron {
   position: absolute;
-  left: -11px;
+  left: calc(1px - 0.75rem);
   top: 1.5rem;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   background: white;
   border-radius: 50%;
   display: flex;
