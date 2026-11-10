@@ -8,13 +8,13 @@
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
             "power-systems",
-            "low-voltage-grids",
-            "voltage-prediction",
-            "energy-management",
             "state-estimation",
+            "voltage-prediction",
             "dd-tools-lv-grids",
+            "energy",
             "smart-grids",
-            "energy"
+            "low-voltage-grids",
+            "energy-management"
         ],
         "top_repositories": [
             {
@@ -56,9 +56,9 @@
         "project_topic": "predigrid",
         "project_tags": [
             "forecasting",
-            "forecasting-time-series",
+            "energy",
             "predigrid",
-            "energy"
+            "forecasting-time-series"
         ],
         "top_repositories": [
             {
@@ -85,8 +85,8 @@
         "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
         "project_topic": "flexihome",
         "project_tags": [
-            "flexihome",
-            "energy"
+            "energy",
+            "flexihome"
         ],
         "top_repositories": [
             {
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "time-series-forecasting",
             "ensemble-machine-learning",
-            "collaborative-forecasting",
             "predico",
-            "data-market"
+            "time-series-forecasting",
+            "data-market",
+            "collaborative-forecasting"
         ],
         "top_repositories": [
             {
@@ -200,16 +200,16 @@
         "project_topic": "enershare",
         "project_tags": [
             "ostec",
-            "python",
             "dataspaces",
-            "energy-communities",
-            "price-optimization",
-            "enpower",
-            "energy",
             "enershare",
-            "client-library",
+            "python",
+            "energy-communities",
+            "renewable-energy-communities",
+            "energy",
             "tno-security-gateway",
-            "renewable-energy-communities"
+            "enpower",
+            "price-optimization",
+            "client-library"
         ],
         "top_repositories": [
             {
@@ -227,6 +227,20 @@
                 ]
             },
             {
+                "name": "OSTEC",
+                "url": "https://github.com/INESCTEC/OSTEC",
+                "stars": 7,
+                "is_fork": false,
+                "topics": [
+                    "enershare",
+                    "energy-communities",
+                    "python",
+                    "energy",
+                    "enpower",
+                    "ostec"
+                ]
+            },
+            {
                 "name": "rec-operation-rest-api",
                 "url": "https://github.com/INESCTEC/rec-operation-rest-api",
                 "stars": 6,
@@ -239,23 +253,9 @@
                     "renewable-energy-communities",
                     "energy"
                 ]
-            },
-            {
-                "name": "OSTEC",
-                "url": "https://github.com/INESCTEC/OSTEC",
-                "stars": 6,
-                "is_fork": false,
-                "topics": [
-                    "enershare",
-                    "energy-communities",
-                    "python",
-                    "energy",
-                    "enpower",
-                    "ostec"
-                ]
             }
         ],
-        "total_stars": 31,
+        "total_stars": 32,
         "total_repositories": 3
     },
     {
@@ -267,15 +267,15 @@
         "project_topic": "greendatai",
         "project_tags": [
             "data-sharing",
-            "energy",
-            "data-marketplace",
-            "machine-learning-algorithms",
-            "python",
-            "collaborative-forecasting",
             "data-sharing-incentives",
+            "greendatai",
+            "machine-learning-algorithms",
             "enershare",
-            "client-library",
-            "greendatai"
+            "python",
+            "data-marketplace",
+            "energy",
+            "collaborative-forecasting",
+            "client-library"
         ],
         "top_repositories": [
             {
@@ -334,14 +334,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "recommender",
+            "electric-vehicles",
             "incentives",
-            "python",
             "interconnect",
+            "python",
+            "recommender",
             "causality",
             "paper",
-            "energy",
-            "electric-vehicles"
+            "energy"
         ],
         "top_repositories": [
             {
@@ -394,8 +394,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "attest",
-            "energy"
+            "energy",
+            "attest"
         ],
         "top_repositories": [
             {
@@ -440,8 +440,8 @@
         "project_description": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
         "project_topic": "interstore",
         "project_tags": [
-            "interstore",
-            "energy"
+            "energy",
+            "interstore"
         ],
         "top_repositories": [
             {
@@ -465,8 +465,8 @@
                 ]
             },
             {
-                "name": "InterSTORE---Client-Server",
-                "url": "https://github.com/INESCTEC/InterSTORE---Client-Server",
+                "name": "InterSTORE---Data-Space-Connector",
+                "url": "https://github.com/INESCTEC/InterSTORE---Data-Space-Connector",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -486,8 +486,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "emb3rs",
-            "energy"
+            "energy",
+            "emb3rs"
         ],
         "top_repositories": [
             {
@@ -513,17 +513,17 @@
         "project_topic": "ostec",
         "project_tags": [
             "ostec",
+            "enershare",
             "python",
             "energy-communities",
-            "energy",
-            "enershare",
-            "enpower"
+            "enpower",
+            "energy"
         ],
         "top_repositories": [
             {
                 "name": "OSTEC",
                 "url": "https://github.com/INESCTEC/OSTEC",
-                "stars": 6,
+                "stars": 7,
                 "is_fork": false,
                 "topics": [
                     "enershare",
@@ -535,7 +535,7 @@
                 ]
             }
         ],
-        "total_stars": 6,
+        "total_stars": 7,
         "total_repositories": 1
     },
     {
@@ -546,18 +546,18 @@
         "project_description": "Python library for sizing and planning the operation of Renewable Energy Communities. A collective MILP optimisation determines the optimal investments in new renewable generation and storage capacity, while scheduling batteries, behind-the-meter flexible loads (EVs, water heaters, heat pumps and HVAC) and internal exchanges in a local market pool, minimising the community\u2019s total operation and investment costs.",
         "project_topic": "sitec",
         "project_tags": [
-            "python",
-            "energy-communities",
-            "energy",
             "enershare",
+            "python",
+            "sitec",
+            "energy-communities",
             "enpower",
-            "sitec"
+            "energy"
         ],
         "top_repositories": [
             {
                 "name": "SITEC",
                 "url": "https://github.com/INESCTEC/SITEC",
-                "stars": 0,
+                "stars": 1,
                 "is_fork": false,
                 "topics": [
                     "energy-communities",
@@ -569,7 +569,7 @@
                 ]
             }
         ],
-        "total_stars": 0,
+        "total_stars": 1,
         "total_repositories": 1
     },
     {
@@ -580,11 +580,11 @@
         "project_description": "API service for assessing the demand flexibility of energy community members. It estimates each consumer\u2019s hourly price elasticity of demand with a causal-inference model (EconML and XGBoost) enriched with weather data, groups consumers into behavioural clusters, and computes cost- and energy-optimal schedules for electric water heaters, identifying who can respond, how much they can shift and what it is worth.",
         "project_topic": "fatec",
         "project_tags": [
+            "flexibility",
+            "fatec",
             "python",
             "energy-communities",
-            "flexibility",
-            "energy",
-            "fatec"
+            "energy"
         ],
         "top_repositories": [
             {
@@ -612,9 +612,9 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
+            "robotics",
             "slam",
             "navibox",
-            "robotics",
             "agro-food"
         ],
         "top_repositories": [
@@ -707,8 +707,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "apostles",
-            "robotics"
+            "robotics",
+            "apostles"
         ],
         "top_repositories": [
             {
@@ -733,12 +733,12 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "unsupervised-approach",
+            "keyword-extraction",
             "domain-and-language-independent",
-            "ai",
             "single-document",
-            "corpus-independent",
-            "keyword-extraction"
+            "ai",
+            "unsupervised-approach",
+            "corpus-independent"
         ],
         "top_repositories": [
             {
