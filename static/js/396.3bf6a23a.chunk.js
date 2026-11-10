@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[396],{6396(e,s,c){e.exports=c.p+"static/media/sitec_logo.ecf21c49c18376b4d006.svg"}}]);

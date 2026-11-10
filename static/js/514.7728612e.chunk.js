@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[514],{3514(e,s,t){e.exports=t.p+"static/media/ostec_logo.79f21f2c77a8690e8c49.svg"}}]);

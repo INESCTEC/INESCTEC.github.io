@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgithub_pages=self.webpackChunkgithub_pages||[]).push([[771],{3771(e,s,t){e.exports=t.p+"static/media/fatec_logo.6b81cbe6fbf904d8c765.svg"}}]);
