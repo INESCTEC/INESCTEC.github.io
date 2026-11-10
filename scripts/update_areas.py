@@ -27,8 +27,8 @@ def get_project_data(org, topic):
                 break
             page += 1
         else:
-            print(f"Error fetching data for topic {topic}: {response.status_code}")
-            break
+            # Fail loudly so CI never commits/deploys stale or empty data
+            raise SystemExit(f"Error fetching data for topic {topic}: {response.status_code} {response.text[:200]}")
     return all_repos
 
 script_dir = os.path.dirname(os.path.abspath(__file__))

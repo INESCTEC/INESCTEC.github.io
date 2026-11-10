@@ -17,8 +17,8 @@ def get_repo_topics(owner, repo_name):
         data = response.json()
         return data.get('names', [])  
     else:
-        print(f"Error fetching topics for {repo_name}: {response.status_code}")
-        return []
+        # Fail loudly so CI never commits/deploys empty data
+        raise SystemExit(f"Error fetching topics for {repo_name}: {response.status_code} {response.text[:200]}")
 
 def get_top_repositories(org, topic):
     all_repos = []
@@ -42,8 +42,8 @@ def get_top_repositories(org, topic):
                 break
             page += 1
         else: 
-            print(f"Error fetching data for topic {topic}: {response.status_code}")
-            break
+            # Fail loudly so CI never commits/deploys empty data
+            raise SystemExit(f"Error fetching data for topic {topic}: {response.status_code} {response.text[:200]}")
     
     top_repos = sorted(all_repos, key=lambda x: x['stargazers_count'], reverse=True)[:3]
     
