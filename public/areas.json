@@ -7,7 +7,7 @@
                 "project_name": "enershare",
                 "project_topic": "enershare",
                 "project_logo": "enershare.png",
-                "total_stars": 54,
+                "total_stars": 55,
                 "total_repos": 15
             },
             {
@@ -34,14 +34,14 @@
                 "project_name": "NaviBox",
                 "project_topic": "navibox",
                 "project_logo": "navibox.png",
-                "total_stars": 4,
+                "total_stars": 7,
                 "total_repos": 3
             },
             {
                 "project_name": "RicoSLAM",
                 "project_topic": "ricoslam",
                 "project_logo": "ricoSLAM.png",
-                "total_stars": 3,
+                "total_stars": 4,
                 "total_repos": 3
             },
             {
@@ -61,7 +61,7 @@
                 "project_name": "YAKE!",
                 "project_topic": "ai",
                 "project_logo": "yake.png",
-                "total_stars": 1886,
+                "total_stars": 1895,
                 "total_repos": 1
             }
         ]
