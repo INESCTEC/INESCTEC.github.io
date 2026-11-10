@@ -7,14 +7,14 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "low-voltage-grids",
-            "energy-management",
-            "voltage-prediction",
             "power-systems",
-            "smart-grids",
+            "low-voltage-grids",
+            "voltage-prediction",
+            "energy-management",
+            "state-estimation",
             "dd-tools-lv-grids",
-            "energy",
-            "state-estimation"
+            "smart-grids",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -56,8 +56,8 @@
         "project_topic": "predigrid",
         "project_tags": [
             "forecasting",
-            "predigrid",
             "forecasting-time-series",
+            "predigrid",
             "energy"
         ],
         "top_repositories": [
@@ -85,8 +85,8 @@
         "project_description": "Software architecture for HEMS that offers a modular way of exploring the systems, incorporating a set of services mainly for consumers, but also for retailers, DSO, and flexibility service providers. The services can be transversal (common to any HEMS flavour, such as account management), energy micro-services and agentic AI-based. Beyond the backend algorithms, it has a specific front end as a mobile app (HEMS connect) whose main goal is to show, inform, and manage the energy consumption of a household and optimise the different eligible loads.",
         "project_topic": "flexihome",
         "project_tags": [
-            "energy",
-            "flexihome"
+            "flexihome",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -168,10 +168,10 @@
         "project_topic": "predico",
         "project_tags": [
             "time-series-forecasting",
-            "data-market",
-            "predico",
             "ensemble-machine-learning",
-            "collaborative-forecasting"
+            "collaborative-forecasting",
+            "predico",
+            "data-market"
         ],
         "top_repositories": [
             {
@@ -199,17 +199,17 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "energy-communities",
-            "enershare",
-            "dataspaces",
-            "enpower",
-            "tno-security-gateway",
             "ostec",
-            "client-library",
-            "renewable-energy-communities",
             "python",
+            "dataspaces",
+            "energy-communities",
+            "price-optimization",
+            "enpower",
             "energy",
-            "price-optimization"
+            "enershare",
+            "client-library",
+            "tno-security-gateway",
+            "renewable-energy-communities"
         ],
         "top_repositories": [
             {
@@ -266,16 +266,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "enershare",
-            "machine-learning-algorithms",
-            "data-marketplace",
-            "client-library",
-            "python",
-            "data-sharing-incentives",
-            "collaborative-forecasting",
+            "data-sharing",
             "energy",
-            "greendatai",
-            "data-sharing"
+            "data-marketplace",
+            "machine-learning-algorithms",
+            "python",
+            "collaborative-forecasting",
+            "data-sharing-incentives",
+            "enershare",
+            "client-library",
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -334,13 +334,13 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "interconnect",
             "recommender",
+            "incentives",
+            "python",
+            "interconnect",
             "causality",
             "paper",
-            "python",
             "energy",
-            "incentives",
             "electric-vehicles"
         ],
         "top_repositories": [
@@ -394,8 +394,8 @@
         "project_description": "Our goal is to develop and operationalize a secure platform where TSO\u2019s and DSO\u2019s operate, maintain and plan together the energy systems of 2030 and beyond. The project approaches technical, economic and environmental challenges, and comprises an innovative toolbox of open source solutions.",
         "project_topic": "attest",
         "project_tags": [
-            "energy",
-            "attest"
+            "attest",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -486,8 +486,8 @@
         "project_description": "EMB3Rs stands for \u201cUser-driven Energy-Matching & Business Prospection Tool for Industrial Excess Heat/Cold Reduction, Recovery and Redistribution.",
         "project_topic": "emb3rs",
         "project_tags": [
-            "energy",
-            "emb3rs"
+            "emb3rs",
+            "energy"
         ],
         "top_repositories": [
             {
@@ -512,12 +512,12 @@
         "project_description": "Python library for the optimal scheduling of Renewable Energy Community assets and the computation of local energy market prices. It combines MILP-based individual and collective optimisation of PV, batteries and behind-the-meter flexible loads (EVs, water heaters, HVAC and heat pumps) with several pricing mechanisms, rewarding internal transactions over trading with external suppliers, for both pre- and post-delivery timeframes.",
         "project_topic": "ostec",
         "project_tags": [
-            "energy-communities",
-            "enershare",
-            "enpower",
             "ostec",
             "python",
-            "energy"
+            "energy-communities",
+            "energy",
+            "enershare",
+            "enpower"
         ],
         "top_repositories": [
             {
@@ -546,12 +546,12 @@
         "project_description": "Python library for sizing and planning the operation of Renewable Energy Communities. A collective MILP optimisation determines the optimal investments in new renewable generation and storage capacity, while scheduling batteries, behind-the-meter flexible loads (EVs, water heaters, heat pumps and HVAC) and internal exchanges in a local market pool, minimising the community\u2019s total operation and investment costs.",
         "project_topic": "sitec",
         "project_tags": [
+            "python",
             "energy-communities",
+            "energy",
             "enershare",
             "enpower",
-            "python",
-            "sitec",
-            "energy"
+            "sitec"
         ],
         "top_repositories": [
             {
@@ -580,11 +580,11 @@
         "project_description": "API service for assessing the demand flexibility of energy community members. It estimates each consumer\u2019s hourly price elasticity of demand with a causal-inference model (EconML and XGBoost) enriched with weather data, groups consumers into behavioural clusters, and computes cost- and energy-optimal schedules for electric water heaters, identifying who can respond, how much they can shift and what it is worth.",
         "project_topic": "fatec",
         "project_tags": [
-            "energy-communities",
-            "fatec",
-            "flexibility",
             "python",
-            "energy"
+            "energy-communities",
+            "flexibility",
+            "energy",
+            "fatec"
         ],
         "top_repositories": [
             {
@@ -612,10 +612,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "robotics",
-            "agro-food",
+            "slam",
             "navibox",
-            "slam"
+            "robotics",
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -707,8 +707,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "robotics",
-            "apostles"
+            "apostles",
+            "robotics"
         ],
         "top_repositories": [
             {
@@ -734,11 +734,11 @@
         "project_topic": "ai",
         "project_tags": [
             "unsupervised-approach",
-            "single-document",
-            "keyword-extraction",
+            "domain-and-language-independent",
             "ai",
+            "single-document",
             "corpus-independent",
-            "domain-and-language-independent"
+            "keyword-extraction"
         ],
         "top_repositories": [
             {
