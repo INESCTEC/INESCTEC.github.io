@@ -99,6 +99,33 @@
         "project_tags": ["Energy"]
     },
     {
+        "project_area": "Energy",
+        "project_name": "OSTEC",
+        "project_logo": "ostec_logo.svg",
+        "project_website": null,
+        "project_description": "Python library for the optimal scheduling of Renewable Energy Community assets and the computation of local energy market prices. It combines MILP-based individual and collective optimisation of PV, batteries and behind-the-meter flexible loads (EVs, water heaters, HVAC and heat pumps) with several pricing mechanisms, rewarding internal transactions over trading with external suppliers, for both pre- and post-delivery timeframes.",
+        "project_topic": "ostec",
+        "project_tags": ["Energy", "energy-communities", "optimisation", "local-energy-markets"]
+    },
+    {
+        "project_area": "Energy",
+        "project_name": "SITEC",
+        "project_logo": "sitec_logo.svg",
+        "project_website": null,
+        "project_description": "Python library for sizing and planning the operation of Renewable Energy Communities. A collective MILP optimisation determines the optimal investments in new renewable generation and storage capacity, while scheduling batteries, behind-the-meter flexible loads (EVs, water heaters, heat pumps and HVAC) and internal exchanges in a local market pool, minimising the community’s total operation and investment costs.",
+        "project_topic": "sitec",
+        "project_tags": ["Energy", "energy-communities", "optimisation", "planning"]
+    },
+    {
+        "project_area": "Energy",
+        "project_name": "FATEC",
+        "project_logo": "fatec_logo.svg",
+        "project_website": null,
+        "project_description": "API service for assessing the demand flexibility of energy community members. It estimates each consumer’s hourly price elasticity of demand with a causal-inference model (EconML and XGBoost) enriched with weather data, groups consumers into behavioural clusters, and computes cost- and energy-optimal schedules for electric water heaters, identifying who can respond, how much they can shift and what it is worth.",
+        "project_topic": "fatec",
+        "project_tags": ["Energy", "energy-communities", "flexibility", "causal-inference"]
+    },
+    {
         "project_area": "Robotics",
         "project_name": "NaviBox",
         "project_logo": "navibox.png",
