@@ -7,26 +7,16 @@
         "project_description": "GridSights is a modular API for managing grid topology, processing historical data, and performing distributed state estimation to predict voltages at unmeasured nodes. VoltTune is a Python tool that detects and corrects voltage violations in distribution networks using a greedy optimisation algorithm, historical sensitivity matrices, and available flexibility (load reduction or injection).",
         "project_topic": "dd-tools-lv-grids",
         "project_tags": [
-            "power-systems",
-            "smart-grids",
-            "dd-tools-lv-grids",
+            "low-voltage-grids",
             "energy-management",
-            "voltage-prediction",
             "energy",
-            "state-estimation",
-            "low-voltage-grids"
+            "power-systems",
+            "dd-tools-lv-grids",
+            "smart-grids",
+            "voltage-prediction",
+            "state-estimation"
         ],
         "top_repositories": [
-            {
-                "name": "lv-voltage-control",
-                "url": "https://github.com/INESCTEC/lv-voltage-control",
-                "stars": 0,
-                "is_fork": false,
-                "topics": [
-                    "energy",
-                    "dd-tools-lv-grids"
-                ]
-            },
             {
                 "name": "lv-state-estimator",
                 "url": "https://github.com/INESCTEC/lv-state-estimator",
@@ -39,6 +29,16 @@
                     "state-estimation",
                     "low-voltage-grids",
                     "voltage-prediction",
+                    "energy",
+                    "dd-tools-lv-grids"
+                ]
+            },
+            {
+                "name": "lv-voltage-control",
+                "url": "https://github.com/INESCTEC/lv-voltage-control",
+                "stars": 0,
+                "is_fork": false,
+                "topics": [
                     "energy",
                     "dd-tools-lv-grids"
                 ]
@@ -55,9 +55,9 @@
         "project_description": "Modular forecasting service for MV and LV grid nodes integrates data ingestion, cleansing, and storage with state-of-the-art predictive models for short-term consumption and generation forecasting (up to 96 hours ahead). The service processes active and reactive power time series, incorporates external inputs such as numerical weather predictions, and computes error metrics to assess model accuracy. It also provides configurable access to forecasts and measurements through non-relational databases.",
         "project_topic": "predigrid",
         "project_tags": [
+            "predigrid",
             "energy",
             "forecasting",
-            "predigrid",
             "forecasting-time-series"
         ],
         "top_repositories": [
@@ -167,11 +167,11 @@
         "project_description": "Collaborative analytics for the Energy Sector based on innovative collaborative forecasting algorithms that improve renewable energy or load predictability by combining data from different data owners.",
         "project_topic": "predico",
         "project_tags": [
-            "ensemble-machine-learning",
+            "data-market",
             "collaborative-forecasting",
             "time-series-forecasting",
-            "predico",
-            "data-market"
+            "ensemble-machine-learning",
+            "predico"
         ],
         "top_repositories": [
             {
@@ -199,17 +199,17 @@
         "project_description": "Enershare defines a Data-Driven Reference Architecture for the energy domain, which is compliant with FIWARE, IDSA and GAIA-X. It creates a marketplace based on Blockchain and Smart Contracts with the aim of improving mutual trust amongst the actors of the ecosystem and increasing the security of the shared data.",
         "project_topic": "enershare",
         "project_tags": [
-            "dataspaces",
-            "tno-security-gateway",
             "energy-communities",
-            "python",
-            "client-library",
+            "tno-security-gateway",
             "enpower",
+            "client-library",
             "renewable-energy-communities",
-            "energy",
             "price-optimization",
+            "energy",
             "ostec",
-            "enershare"
+            "enershare",
+            "python",
+            "dataspaces"
         ],
         "top_repositories": [
             {
@@ -266,16 +266,16 @@
         "project_description": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
         "project_topic": "greendatai",
         "project_tags": [
-            "greendatai",
-            "python",
-            "data-sharing",
             "machine-learning-algorithms",
-            "client-library",
-            "collaborative-forecasting",
             "data-marketplace",
-            "energy",
+            "client-library",
             "data-sharing-incentives",
-            "enershare"
+            "data-sharing",
+            "energy",
+            "collaborative-forecasting",
+            "enershare",
+            "python",
+            "greendatai"
         ],
         "top_repositories": [
             {
@@ -334,14 +334,14 @@
         "project_description": "InterConnect gathers 50 European entities to develop and demonstrate advanced solutions for connecting and converging digital homes and buildings with the electricity sector.",
         "project_topic": "interconnect",
         "project_tags": [
-            "recommender",
-            "causality",
-            "python",
-            "incentives",
-            "energy",
-            "interconnect",
             "paper",
-            "electric-vehicles"
+            "interconnect",
+            "energy",
+            "causality",
+            "incentives",
+            "electric-vehicles",
+            "python",
+            "recommender"
         ],
         "top_repositories": [
             {
@@ -419,8 +419,8 @@
                 ]
             },
             {
-                "name": "ATTEST-WP2-T2.5-Real-Time-Aggregator-Tool",
-                "url": "https://github.com/INESCTEC/ATTEST-WP2-T2.5-Real-Time-Aggregator-Tool",
+                "name": "ATTEST-WP2-T2.5-Day-Ahead-Aggregator-Tool",
+                "url": "https://github.com/INESCTEC/ATTEST-WP2-T2.5-Day-Ahead-Aggregator-Tool",
                 "stars": 0,
                 "is_fork": true,
                 "topics": [
@@ -513,11 +513,11 @@
         "project_topic": "ostec",
         "project_tags": [
             "energy-communities",
-            "python",
             "enpower",
             "energy",
             "ostec",
-            "enershare"
+            "enershare",
+            "python"
         ],
         "top_repositories": [
             {
@@ -547,11 +547,11 @@
         "project_topic": "sitec",
         "project_tags": [
             "energy-communities",
-            "python",
             "enpower",
             "sitec",
             "energy",
-            "enershare"
+            "enershare",
+            "python"
         ],
         "top_repositories": [
             {
@@ -581,10 +581,10 @@
         "project_topic": "fatec",
         "project_tags": [
             "energy-communities",
+            "flexibility",
             "fatec",
-            "python",
             "energy",
-            "flexibility"
+            "python"
         ],
         "top_repositories": [
             {
@@ -612,10 +612,10 @@
         "project_description": "A plug-and-play hardware and software solution that effortlessly transforms any agricultural robot into a fully autonomous system.",
         "project_topic": "navibox",
         "project_tags": [
-            "agro-food",
+            "navibox",
             "slam",
             "robotics",
-            "navibox"
+            "agro-food"
         ],
         "top_repositories": [
             {
@@ -707,8 +707,8 @@
         "project_description": "Apostles aims at creating small wheeled mobile platforms with multimodal perception systems for R&D and STEM activities. Main goal is to bridge the gap between theory and practice, providing open-source hardware, electronics documentation, schematics, mechanical designs, tools, and code for researchers, educators, and students.",
         "project_topic": "apostles",
         "project_tags": [
-            "apostles",
-            "robotics"
+            "robotics",
+            "apostles"
         ],
         "top_repositories": [
             {
@@ -733,10 +733,10 @@
         "project_description": "YAKE! is a light-weight unsupervised automatic keyword extraction method which rests on text statistical features extracted from single documents to select the most important keywords of a text.",
         "project_topic": "ai",
         "project_tags": [
-            "unsupervised-approach",
             "corpus-independent",
-            "ai",
+            "unsupervised-approach",
             "domain-and-language-independent",
+            "ai",
             "single-document",
             "keyword-extraction"
         ],
@@ -744,7 +744,7 @@
             {
                 "name": "yake",
                 "url": "https://github.com/INESCTEC/yake",
-                "stars": 1896,
+                "stars": 1895,
                 "is_fork": false,
                 "topics": [
                     "keyword-extraction",
@@ -756,7 +756,7 @@
                 ]
             }
         ],
-        "total_stars": 1896,
+        "total_stars": 1895,
         "total_repositories": 1
     }
 ]
